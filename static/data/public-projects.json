@@ -1,0 +1,117 @@
+{
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kenneth-legesi"
+    },
+    {
+      "name": "Substack",
+      "url": "https://legesi.substack.com/"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Superstar1910"
+    },
+    {
+      "name": "X",
+      "url": "https://x.com/sklegesi"
+    },
+    {
+      "name": "Medium archive",
+      "url": "https://medium.com/@kennethlegesi"
+    }
+  ],
+  "githubOwner": "Superstar1910",
+  "projects": [
+    {
+      "name": "cyanase-collective",
+      "url": "https://github.com/Superstar1910/cyanase-collective",
+      "category": "Data & experiments",
+      "status": "Public repository — maturity not independently assessed"
+    },
+    {
+      "name": "investment-access-mvp",
+      "url": "https://github.com/Superstar1910/investment-access-mvp",
+      "category": "Investment technology",
+      "status": "Public repository — maturity not independently assessed"
+    },
+    {
+      "name": "nsagu-industrial-park",
+      "url": "https://github.com/Superstar1910/nsagu-industrial-park",
+      "category": "Infrastructure",
+      "status": "Public repository — maturity not independently assessed"
+    },
+    {
+      "name": "robo_advisor_project",
+      "url": "https://github.com/Superstar1910/robo_advisor_project",
+      "category": "Investment technology",
+      "status": "Public repository — maturity not independently assessed"
+    },
+    {
+      "name": "client_onboarding",
+      "url": "https://github.com/Superstar1910/client_onboarding",
+      "category": "Investment technology",
+      "status": "Public repository — maturity not independently assessed"
+    },
+    {
+      "name": "Ran_Inference",
+      "url": "https://github.com/Superstar1910/Ran_Inference",
+      "category": "Data & experiments",
+      "status": "Public repository — maturity not independently assessed"
+    },
+    {
+      "name": "impala_market",
+      "url": "https://github.com/Superstar1910/impala_market",
+      "category": "Data & experiments",
+      "status": "Public repository — maturity not independently assessed"
+    },
+    {
+      "name": "HS_Code",
+      "url": "https://github.com/Superstar1910/HS_Code",
+      "category": "Data & experiments",
+      "status": "Public repository — maturity not independently assessed"
+    },
+    {
+      "name": "HS_Codes_Checker",
+      "url": "https://github.com/Superstar1910/HS_Codes_Checker",
+      "category": "Data & experiments",
+      "status": "Public repository — maturity not independently assessed"
+    },
+    {
+      "name": "quickmart-ipo-investment-analysis",
+      "url": "https://github.com/Superstar1910/quickmart-ipo-investment-analysis",
+      "category": "Investment research",
+      "status": "Public repository — maturity not independently assessed"
+    },
+    {
+      "name": "dangote-refinery-ipo-investment-analysis",
+      "url": "https://github.com/Superstar1910/dangote-refinery-ipo-investment-analysis",
+      "category": "Investment research",
+      "status": "Public repository — maturity not independently assessed"
+    },
+    {
+      "name": "uganda-capital-formation",
+      "url": "https://github.com/Superstar1910/uganda-capital-formation",
+      "category": "Capital markets",
+      "status": "Public repository — maturity not independently assessed"
+    },
+    {
+      "name": "umeme-stock-coverage",
+      "url": "https://github.com/Superstar1910/umeme-stock-coverage",
+      "category": "Investment research",
+      "status": "Public repository — maturity not independently assessed"
+    },
+    {
+      "name": "mtn-uganda-stock-coverage",
+      "url": "https://github.com/Superstar1910/mtn-uganda-stock-coverage",
+      "category": "Investment research",
+      "status": "Public repository — maturity not independently assessed"
+    },
+    {
+      "name": "africa-fx-pressure-watch",
+      "url": "https://github.com/Superstar1910/africa-fx-pressure-watch",
+      "category": "Capital markets",
+      "status": "Public repository — maturity not independently assessed"
+    }
+  ]
+}
