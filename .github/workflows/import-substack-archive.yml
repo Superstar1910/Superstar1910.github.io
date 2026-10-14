@@ -1,0 +1,38 @@
+name: Import Substack archive into review PR
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'imports/legesi_native_articles_ready.zip'
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Confirm archive is available
+        run: test -f imports/legesi_native_articles_ready.zip
+      - name: Import native articles without overwriting existing pages
+        run: python scripts/import_substack_archive.py imports/legesi_native_articles_ready.zip
+      - name: Validate and regenerate syndication files
+        run: |
+          python scripts/validate_articles.py
+          python scripts/build_article_feeds.py
+      - name: Create migration review pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'Import author-approved Substack archive'
+          branch: 'content/substack-native-import'
+          title: 'Import Substack articles to native Legesi.xyz pages'
+          body: |
+            Review original dates, source URLs, research links, images, canonical tags and investment disclosures.
+            Do not merge until all pages are visually reviewed.
+          add-paths: |
+            writing/**
+            static/data/articles.json
