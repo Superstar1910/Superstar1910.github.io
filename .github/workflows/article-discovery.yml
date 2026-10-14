@@ -1,0 +1,22 @@
+name: Discover published articles
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 7 * * 1'
+permissions:
+  contents: read
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Discover candidate Substack publications
+        run: python scripts/discover_articles.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: article-import-candidates
+          path: data/article-import-candidates.json
+          retention-days: 30
