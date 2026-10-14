@@ -23,7 +23,8 @@ for file,page in pages.items():
         u=urlsplit(href)
         if u.scheme or u.netloc or href.startswith("//") or u.path.startswith(("mailto:","tel:","data:")):continue
         if not u.path and not u.fragment:continue
-        if u.path.startswith("/"):target=ROOT/unquote(u.path).lstrip("/")
+        if not u.path:target=file
+        elif u.path.startswith("/"):target=ROOT/unquote(u.path).lstrip("/")
         else:target=file.parent/unquote(u.path)
         if u.path.endswith("/") or target.is_dir():target=target/"index.html"
         target=target.resolve()
