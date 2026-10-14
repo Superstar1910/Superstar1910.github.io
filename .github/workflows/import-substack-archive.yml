@@ -26,7 +26,7 @@ jobs:
               entries=json.loads(z.read('migration-records.json'))['articles']
               print(f'Archive records: {len(entries)}')
               for a in entries:
-                  assert f"writing/{a[\"slug\"]}/index.html" in z.namelist()
+                  assert "writing/{}/index.html".format(a["slug"]) in z.namelist()
           PY
       - name: Import native articles without overwriting existing pages
         run: python scripts/import_substack_archive.py imports/legesi_native_articles_ready.zip
