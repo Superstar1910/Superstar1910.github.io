@@ -24,3 +24,10 @@ Two research assessments link to full native HTML pages. Two historical Umeme Su
 When an article is based on a repository, populate `research.repository`, `research.analysis`, `research.methodology`, `research.cutoff` (only if independently established) and `research.reviewStatus` in the article register. Show research and underlying-analysis links in the public archive. On the full article, include an evidence/methodology panel and link to a versioned commit or release for reproducibility. Do not automatically substitute current model results into historical articles. A materially updated thesis requires a new dated edition or explicit revision note. Keep a changelog and, where practical, a comparison of changed assumptions and valuation outcomes.
 
 The repository URLs currently link to moving `main` branches, **not pinned evidence snapshots**. Before calling an article reproducible, capture the exact commit SHA, source snapshot and model run identifier. Article dates and analysis cut-offs must be verified independently.
+
+## Automated discovery now installed
+- `.github/workflows/article-discovery.yml` runs every Monday and on manual dispatch, reads the public Substack RSS and uploads a JSON artifact of *candidate* posts. It never modifies the published register or republishes full text.
+- `.github/workflows/article-validation.yml` validates the article register on relevant pushes and pull requests, checking date order, duplicate slugs, research URLs and native page existence.
+- `python scripts/discover_articles.py` and `python scripts/validate_articles.py` can be run locally.
+- A feed does not necessarily contain all historical posts; request author exports for Substack, Medium and LinkedIn. LinkedIn imports require authorised exports or author-provided article files.
+- Before migrating any full text, confirm the original article date, author rights, images, linked research repo, commit/release version, and whether the article is an unchanged archive or a revised edition.
