@@ -13,3 +13,18 @@ html{scroll-padding-top:110px}
 .project-actions{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:16px}.project-actions a:first-child{font-weight:600}.footer-legal{display:flex;gap:8px;flex-wrap:wrap;font-size:11px}.legal-content h2{font:clamp(23px,2.5vw,31px)/1.25 var(--brand-font-display,Georgia,serif);margin-top:36px}.legal-content p{max-width:72ch}.project-item:focus-within{border-color:var(--blue)}
 
 .article-archive{margin:36px 0 56px}.article-archive h2{font:clamp(28px,3vw,40px)/1.2 var(--brand-font-display,Georgia,serif)}.archive-controls{display:flex;flex-wrap:wrap;gap:16px;margin:25px 0}.archive-controls label{display:grid;gap:6px;font-size:13px;color:var(--muted)}.archive-controls input,.archive-controls select{padding:10px 12px;border:1px solid var(--line);border-radius:var(--brand-radius,4px);background:var(--paper);color:var(--ink);font:inherit;min-width:180px}.archive-item{border-top:1px solid var(--line);padding:23px 0}.archive-item h2{font-size:clamp(22px,2.3vw,30px);margin:8px 0}.archive-item p{margin:8px 0}.archive-item p:last-child{font-size:13px;color:var(--blue)}
+
+
+/* Writing archive discovery and navigation */
+.archive-controls{display:flex;flex-wrap:wrap;align-items:flex-end;gap:14px;margin:26px 0 12px}
+.archive-controls label{display:flex;flex-direction:column;gap:6px;font-size:13px;color:var(--muted)}
+.archive-controls input,.archive-controls select{min-height:42px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--ink);padding:9px 12px;font:inherit}
+.archive-controls input{min-width:min(310px,80vw)}
+.archive-clear{min-height:42px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--blue);padding:9px 14px;cursor:pointer}
+.archive-count{font-size:13px;color:var(--muted)}
+.article-tags{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}
+.article-tag{border:1px solid #d5e1ec;background:#f3f7fb;color:#29496d;border-radius:99px;padding:5px 11px;font:12px/1.4 Arial,sans-serif;cursor:pointer}
+.article-tag:hover,.article-tag:focus-visible{background:#e2edf8;border-color:#8daac6}
+.article-navigation{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:28px auto;padding:12px 0;display:flex;gap:18px;flex-wrap:wrap;font:13px/1.5 Arial,sans-serif}
+.article-navigation a{color:var(--blue)}
+@media(max-width:740px){.archive-controls{align-items:stretch;flex-direction:column}.archive-controls label,.archive-controls input,.archive-controls select,.archive-clear{width:100%}}
