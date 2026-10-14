@@ -60,8 +60,10 @@ for a in native:
         continue
     parser = Links()
     parser.feed(file.read_text(encoding="utf-8"))
-    if parser.canonical != [BASE + url]:
+    if url.startswith("/writing/") and parser.canonical != [BASE + url]:
         errors.append(f"Canonical URL mismatch: {url}")
+    if not url.startswith("/writing/") and parser.canonical and parser.canonical != [BASE + url]:
+        errors.append(f"Research canonical URL mismatch: {url}")
     for tag, key, link in parser.links:
         path = local_path(link)
         # Check only static assets; other internal navigation is audited separately.
