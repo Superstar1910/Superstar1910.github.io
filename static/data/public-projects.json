@@ -27,91 +27,103 @@
       "name": "cyanase-collective",
       "url": "https://github.com/Superstar1910/cyanase-collective",
       "category": "Data & experiments",
-      "status": "Public repository — maturity not independently assessed"
+      "description": "Prototype personal-finance dashboard bringing together wallets, goals, investments and community activity using illustrative data."
     },
     {
       "name": "investment-access-mvp",
       "url": "https://github.com/Superstar1910/investment-access-mvp",
       "category": "Investment technology",
-      "status": "Public repository — maturity not independently assessed"
+      "description": "Early-stage investment planning tool that guides users from financial goals to an investment policy and portfolio simulation."
     },
     {
       "name": "nsagu-industrial-park",
       "url": "https://github.com/Superstar1910/nsagu-industrial-park",
       "category": "Infrastructure",
-      "status": "Public repository — maturity not independently assessed"
+      "description": "Industrial park development project exploring infrastructure and investment planning."
     },
     {
       "name": "robo_advisor_project",
       "url": "https://github.com/Superstar1910/robo_advisor_project",
       "category": "Investment technology",
-      "status": "Public repository — maturity not independently assessed"
+      "description": "Experimental digital investment-advice and portfolio-planning project."
     },
     {
       "name": "client_onboarding",
       "url": "https://github.com/Superstar1910/client_onboarding",
       "category": "Investment technology",
-      "status": "Public repository — maturity not independently assessed"
+      "description": "Prototype workflow for onboarding clients to financial or investment services."
     },
     {
       "name": "Ran_Inference",
       "url": "https://github.com/Superstar1910/Ran_Inference",
       "category": "Data & experiments",
-      "status": "Public repository — maturity not independently assessed"
+      "description": "Technical experimentation with inference and analytical workflows."
     },
     {
       "name": "impala_market",
       "url": "https://github.com/Superstar1910/impala_market",
       "category": "Data & experiments",
-      "status": "Public repository — maturity not independently assessed"
+      "description": "Uganda-first African bond-market intelligence dashboard covering auctions, yield curves, secondary trading and alerts."
     },
     {
       "name": "HS_Code",
       "url": "https://github.com/Superstar1910/HS_Code",
       "category": "Data & experiments",
-      "status": "Public repository — maturity not independently assessed"
+      "description": "Customs classification and shipment pre-check tool with product coding, risk flags, bulk review and audit trail."
     },
     {
       "name": "HS_Codes_Checker",
       "url": "https://github.com/Superstar1910/HS_Codes_Checker",
       "category": "Data & experiments",
-      "status": "Public repository — maturity not independently assessed"
+      "description": "Lightweight export-readiness checker for shipment descriptions, commodity codes and missing customs information."
     },
     {
       "name": "quickmart-ipo-investment-analysis",
       "url": "https://github.com/Superstar1910/quickmart-ipo-investment-analysis",
       "category": "Investment research",
-      "status": "Public repository — maturity not independently assessed"
+      "description": "Independent Quickmart IPO research with valuation scenarios, an enterprise DCF and documented assumptions.",
+      "viewUrl": "https://github.com/Superstar1910/quickmart-ipo-investment-analysis/blob/main/research/quickmart-ipo-investment-assessment.md",
+      "viewLabel": "Read investment assessment ↗"
     },
     {
       "name": "dangote-refinery-ipo-investment-analysis",
       "url": "https://github.com/Superstar1910/dangote-refinery-ipo-investment-analysis",
       "category": "Investment research",
-      "status": "Public repository — maturity not independently assessed"
+      "description": "Independent Dangote Refinery IPO research examining valuation, funding, governance and investment risks.",
+      "viewUrl": "https://github.com/Superstar1910/dangote-refinery-ipo-investment-analysis/blob/main/research/dangote-refinery-ipo-initial-coverage.html",
+      "viewLabel": "View HTML research file ↗"
     },
     {
       "name": "uganda-capital-formation",
       "url": "https://github.com/Superstar1910/uganda-capital-formation",
       "category": "Capital markets",
-      "status": "Public repository — maturity not independently assessed"
+      "description": "Open framework for mobilising long-term capital in Uganda, including a scenario laboratory and implementation programme.",
+      "viewUrl": "https://github.com/Superstar1910/uganda-capital-formation/blob/main/dist/index.html",
+      "viewLabel": "View dashboard HTML file ↗"
     },
     {
       "name": "umeme-stock-coverage",
       "url": "https://github.com/Superstar1910/umeme-stock-coverage",
       "category": "Investment research",
-      "status": "Public repository — maturity not independently assessed"
+      "description": "Research on Umeme’s concession exit, potential recoveries and uncertainty around shareholder distributions.",
+      "viewUrl": "https://legesi.substack.com/p/optionality-and-the-investors-mindset",
+      "viewLabel": "Read published research ↗"
     },
     {
       "name": "mtn-uganda-stock-coverage",
       "url": "https://github.com/Superstar1910/mtn-uganda-stock-coverage",
       "category": "Investment research",
-      "status": "Public repository — maturity not independently assessed"
+      "description": "Investor research on MTN Uganda, its mobile-money restructuring, shareholder rights and valuation methodology.",
+      "viewUrl": "https://legesi.xyz/mtn-uganda-stock-coverage/",
+      "viewLabel": "Read research website ↗"
     },
     {
       "name": "africa-fx-pressure-watch",
       "url": "https://github.com/Superstar1910/africa-fx-pressure-watch",
       "category": "Capital markets",
-      "status": "Public repository — maturity not independently assessed"
+      "description": "Open research dashboard for tracking currency pressures across African markets, beginning with Uganda.",
+      "viewUrl": "https://github.com/Superstar1910/africa-fx-pressure-watch/blob/main/index.html",
+      "viewLabel": "View dashboard HTML file ↗"
     }
   ]
 }
