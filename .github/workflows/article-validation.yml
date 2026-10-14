@@ -1,0 +1,26 @@
+name: Validate article archive
+on:
+  push:
+    paths:
+      - 'static/data/articles.json'
+      - 'scripts/validate_articles.py'
+      - 'writing/**'
+      - 'research/**'
+  pull_request:
+    paths:
+      - 'static/data/articles.json'
+      - 'scripts/validate_articles.py'
+      - 'writing/**'
+      - 'research/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/validate_articles.py
