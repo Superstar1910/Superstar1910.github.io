@@ -6,6 +6,7 @@ on:
       - 'research/**'
       - 'static/**'
       - 'scripts/audit_publishing.py'
+      - 'scripts/audit_navigation.py'
       - 'scripts/build_article_feeds.py'
       - 'scripts/validate_articles.py'
       - '.nojekyll'
@@ -34,3 +35,5 @@ jobs:
         run: python scripts/validate_articles.py
       - name: Audit static pages and syndication
         run: python scripts/audit_publishing.py
+      - name: Audit internal links and navigation
+        run: python scripts/audit_navigation.py
