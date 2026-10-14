@@ -82,32 +82,32 @@
       "url": "https://github.com/Superstar1910/quickmart-ipo-investment-analysis",
       "category": "Investment research",
       "description": "Independent Quickmart IPO research with valuation scenarios, an enterprise DCF and documented assumptions.",
-      "viewUrl": "https://github.com/Superstar1910/quickmart-ipo-investment-analysis/blob/main/research/quickmart-ipo-investment-assessment.md",
-      "viewLabel": "Read investment assessment ↗"
+      "viewUrl": "https://legesi.xyz/research/quickmart-ipo-investment-analysis/",
+      "viewLabel": "Explore research website ↗"
     },
     {
       "name": "dangote-refinery-ipo-investment-analysis",
       "url": "https://github.com/Superstar1910/dangote-refinery-ipo-investment-analysis",
       "category": "Investment research",
       "description": "Independent Dangote Refinery IPO research examining valuation, funding, governance and investment risks.",
-      "viewUrl": "https://github.com/Superstar1910/dangote-refinery-ipo-investment-analysis/blob/main/research/dangote-refinery-ipo-initial-coverage.html",
-      "viewLabel": "View HTML research file ↗"
+      "viewUrl": "https://legesi.xyz/research/dangote-refinery-ipo-investment-analysis/",
+      "viewLabel": "Explore research website ↗"
     },
     {
       "name": "uganda-capital-formation",
       "url": "https://github.com/Superstar1910/uganda-capital-formation",
       "category": "Capital markets",
       "description": "Open framework for mobilising long-term capital in Uganda, including a scenario laboratory and implementation programme.",
-      "viewUrl": "https://github.com/Superstar1910/uganda-capital-formation/blob/main/dist/index.html",
-      "viewLabel": "View dashboard HTML file ↗"
+      "viewUrl": "https://legesi.xyz/research/uganda-capital-formation/",
+      "viewLabel": "Explore research website ↗"
     },
     {
       "name": "umeme-stock-coverage",
       "url": "https://github.com/Superstar1910/umeme-stock-coverage",
       "category": "Investment research",
       "description": "Research on Umeme’s concession exit, potential recoveries and uncertainty around shareholder distributions.",
-      "viewUrl": "https://legesi.substack.com/p/optionality-and-the-investors-mindset",
-      "viewLabel": "Read published research ↗"
+      "viewUrl": "https://legesi.xyz/research/umeme-stock-coverage/",
+      "viewLabel": "Explore research website ↗"
     },
     {
       "name": "mtn-uganda-stock-coverage",
@@ -122,8 +122,8 @@
       "url": "https://github.com/Superstar1910/africa-fx-pressure-watch",
       "category": "Capital markets",
       "description": "Open research dashboard for tracking currency pressures across African markets, beginning with Uganda.",
-      "viewUrl": "https://github.com/Superstar1910/africa-fx-pressure-watch/blob/main/index.html",
-      "viewLabel": "View dashboard HTML file ↗"
+      "viewUrl": "https://legesi.xyz/research/africa-fx-pressure-watch/",
+      "viewLabel": "Explore research website ↗"
     }
   ]
 }
