@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "articles": [
+    {
+      "slug": "quickmart-ipo-investment-assessment",
+      "title": "Quickmart IPO: What Is a Share Really Worth at KES 7.50?",
+      "datePublished": "2026-10-12",
+      "dateAdded": "2026-10-14",
+      "dateModified": "2026-10-12",
+      "type": "Investment research",
+      "platform": "Legesi Research",
+      "originalUrl": "https://github.com/Superstar1910/quickmart-ipo-investment-analysis/blob/main/research/quickmart-ipo-investment-assessment.md",
+      "url": "/research/quickmart-ipo-investment-analysis/full-report/",
+      "summary": "Independent assessment of Quickmart's IPO valuation, cash flows, lease economics and margin of safety.",
+      "native": true
+    },
+    {
+      "slug": "dangote-refinery-ipo-coverage",
+      "title": "Dangote Petroleum Refinery IPO — Independent Buy-Side Research",
+      "datePublished": "2026-10-12",
+      "dateAdded": "2026-10-14",
+      "dateModified": "2026-10-12",
+      "type": "Investment research",
+      "platform": "Legesi Research",
+      "originalUrl": "https://github.com/Superstar1910/dangote-refinery-ipo-investment-analysis",
+      "url": "/research/dangote-refinery-ipo-investment-analysis/full-report/",
+      "summary": "Initial valuation, funding, governance and downside assessment of the proposed refinery IPO.",
+      "native": true
+    },
+    {
+      "slug": "optionality-and-the-investors-mindset",
+      "title": "Optionality and the Investor’s Mindset: Lessons from Umeme",
+      "datePublished": "2025-06-19",
+      "dateAdded": null,
+      "dateModified": null,
+      "type": "Investment research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/optionality-and-the-investors-mindset",
+      "url": "https://legesi.substack.com/p/optionality-and-the-investors-mindset",
+      "summary": "An examination of investor optionality through Umeme's concession exit.",
+      "native": false
+    },
+    {
+      "slug": "umeme-arbitration-probability",
+      "title": "What's Umeme's Probability of Winning the Arbitration?",
+      "datePublished": "2025-07-01",
+      "dateAdded": null,
+      "dateModified": null,
+      "type": "Investment research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/optionality-and-the-investors-mindset-7f5",
+      "url": "https://legesi.substack.com/p/optionality-and-the-investors-mindset-7f5",
+      "summary": "A probability-led examination of the Umeme arbitration.",
+      "native": false
+    }
+  ]
+}
