@@ -23,7 +23,11 @@
       "distributionUrls": [
         "https://legesi.substack.com/p/quickmart-ipo-what-is-a-share-really"
       ],
-      "dateVerificationNote": "Research document dated 12 October 2026; Substack publication timestamp must be independently reconciled."
+      "dateVerificationNote": "Research document dated 12 October 2026; Substack publication timestamp must be independently reconciled.",
+      "tags": [
+        "Equity & Valuation",
+        "Investment Strategy"
+      ]
     },
     {
       "slug": "dangote-refinery-ipo-coverage",
@@ -43,7 +47,12 @@
         "analysis": "https://github.com/Superstar1910/dangote-refinery-ipo-investment-analysis/blob/main/research/investment-assessment.md",
         "cutoff": "2026-10-12",
         "reviewStatus": "Initial coverage; event-driven re-underwriting required"
-      }
+      },
+      "tags": [
+        "Equity & Valuation",
+        "Investment Strategy",
+        "Infrastructure & Energy"
+      ]
     },
     {
       "slug": "optionality-and-the-investors-mindset",
@@ -63,7 +72,12 @@
         "analysis": "https://github.com/Superstar1910/umeme-stock-coverage/blob/main/research/coverage.md",
         "cutoff": null,
         "reviewStatus": "Historical research; current recovery and arbitration status not verified"
-      }
+      },
+      "tags": [
+        "Equity & Valuation",
+        "Investment Strategy",
+        "Reflections"
+      ]
     },
     {
       "slug": "umeme-arbitration-probability",
@@ -83,7 +97,12 @@
         "analysis": "https://github.com/Superstar1910/umeme-stock-coverage/blob/main/research/coverage.md",
         "cutoff": null,
         "reviewStatus": "Historical research; current recovery and arbitration status not verified"
-      }
+      },
+      "tags": [
+        "Equity & Valuation",
+        "Investment Strategy",
+        "Reflections"
+      ]
     },
     {
       "slug": "the-ai-awakening-a-look-back-at-2025",
@@ -96,7 +115,10 @@
       "originalUrl": "https://legesi.substack.com/p/the-ai-awakening-a-look-back-at-2025",
       "url": "/writing/the-ai-awakening-a-look-back-at-2025/",
       "summary": "I compiled this at the end of 2025, tracking to see how 2026 pans out",
-      "native": true
+      "native": true,
+      "tags": [
+        "AI & Technology"
+      ]
     },
     {
       "slug": "i-hope-this-helps-someone-today-how",
@@ -109,7 +131,11 @@
       "originalUrl": "https://legesi.substack.com/p/i-hope-this-helps-someone-today-how",
       "url": "/writing/i-hope-this-helps-someone-today-how/",
       "summary": "Originally published on Substack.",
-      "native": true
+      "native": true,
+      "tags": [
+        "AI & Technology",
+        "Reflections"
+      ]
     },
     {
       "slug": "the-great-arbitrage",
@@ -122,7 +148,10 @@
       "originalUrl": "https://legesi.substack.com/p/the-great-arbitrage",
       "url": "/writing/the-great-arbitrage/",
       "summary": "Buying Time When the “Fast Clock” Panics",
-      "native": true
+      "native": true,
+      "tags": [
+        "Investment Strategy"
+      ]
     },
     {
       "slug": "how-i-turned-macro-outlooks-into",
@@ -135,7 +164,10 @@
       "originalUrl": "https://legesi.substack.com/p/how-i-turned-macro-outlooks-into",
       "url": "/writing/how-i-turned-macro-outlooks-into/",
       "summary": "Originally published on Substack.",
-      "native": true
+      "native": true,
+      "tags": [
+        "Investment Strategy"
+      ]
     },
     {
       "slug": "15-billion-heartbeats",
@@ -148,7 +180,10 @@
       "originalUrl": "https://legesi.substack.com/p/15-billion-heartbeats",
       "url": "/writing/15-billion-heartbeats/",
       "summary": "The Biological Scaling Laws of Money and Why Corporations Die",
-      "native": true
+      "native": true,
+      "tags": [
+        "Reflections"
+      ]
     },
     {
       "slug": "the-frontier-acceleration",
@@ -161,7 +196,10 @@
       "originalUrl": "https://legesi.substack.com/p/the-frontier-acceleration",
       "url": "/writing/the-frontier-acceleration/",
       "summary": "Leapfrogging and the Super-Linear Metabolism of Uganda",
-      "native": true
+      "native": true,
+      "tags": [
+        "Africa & Development"
+      ]
     },
     {
       "slug": "how-to-make-africa-a-100-billion",
@@ -174,7 +212,11 @@
       "originalUrl": "https://legesi.substack.com/p/how-to-make-africa-a-100-billion",
       "url": "/writing/how-to-make-africa-a-100-billion/",
       "summary": "Originally published on Substack.",
-      "native": true
+      "native": true,
+      "tags": [
+        "Investment Strategy",
+        "Africa & Development"
+      ]
     },
     {
       "slug": "the-ai-bubble-why-manias-never-really",
@@ -187,7 +229,13 @@
       "originalUrl": "https://legesi.substack.com/p/the-ai-bubble-why-manias-never-really",
       "url": "/writing/the-ai-bubble-why-manias-never-really/",
       "summary": "From the railway boom to the AI revolution; how markets finance progress, lose their minds and find their footing again.",
-      "native": true
+      "native": true,
+      "tags": [
+        "AI & Technology",
+        "Investment Strategy",
+        "Africa & Development",
+        "Reflections"
+      ]
     },
     {
       "slug": "the-ai-bubble-why-manias-never-really-582",
@@ -200,7 +248,10 @@
       "originalUrl": "https://legesi.substack.com/p/the-ai-bubble-why-manias-never-really-582",
       "url": "/writing/the-ai-bubble-why-manias-never-really-582/",
       "summary": "Subtitle: The Survival Directive has been activated. Here is what the warning lights are saying in April 2026, and what to do about it.",
-      "native": true
+      "native": true,
+      "tags": [
+        "AI & Technology"
+      ]
     },
     {
       "slug": "macro-themed-portfolios-with-chatgpt",
@@ -213,7 +264,11 @@
       "originalUrl": "https://legesi.substack.com/p/macro-themed-portfolios-with-chatgpt",
       "url": "/writing/macro-themed-portfolios-with-chatgpt/",
       "summary": "Originally published on Substack.",
-      "native": true
+      "native": true,
+      "tags": [
+        "AI & Technology",
+        "Investment Strategy"
+      ]
     },
     {
       "slug": "ergodicity",
@@ -226,7 +281,10 @@
       "originalUrl": "https://legesi.substack.com/p/ergodicity",
       "url": "/writing/ergodicity/",
       "summary": "Why the “Average” Investor Is a Myth — and Why Your Survival Is the Only Statistic That Matters",
-      "native": true
+      "native": true,
+      "tags": [
+        "Investment Strategy"
+      ]
     },
     {
       "slug": "the-gem-inside-the-rump",
@@ -244,7 +302,11 @@
         "repository": "https://github.com/Superstar1910/mtn-uganda-stock-coverage",
         "analysis": "https://github.com/Superstar1910/mtn-uganda-stock-coverage/blob/main/docs/index.html",
         "reviewStatus": "Research linkage identified; original article snapshot not pinned"
-      }
+      },
+      "tags": [
+        "Equity & Valuation",
+        "Reflections"
+      ]
     },
     {
       "slug": "the-unified-theory-of-investing-the",
@@ -257,7 +319,10 @@
       "originalUrl": "https://legesi.substack.com/p/the-unified-theory-of-investing-the",
       "url": "/writing/the-unified-theory-of-investing-the/",
       "summary": "Why Your Time Horizon Warps the Fabric of Risk",
-      "native": true
+      "native": true,
+      "tags": [
+        "Investment Strategy"
+      ]
     },
     {
       "slug": "tail-risk-the-losses-that-dont-show",
@@ -270,7 +335,12 @@
       "originalUrl": "https://legesi.substack.com/p/tail-risk-the-losses-that-dont-show",
       "url": "/writing/tail-risk-the-losses-that-dont-show/",
       "summary": "The case for investing in frontier and emerging markets",
-      "native": true
+      "native": true,
+      "tags": [
+        "Investment Strategy",
+        "Africa & Development",
+        "Reflections"
+      ]
     },
     {
       "slug": "can-pavlov-and-skinner-help-us-find",
@@ -287,7 +357,10 @@
       "research": {
         "repository": "https://github.com/Superstar1910/behavioural-capital-investing",
         "reviewStatus": "Repository linkage provisional; verify availability and source version"
-      }
+      },
+      "tags": [
+        "Investment Strategy"
+      ]
     },
     {
       "slug": "quickmart-ipo-what-is-a-share-really",
@@ -305,7 +378,11 @@
         "repository": "https://github.com/Superstar1910/quickmart-ipo-investment-analysis",
         "reviewStatus": "Suggested linkage; verify before final publication"
       },
-      "post_id": "219992382.quickmart-ipo-what-is-a-share-really"
+      "post_id": "219992382.quickmart-ipo-what-is-a-share-really",
+      "tags": [
+        "Equity & Valuation",
+        "Investment Strategy"
+      ]
     },
     {
       "slug": "before-the-gem-why-this-series-exists",
@@ -320,7 +397,12 @@
       "summary": "Series Introduction: Why this Series Exists",
       "native": true,
       "research": null,
-      "post_id": "211891066.before-the-gem-why-this-series-exists"
+      "post_id": "211891066.before-the-gem-why-this-series-exists",
+      "tags": [
+        "Equity & Valuation",
+        "Investment Strategy",
+        "Reflections"
+      ]
     },
     {
       "slug": "the-ai-bubble-why-manias-never-really-3b8",
@@ -335,7 +417,11 @@
       "summary": "How to size a portfolio for survival of the AI Bubble; What survival looks like and what it costs",
       "native": true,
       "research": null,
-      "post_id": "196465595.the-ai-bubble-why-manias-never-really-3b8"
+      "post_id": "196465595.the-ai-bubble-why-manias-never-really-3b8",
+      "tags": [
+        "AI & Technology",
+        "Investment Strategy"
+      ]
     },
     {
       "slug": "when-every-man-builds-his-own-ark",
@@ -350,7 +436,11 @@
       "summary": "The Tragedy of the Commons",
       "native": true,
       "research": null,
-      "post_id": "177813493.when-every-man-builds-his-own-ark"
+      "post_id": "177813493.when-every-man-builds-his-own-ark",
+      "tags": [
+        "Africa & Development",
+        "Reflections"
+      ]
     },
     {
       "slug": "the-ai-bubble-why-manias-never-really-3c7",
@@ -365,7 +455,12 @@
       "summary": "How disciplined investors survive the world’s most expensive optimism.",
       "native": true,
       "research": null,
-      "post_id": "175921569.the-ai-bubble-why-manias-never-really-3c7"
+      "post_id": "175921569.the-ai-bubble-why-manias-never-really-3c7",
+      "tags": [
+        "AI & Technology",
+        "Investment Strategy",
+        "Reflections"
+      ]
     },
     {
       "slug": "goat-farming-or-goat-ponzi-investors",
@@ -380,7 +475,10 @@
       "summary": "Investors Should Always Ask the Herd Questions",
       "native": true,
       "research": null,
-      "post_id": "174324772.goat-farming-or-goat-ponzi-investors"
+      "post_id": "174324772.goat-farming-or-goat-ponzi-investors",
+      "tags": [
+        "Investment Strategy"
+      ]
     },
     {
       "slug": "why-your-brain-is-your-worst-investment",
@@ -395,7 +493,10 @@
       "summary": "How psychological biases sabotage your portfolio, and what to do about it",
       "native": true,
       "research": null,
-      "post_id": "174086620.why-your-brain-is-your-worst-investment"
+      "post_id": "174086620.why-your-brain-is-your-worst-investment",
+      "tags": [
+        "Investment Strategy"
+      ]
     },
     {
       "slug": "why-mtn-uganda-is-a-free-call-option",
@@ -413,7 +514,12 @@
         "repository": "https://github.com/Superstar1910/mtn-uganda-stock-coverage",
         "reviewStatus": "Suggested linkage; verify before final publication"
       },
-      "post_id": "167227844.why-mtn-uganda-is-a-free-call-option"
+      "post_id": "167227844.why-mtn-uganda-is-a-free-call-option",
+      "tags": [
+        "AI & Technology",
+        "Equity & Valuation",
+        "Africa & Development"
+      ]
     },
     {
       "slug": "the-illusion-of-ownership-what-mtn",
@@ -431,7 +537,13 @@
         "repository": "https://github.com/Superstar1910/mtn-uganda-stock-coverage",
         "reviewStatus": "Suggested linkage; verify before final publication"
       },
-      "post_id": "165989348.the-illusion-of-ownership-what-mtn"
+      "post_id": "165989348.the-illusion-of-ownership-what-mtn",
+      "tags": [
+        "AI & Technology",
+        "Equity & Valuation",
+        "Investment Strategy",
+        "Africa & Development"
+      ]
     },
     {
       "slug": "unlocking-climate-finance-for-east",
@@ -446,7 +558,11 @@
       "summary": "Bridging the Gap Between Policy and Action",
       "native": true,
       "research": null,
-      "post_id": "164522809.unlocking-climate-finance-for-east"
+      "post_id": "164522809.unlocking-climate-finance-for-east",
+      "tags": [
+        "Climate & Sustainability",
+        "Africa & Development"
+      ]
     },
     {
       "slug": "risk-is-personal-but-also-a-privilege",
@@ -461,7 +577,11 @@
       "summary": "The Real Cost of Chasing Returns",
       "native": true,
       "research": null,
-      "post_id": "163873998.risk-is-personal-but-also-a-privilege"
+      "post_id": "163873998.risk-is-personal-but-also-a-privilege",
+      "tags": [
+        "Investment Strategy",
+        "Reflections"
+      ]
     },
     {
       "slug": "the-untold-story-behind-africas-most",
@@ -476,7 +596,13 @@
       "summary": "Inside Africa’s quiet $5.2 Billion fintech opportunity and the mispricing that frontier markets can’t see",
       "native": true,
       "research": null,
-      "post_id": "161898235.the-untold-story-behind-africas-most"
+      "post_id": "161898235.the-untold-story-behind-africas-most",
+      "tags": [
+        "AI & Technology",
+        "Investment Strategy",
+        "Africa & Development",
+        "Reflections"
+      ]
     },
     {
       "slug": "as-a-stanbic-shareholder-heres-what",
@@ -491,7 +617,12 @@
       "summary": "This is not investment advice!",
       "native": true,
       "research": null,
-      "post_id": "161746541.as-a-stanbic-shareholder-heres-what"
+      "post_id": "161746541.as-a-stanbic-shareholder-heres-what",
+      "tags": [
+        "Equity & Valuation",
+        "Investment Strategy",
+        "Africa & Development"
+      ]
     },
     {
       "slug": "nobody-talks-about-this-path-to-homeownership",
@@ -506,7 +637,11 @@
       "summary": "How to turn renters into owners",
       "native": true,
       "research": null,
-      "post_id": "161635241.nobody-talks-about-this-path-to-homeownership"
+      "post_id": "161635241.nobody-talks-about-this-path-to-homeownership",
+      "tags": [
+        "Infrastructure & Energy",
+        "Africa & Development"
+      ]
     },
     {
       "slug": "you-dont-need-to-buy-land-now-you",
@@ -521,7 +656,10 @@
       "summary": "Why land options could unlock housing, roads, energy and urban growth—if we use them right.",
       "native": true,
       "research": null,
-      "post_id": "161630257.you-dont-need-to-buy-land-now-you"
+      "post_id": "161630257.you-dont-need-to-buy-land-now-you",
+      "tags": [
+        "Infrastructure & Energy"
+      ]
     },
     {
       "slug": "the-ghosts-of-drawdowns-past-present",
@@ -536,7 +674,11 @@
       "summary": "Understanding Investment Risk Through a Dickensian Lens",
       "native": true,
       "research": null,
-      "post_id": "161520942.the-ghosts-of-drawdowns-past-present"
+      "post_id": "161520942.the-ghosts-of-drawdowns-past-present",
+      "tags": [
+        "Investment Strategy",
+        "Reflections"
+      ]
     },
     {
       "slug": "solar-investment-in-uganda-policies",
@@ -551,7 +693,13 @@
       "summary": "Originally published on Substack.",
       "native": true,
       "research": null,
-      "post_id": "161131162.solar-investment-in-uganda-policies"
+      "post_id": "161131162.solar-investment-in-uganda-policies",
+      "tags": [
+        "Investment Strategy",
+        "Infrastructure & Energy",
+        "Climate & Sustainability",
+        "Africa & Development"
+      ]
     },
     {
       "slug": "the-rise-of-carbon-markets-in-east",
@@ -566,7 +714,13 @@
       "summary": "Originally published on Substack.",
       "native": true,
       "research": null,
-      "post_id": "161025873.the-rise-of-carbon-markets-in-east"
+      "post_id": "161025873.the-rise-of-carbon-markets-in-east",
+      "tags": [
+        "Investment Strategy",
+        "Climate & Sustainability",
+        "Africa & Development",
+        "Reflections"
+      ]
     },
     {
       "slug": "the-world-is-reordering-africa-must",
@@ -581,7 +735,11 @@
       "summary": "Originally published on Substack.",
       "native": true,
       "research": null,
-      "post_id": "161009353.the-world-is-reordering-africa-must"
+      "post_id": "161009353.the-world-is-reordering-africa-must",
+      "tags": [
+        "Africa & Development",
+        "Reflections"
+      ]
     },
     {
       "slug": "carbon-markets-in-east-africa",
@@ -596,7 +754,13 @@
       "summary": "My Deep Dive into the Region’s Climate Finance Future",
       "native": true,
       "research": null,
-      "post_id": "160578325.carbon-markets-in-east-africa"
+      "post_id": "160578325.carbon-markets-in-east-africa",
+      "tags": [
+        "Investment Strategy",
+        "Climate & Sustainability",
+        "Africa & Development",
+        "Reflections"
+      ]
     },
     {
       "slug": "bond-yield-rate-vs-bond-coupon-rate",
@@ -611,7 +775,10 @@
       "summary": "Bond investing basics",
       "native": true,
       "research": null,
-      "post_id": "160549620.bond-yield-rate-vs-bond-coupon-rate"
+      "post_id": "160549620.bond-yield-rate-vs-bond-coupon-rate",
+      "tags": [
+        "Investment Strategy"
+      ]
     }
   ]
 }
