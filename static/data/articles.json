@@ -12,7 +12,14 @@
       "originalUrl": "https://github.com/Superstar1910/quickmart-ipo-investment-analysis/blob/main/research/quickmart-ipo-investment-assessment.md",
       "url": "/research/quickmart-ipo-investment-analysis/full-report/",
       "summary": "Independent assessment of Quickmart's IPO valuation, cash flows, lease economics and margin of safety.",
-      "native": true
+      "native": true,
+      "research": {
+        "repository": "https://github.com/Superstar1910/quickmart-ipo-investment-analysis",
+        "methodology": "https://github.com/Superstar1910/quickmart-ipo-investment-analysis/blob/main/research/valuation-methodology.md",
+        "analysis": "https://github.com/Superstar1910/quickmart-ipo-investment-analysis/blob/main/research/quickmart-ipo-investment-assessment.md",
+        "cutoff": "2026-10-12",
+        "reviewStatus": "Provisional valuation; independent validation outstanding"
+      }
     },
     {
       "slug": "dangote-refinery-ipo-coverage",
@@ -25,7 +32,14 @@
       "originalUrl": "https://github.com/Superstar1910/dangote-refinery-ipo-investment-analysis",
       "url": "/research/dangote-refinery-ipo-investment-analysis/full-report/",
       "summary": "Initial valuation, funding, governance and downside assessment of the proposed refinery IPO.",
-      "native": true
+      "native": true,
+      "research": {
+        "repository": "https://github.com/Superstar1910/dangote-refinery-ipo-investment-analysis",
+        "methodology": "https://github.com/Superstar1910/dangote-refinery-ipo-investment-analysis/blob/main/valuation/valuation-methodology.md",
+        "analysis": "https://github.com/Superstar1910/dangote-refinery-ipo-investment-analysis/blob/main/research/investment-assessment.md",
+        "cutoff": "2026-10-12",
+        "reviewStatus": "Initial coverage; event-driven re-underwriting required"
+      }
     },
     {
       "slug": "optionality-and-the-investors-mindset",
@@ -38,7 +52,14 @@
       "originalUrl": "https://legesi.substack.com/p/optionality-and-the-investors-mindset",
       "url": "https://legesi.substack.com/p/optionality-and-the-investors-mindset",
       "summary": "An examination of investor optionality through Umeme's concession exit.",
-      "native": false
+      "native": false,
+      "research": {
+        "repository": "https://github.com/Superstar1910/umeme-stock-coverage",
+        "methodology": "https://github.com/Superstar1910/umeme-stock-coverage/blob/main/docs/methodology.md",
+        "analysis": "https://github.com/Superstar1910/umeme-stock-coverage/blob/main/research/coverage.md",
+        "cutoff": null,
+        "reviewStatus": "Historical research; current recovery and arbitration status not verified"
+      }
     },
     {
       "slug": "umeme-arbitration-probability",
@@ -51,7 +72,14 @@
       "originalUrl": "https://legesi.substack.com/p/optionality-and-the-investors-mindset-7f5",
       "url": "https://legesi.substack.com/p/optionality-and-the-investors-mindset-7f5",
       "summary": "A probability-led examination of the Umeme arbitration.",
-      "native": false
+      "native": false,
+      "research": {
+        "repository": "https://github.com/Superstar1910/umeme-stock-coverage",
+        "methodology": "https://github.com/Superstar1910/umeme-stock-coverage/blob/main/docs/methodology.md",
+        "analysis": "https://github.com/Superstar1910/umeme-stock-coverage/blob/main/research/coverage.md",
+        "cutoff": null,
+        "reviewStatus": "Historical research; current recovery and arbitration status not verified"
+      }
     }
   ]
 }
