@@ -1,0 +1,24 @@
+:root {
+  --brand-ink: #15253a;
+  --brand-blue: #29496d;
+  --brand-muted: #596a7d;
+  --brand-line: #e3e8ed;
+  --brand-paper: #ffffff;
+  --brand-wash: #f8fafc;
+  --brand-font-body: Arial, Helvetica, sans-serif;
+  --brand-font-display: Georgia, "Times New Roman", serif;
+  --brand-content-max: 1240px;
+  --brand-radius: 4px;
+  --brand-space-1: 4px;
+  --brand-space-2: 8px;
+  --brand-space-3: 12px;
+  --brand-space-4: 16px;
+  --brand-space-6: 24px;
+  --brand-space-8: 32px;
+  --brand-space-12: 48px;
+  --brand-space-16: 64px;
+}
+:focus-visible { outline: 2px solid var(--brand-blue); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; }
+}
