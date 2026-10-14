@@ -19,7 +19,11 @@
         "analysis": "https://github.com/Superstar1910/quickmart-ipo-investment-analysis/blob/main/research/quickmart-ipo-investment-assessment.md",
         "cutoff": "2026-10-12",
         "reviewStatus": "Provisional valuation; independent validation outstanding"
-      }
+      },
+      "distributionUrls": [
+        "https://legesi.substack.com/p/quickmart-ipo-what-is-a-share-really"
+      ],
+      "dateVerificationNote": "Research document dated 12 October 2026; Substack publication timestamp must be independently reconciled."
     },
     {
       "slug": "dangote-refinery-ipo-coverage",
