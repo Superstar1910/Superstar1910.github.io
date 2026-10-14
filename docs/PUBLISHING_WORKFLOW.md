@@ -19,3 +19,8 @@ The Writing page reads `static/data/articles.json`. It lists native pages and cl
 
 ## Current migration state
 Two research assessments link to full native HTML pages. Two historical Umeme Substack articles are indexed externally, not yet imported. Other articles have not been inventoried. This is a foundation, **not a completed migration**.
+
+## Research-linked article contract
+When an article is based on a repository, populate `research.repository`, `research.analysis`, `research.methodology`, `research.cutoff` (only if independently established) and `research.reviewStatus` in the article register. Show research and underlying-analysis links in the public archive. On the full article, include an evidence/methodology panel and link to a versioned commit or release for reproducibility. Do not automatically substitute current model results into historical articles. A materially updated thesis requires a new dated edition or explicit revision note. Keep a changelog and, where practical, a comparison of changed assumptions and valuation outcomes.
+
+The repository URLs currently link to moving `main` branches, **not pinned evidence snapshots**. Before calling an article reproducible, capture the exact commit SHA, source snapshot and model run identifier. Article dates and analysis cut-offs must be verified independently.
