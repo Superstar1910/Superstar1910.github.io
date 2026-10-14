@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'imports/legesi_native_articles_ready.zip'
+      - '.github/workflows/import-substack-archive.yml'
 permissions:
   contents: write
   pull-requests: write
@@ -16,7 +17,17 @@ jobs:
         with:
           python-version: '3.12'
       - name: Confirm archive is available
-        run: test -f imports/legesi_native_articles_ready.zip
+        run: |
+          test -f imports/legesi_native_articles_ready.zip
+          python - <<'PY'
+          import json,zipfile
+          p='imports/legesi_native_articles_ready.zip'
+          with zipfile.ZipFile(p) as z:
+              entries=json.loads(z.read('migration-records.json'))['articles']
+              print(f'Archive records: {len(entries)}')
+              for a in entries:
+                  assert f"writing/{a[\"slug\"]}/index.html" in z.namelist()
+          PY
       - name: Import native articles without overwriting existing pages
         run: python scripts/import_substack_archive.py imports/legesi_native_articles_ready.zip
       - name: Validate and regenerate syndication files
