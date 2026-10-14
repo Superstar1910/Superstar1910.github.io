@@ -27,55 +27,73 @@
       "name": "cyanase-collective",
       "url": "https://github.com/Superstar1910/cyanase-collective",
       "category": "Data & experiments",
-      "description": "Prototype personal-finance dashboard bringing together wallets, goals, investments and community activity using illustrative data."
+      "description": "Prototype personal-finance dashboard bringing together wallets, goals, investments and community activity using illustrative data.",
+      "viewUrl": "https://legesi.xyz/research/cyanase-collective/",
+      "viewLabel": "Project overview ↗"
     },
     {
       "name": "investment-access-mvp",
       "url": "https://github.com/Superstar1910/investment-access-mvp",
       "category": "Investment technology",
-      "description": "Early-stage investment planning tool that guides users from financial goals to an investment policy and portfolio simulation."
+      "description": "Early-stage investment planning tool that guides users from financial goals to an investment policy and portfolio simulation.",
+      "viewUrl": "https://legesi.xyz/research/investment-access-mvp/",
+      "viewLabel": "Project overview ↗"
     },
     {
       "name": "nsagu-industrial-park",
       "url": "https://github.com/Superstar1910/nsagu-industrial-park",
       "category": "Infrastructure",
-      "description": "Industrial park development project exploring infrastructure and investment planning."
+      "description": "Industrial park development project exploring infrastructure and investment planning.",
+      "viewUrl": "https://legesi.xyz/research/nsagu-industrial-park/",
+      "viewLabel": "Project overview ↗"
     },
     {
       "name": "robo_advisor_project",
       "url": "https://github.com/Superstar1910/robo_advisor_project",
       "category": "Investment technology",
-      "description": "Experimental digital investment-advice and portfolio-planning project."
+      "description": "Experimental digital investment-advice and portfolio-planning project.",
+      "viewUrl": "https://legesi.xyz/research/robo_advisor_project/",
+      "viewLabel": "Project overview ↗"
     },
     {
       "name": "client_onboarding",
       "url": "https://github.com/Superstar1910/client_onboarding",
       "category": "Investment technology",
-      "description": "Prototype workflow for onboarding clients to financial or investment services."
+      "description": "Prototype workflow for onboarding clients to financial or investment services.",
+      "viewUrl": "https://legesi.xyz/research/client_onboarding/",
+      "viewLabel": "Project overview ↗"
     },
     {
       "name": "Ran_Inference",
       "url": "https://github.com/Superstar1910/Ran_Inference",
       "category": "Data & experiments",
-      "description": "Technical experimentation with inference and analytical workflows."
+      "description": "Technical experimentation with inference and analytical workflows.",
+      "viewUrl": "https://legesi.xyz/research/Ran_Inference/",
+      "viewLabel": "Project overview ↗"
     },
     {
       "name": "impala_market",
       "url": "https://github.com/Superstar1910/impala_market",
       "category": "Data & experiments",
-      "description": "Uganda-first African bond-market intelligence dashboard covering auctions, yield curves, secondary trading and alerts."
+      "description": "Uganda-first African bond-market intelligence dashboard covering auctions, yield curves, secondary trading and alerts.",
+      "viewUrl": "https://legesi.xyz/research/impala_market/",
+      "viewLabel": "Project overview ↗"
     },
     {
       "name": "HS_Code",
       "url": "https://github.com/Superstar1910/HS_Code",
       "category": "Data & experiments",
-      "description": "Customs classification and shipment pre-check tool with product coding, risk flags, bulk review and audit trail."
+      "description": "Customs classification and shipment pre-check tool with product coding, risk flags, bulk review and audit trail.",
+      "viewUrl": "https://legesi.xyz/research/HS_Code/",
+      "viewLabel": "Project overview ↗"
     },
     {
       "name": "HS_Codes_Checker",
       "url": "https://github.com/Superstar1910/HS_Codes_Checker",
       "category": "Data & experiments",
-      "description": "Lightweight export-readiness checker for shipment descriptions, commodity codes and missing customs information."
+      "description": "Lightweight export-readiness checker for shipment descriptions, commodity codes and missing customs information.",
+      "viewUrl": "https://legesi.xyz/research/HS_Codes_Checker/",
+      "viewLabel": "Project overview ↗"
     },
     {
       "name": "quickmart-ipo-investment-analysis",
