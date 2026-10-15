@@ -51,6 +51,7 @@
         const heading = document.createElement('h2');
         const link = document.createElement('a');
         link.href = a.url;
+        if (new URL(a.url, location.href).origin !== location.origin) {link.target = '_blank';link.rel = 'noopener noreferrer';}
         link.textContent = a.title;
         heading.append(link);
         const description = document.createElement('p');
@@ -73,16 +74,19 @@
         const foot = document.createElement('p');
         const source = document.createElement('a');
         source.href = a.originalUrl;
+        if (new URL(a.originalUrl, location.href).origin !== location.origin) {source.target = '_blank';source.rel = 'noopener noreferrer';}
         source.textContent = 'Original source ↗';
         foot.append(source);
         if (a.research?.repository) {
           const research = document.createElement('a');
           research.href = a.research.repository;
+          research.target = '_blank';research.rel = 'noopener noreferrer';
           research.textContent = 'Research repository ↗';
           foot.append(document.createTextNode(' · '), research);
           if (a.research.analysis) {
             const analysis = document.createElement('a');
             analysis.href = a.research.analysis;
+            if (new URL(analysis.href, location.href).origin !== location.origin) {analysis.target = '_blank';analysis.rel = 'noopener noreferrer';}
             analysis.textContent = 'Underlying analysis ↗';
             foot.append(document.createTextNode(' · '), analysis);
           }
