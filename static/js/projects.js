@@ -16,8 +16,8 @@ try{
    const heading=document.createElement('h3');heading.textContent=(p.title||p.name).replaceAll('_',' ').replaceAll('-',' ');
    const note=document.createElement('p');note.textContent=p.description||'Explore this public project.';
    const actions=document.createElement('div');actions.className='project-actions';
-   if(p.viewUrl){const view=document.createElement('a');view.href=p.viewUrl;view.textContent=p.viewLabel||'Explore project ↗';view.rel='noopener noreferrer';actions.append(view);}
-   const source=document.createElement('a');source.href=p.url;source.textContent=p.viewUrl?'Source & project details ↗':'Project overview & source ↗';source.rel='noopener noreferrer';actions.append(source);
+   if(p.viewUrl){const view=document.createElement('a');view.href=p.viewUrl;view.textContent=p.viewLabel||'Explore project ↗';view.rel='noopener noreferrer';if(new URL(view.href,location.href).origin!==location.origin){view.target='_blank';}actions.append(view);}
+   const source=document.createElement('a');source.href=p.url;source.textContent=p.viewUrl?'Source & project details ↗':'Project overview & source ↗';source.rel='noopener noreferrer';source.target='_blank';actions.append(source);
    article.append(category,heading,note,actions);el.append(article);
   }
   if(!items.length)el.textContent='No public projects in this category.';
