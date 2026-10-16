@@ -150,6 +150,15 @@
       "description": "Open research and interactive rent-to-own housing affordability simulator for African households, developers and financiers.",
       "viewUrl": "https://legesi.xyz/research/africa-affordable-housing-lab/",
       "viewLabel": "Explore housing lab ↗"
+    },
+    {
+      "name": "paygo-trojan-rail-africa",
+      "url": "https://github.com/Superstar1910/paygo-trojan-rail-africa",
+      "category": "Capital markets",
+      "description": "Source-backed research on how PayGo solar built a distributed origination, servicing and receivables-finance rail for Africa's informal economy.",
+      "viewUrl": "https://legesi.xyz/research/paygo-trojan-rail-africa/",
+      "viewLabel": "Read the illustrated research ↗"
     }
   ]
 }
+
