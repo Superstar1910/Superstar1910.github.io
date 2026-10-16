@@ -142,6 +142,14 @@
       "description": "Open research dashboard for tracking currency pressures across African markets, beginning with Uganda.",
       "viewUrl": "https://legesi.xyz/research/africa-fx-pressure-watch/",
       "viewLabel": "Explore research website ↗"
+    },
+    {
+      "name": "africa-affordable-housing-lab",
+      "url": "https://github.com/Superstar1910/africa-affordable-housing-lab",
+      "category": "Infrastructure",
+      "description": "Open research and interactive rent-to-own housing affordability simulator for African households, developers and financiers.",
+      "viewUrl": "https://legesi.xyz/research/africa-affordable-housing-lab/",
+      "viewLabel": "Explore housing lab ↗"
     }
   ]
 }
