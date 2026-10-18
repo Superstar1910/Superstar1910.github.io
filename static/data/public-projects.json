@@ -107,9 +107,11 @@
       "name": "dangote-refinery-ipo-investment-analysis",
       "url": "https://github.com/Superstar1910/dangote-refinery-ipo-investment-analysis",
       "category": "Investment research",
-      "description": "Independent Dangote Refinery IPO research examining valuation, funding, governance and investment risks.",
+      "description": "Independent Dangote Refinery IPO research. Published 17 September 2026; updated 18 October 2026 for the unaudited 9M results and revised ₦413 probability-weighted valuation.",
       "viewUrl": "https://legesi.xyz/research/dangote-refinery-ipo-investment-analysis/",
-      "viewLabel": "Explore research website ↗"
+      "viewLabel": "Explore research website ↗",
+      "publishedDate": "2026-09-17",
+      "updatedDate": "2026-10-18"
     },
     {
       "name": "uganda-capital-formation",
@@ -161,4 +163,3 @@
     }
   ]
 }
-
