@@ -2,6 +2,98 @@
   "schemaVersion": 1,
   "articles": [
     {
+      "slug": "three-models-of-institutional-continuity",
+      "title": "Three Models of Institutional Continuity",
+      "datePublished": "2026-10-19",
+      "dateAdded": "2026-10-26",
+      "dateModified": null,
+      "type": "Original research / editorial",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://github.com/Superstar1910/africa-enduring-enterprises",
+      "url": "/writing/three-models-of-institutional-continuity/",
+      "summary": "Comparative research on a cooperative, a bank and an airline.",
+      "native": true,
+      "research": {
+        "repository": "https://github.com/Superstar1910/africa-enduring-enterprises",
+        "cutoff": "2026-10-26",
+        "reviewStatus": "Source-backed provisional research; legal continuity and causal claims require additional evidence"
+      },
+      "tags": [
+        "Institutional Longevity",
+        "Africa",
+        "Governance"
+      ]
+    },
+    {
+      "slug": "kakira-the-company-that-had-to-be-rebuilt",
+      "title": "Kakira: The Company That Had to Be Rebuilt",
+      "datePublished": "2026-10-19",
+      "dateAdded": "2026-10-26",
+      "dateModified": null,
+      "type": "Original research / editorial",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://github.com/Superstar1910/africa-enduring-enterprises",
+      "url": "/writing/kakira-the-company-that-had-to-be-rebuilt/",
+      "summary": "Institutional continuity through expropriation, reconstruction and development finance.",
+      "native": true,
+      "research": {
+        "repository": "https://github.com/Superstar1910/africa-enduring-enterprises",
+        "cutoff": "2026-10-26",
+        "reviewStatus": "Source-backed provisional research; legal continuity and causal claims require additional evidence"
+      },
+      "tags": [
+        "Institutional Longevity",
+        "Africa",
+        "Governance"
+      ]
+    },
+    {
+      "slug": "why-africas-enterprises-must-outlive-their-founders",
+      "title": "Why Africa's Enterprises Must Outlive Their Founders",
+      "datePublished": "2026-10-19",
+      "dateAdded": "2026-10-26",
+      "dateModified": null,
+      "type": "Original research / editorial",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://github.com/Superstar1910/africa-enduring-enterprises",
+      "url": "/writing/why-africas-enterprises-must-outlive-their-founders/",
+      "summary": "A founding thesis about succession, governance and intergenerational enterprise survival.",
+      "native": true,
+      "research": {
+        "repository": "https://github.com/Superstar1910/africa-enduring-enterprises",
+        "cutoff": "2026-10-26",
+        "reviewStatus": "Source-backed provisional research; legal continuity and causal claims require additional evidence"
+      },
+      "tags": [
+        "Institutional Longevity",
+        "Africa",
+        "Governance"
+      ]
+    },
+    {
+      "slug": "africas-enduring-enterprises-26-october-2026",
+      "title": "Africa's Enduring Enterprises: Evidence Update, 26 October 2026",
+      "datePublished": "2026-10-26",
+      "dateAdded": "2026-10-26",
+      "dateModified": null,
+      "type": "Original research / editorial",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://github.com/Superstar1910/africa-enduring-enterprises",
+      "url": "/writing/africas-enduring-enterprises-26-october-2026/",
+      "summary": "Three longevity cases: Nigerian Breweries at 80, New KCC's 1925 lineage and Ethiopian Airlines' operational anniversary.",
+      "native": true,
+      "research": {
+        "repository": "https://github.com/Superstar1910/africa-enduring-enterprises",
+        "cutoff": "2026-10-26",
+        "reviewStatus": "Source-backed provisional research; legal continuity and causal claims require additional evidence"
+      },
+      "tags": [
+        "Institutional Longevity",
+        "Africa",
+        "Governance"
+      ]
+    },
+    {
       "slug": "quickmart-ipo-investment-assessment",
       "title": "Quickmart IPO: What Is a Share Really Worth at KES 7.50?",
       "datePublished": "2026-10-12",
