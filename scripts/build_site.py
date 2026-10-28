@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Build shared static navigation and progressively enhanced directories in place."""
-import html,json,re
+import html,json,re,shutil
 from pathlib import Path
 from urllib.parse import urlsplit
 from xml.etree.ElementTree import Element,SubElement,ElementTree
 ROOT=Path(__file__).resolve().parents[1]
+shutil.copyfile(ROOT/'static/img/favicon.ico',ROOT/'favicon.ico')
 BASE='https://legesi.xyz'
 ALIASES={'about.html','projects.html','writing.html','archive.html','work/index.html','connect/index.html','research/index.html'}
 def esc(s):return html.escape(str(s or ''),quote=True)
@@ -125,6 +126,7 @@ for f in files():
   person={'@context':'https://schema.org','@type':'Person','name':'Kenneth S. Legesi','url':BASE+'/','sameAs':['https://www.linkedin.com/in/kenneth-legesi','https://legesi.substack.com/','https://github.com/Superstar1910','https://x.com/sklegesi']}
   t=t.replace('</head>','<script type="application/ld+json">'+json.dumps(person)+'</script></head>')
  t=re.sub(r'\s+onerror="[^"]*"','',t)
+ if url=='/' and 'fetchpriority="high"' not in t:t=t.replace('src="/static/img/legesi-lake-hero.webp"','src="/static/img/legesi-lake-hero.webp" fetchpriority="high"',1)
  def image(m):
   s=m[0];src=re.search(r'\bsrc="([^"]+)"',s)
   if src and src[1].startswith('/static/'):

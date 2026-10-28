@@ -2,7 +2,7 @@ name: Performance baseline
 on:
   workflow_dispatch:
   pull_request:
-    paths: ['.github/workflows/performance-audit.yml']
+    paths: ['.github/workflows/performance-audit.yml', 'static/css/**', 'index.html', 'writing/index.html', 'scripts/build_site.py']
   schedule:
     - cron: '15 7 * * 1'
 permissions:
