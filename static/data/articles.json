@@ -21,6 +21,29 @@
       ]
     },
     {
+      "slug": "africas-enduring-enterprises-26-october-2026",
+      "title": "Africa's Enduring Enterprises: Evidence Update, 26 October 2026",
+      "datePublished": "2026-10-26",
+      "dateAdded": "2026-10-26",
+      "dateModified": null,
+      "type": "Original research / editorial",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://github.com/Superstar1910/africa-enduring-enterprises",
+      "url": "/writing/africas-enduring-enterprises-26-october-2026/",
+      "summary": "Three longevity cases: Nigerian Breweries at 80, New KCC's 1925 lineage and Ethiopian Airlines' operational anniversary.",
+      "native": true,
+      "research": {
+        "repository": "https://github.com/Superstar1910/africa-enduring-enterprises",
+        "cutoff": "2026-10-26",
+        "reviewStatus": "Source-backed provisional research; legal continuity and causal claims require additional evidence"
+      },
+      "tags": [
+        "Institutional Longevity",
+        "Africa",
+        "Governance"
+      ]
+    },
+    {
       "slug": "three-models-of-institutional-continuity",
       "title": "Three Models of Institutional Continuity",
       "datePublished": "2026-10-19",
@@ -90,29 +113,6 @@
       ]
     },
     {
-      "slug": "africas-enduring-enterprises-26-october-2026",
-      "title": "Africa's Enduring Enterprises: Evidence Update, 26 October 2026",
-      "datePublished": "2026-10-26",
-      "dateAdded": "2026-10-26",
-      "dateModified": null,
-      "type": "Original research / editorial",
-      "platform": "Legesi.xyz",
-      "originalUrl": "https://github.com/Superstar1910/africa-enduring-enterprises",
-      "url": "/writing/africas-enduring-enterprises-26-october-2026/",
-      "summary": "Three longevity cases: Nigerian Breweries at 80, New KCC's 1925 lineage and Ethiopian Airlines' operational anniversary.",
-      "native": true,
-      "research": {
-        "repository": "https://github.com/Superstar1910/africa-enduring-enterprises",
-        "cutoff": "2026-10-26",
-        "reviewStatus": "Source-backed provisional research; legal continuity and causal claims require additional evidence"
-      },
-      "tags": [
-        "Institutional Longevity",
-        "Africa",
-        "Governance"
-      ]
-    },
-    {
       "slug": "quickmart-ipo-investment-assessment",
       "title": "Quickmart IPO: What Is a Share Really Worth at KES 7.50?",
       "datePublished": "2026-10-12",
@@ -166,28 +166,441 @@
       ]
     },
     {
-      "slug": "optionality-and-the-investors-mindset",
-      "title": "Optionality and the Investor’s Mindset: Part 1, Lessons from Umeme",
-      "datePublished": "2025-06-19",
+      "slug": "quickmart-ipo-what-is-a-share-really",
+      "title": "Quickmart IPO: What Is a Share Really Worth at KES 7.50?",
+      "datePublished": "2026-10-12",
       "dateAdded": "2026-10-14",
       "dateModified": null,
       "type": "Essay / research",
       "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/optionality-and-the-investors-mindset",
-      "url": "/writing/optionality-and-the-investors-mindset/",
-      "summary": "Lessons in risk reward and why small decisions today can shape outsized outcomes tomorrow",
+      "originalUrl": "https://legesi.substack.com/p/quickmart-ipo-what-is-a-share-really",
+      "url": "/writing/quickmart-ipo-what-is-a-share-really/",
+      "summary": "A good business is not necessarily a good investment at any price. Examining Quickmart’s earnings, cash flows, comparables and intrinsic value to assess if the IPO offers investors a margin of safety",
       "native": true,
       "research": {
-        "repository": "https://github.com/Superstar1910/umeme-stock-coverage",
-        "methodology": "https://github.com/Superstar1910/umeme-stock-coverage/blob/main/docs/methodology.md",
-        "analysis": "https://github.com/Superstar1910/umeme-stock-coverage/blob/main/research/coverage.md",
-        "cutoff": null,
-        "reviewStatus": "Historical research; current recovery and arbitration status not verified"
+        "repository": "https://github.com/Superstar1910/quickmart-ipo-investment-analysis",
+        "reviewStatus": "Suggested linkage; verify before final publication"
       },
+      "post_id": "219992382.quickmart-ipo-what-is-a-share-really",
+      "tags": [
+        "Equity & Valuation",
+        "Investment Strategy"
+      ]
+    },
+    {
+      "slug": "the-gem-inside-the-rump",
+      "title": "The Gem Inside the Rump",
+      "datePublished": "2026-08-26",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/the-gem-inside-the-rump",
+      "url": "/writing/the-gem-inside-the-rump/",
+      "summary": "Why some public companies secretly behave like venture capital funds",
+      "native": true,
+      "research": {
+        "repository": "https://github.com/Superstar1910/mtn-uganda-stock-coverage",
+        "analysis": "https://github.com/Superstar1910/mtn-uganda-stock-coverage/blob/main/docs/index.html",
+        "reviewStatus": "Research linkage identified; original article snapshot not pinned"
+      },
+      "tags": [
+        "Equity & Valuation",
+        "Reflections"
+      ]
+    },
+    {
+      "slug": "before-the-gem-why-this-series-exists",
+      "title": "Finding Venture Capital Returns in Public Markets",
+      "datePublished": "2026-08-22",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/before-the-gem-why-this-series-exists",
+      "url": "/writing/before-the-gem-why-this-series-exists/",
+      "summary": "Series Introduction: Why this Series Exists",
+      "native": true,
+      "research": null,
+      "post_id": "211891066.before-the-gem-why-this-series-exists",
       "tags": [
         "Equity & Valuation",
         "Investment Strategy",
         "Reflections"
+      ]
+    },
+    {
+      "slug": "can-pavlov-and-skinner-help-us-find",
+      "title": "Can Pavlov and Skinner Help Us Find Better Investments?",
+      "datePublished": "2026-08-18",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/can-pavlov-and-skinner-help-us-find",
+      "url": "/writing/can-pavlov-and-skinner-help-us-find/",
+      "summary": "Exploring behavioural conditioning as a screen for identifying economic moats in listed companies",
+      "native": true,
+      "research": {
+        "repository": "https://github.com/Superstar1910/behavioural-capital-investing",
+        "reviewStatus": "Repository linkage provisional; verify availability and source version"
+      },
+      "tags": [
+        "Investment Strategy"
+      ]
+    },
+    {
+      "slug": "the-great-arbitrage",
+      "title": "The Great Arbitrage",
+      "datePublished": "2026-08-02",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/the-great-arbitrage",
+      "url": "/writing/the-great-arbitrage/",
+      "summary": "Buying Time When the “Fast Clock” Panics",
+      "native": true,
+      "tags": [
+        "Investment Strategy"
+      ]
+    },
+    {
+      "slug": "ergodicity",
+      "title": "Ergodicity",
+      "datePublished": "2026-06-04",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/ergodicity",
+      "url": "/writing/ergodicity/",
+      "summary": "Why the “Average” Investor Is a Myth — and Why Your Survival Is the Only Statistic That Matters",
+      "native": true,
+      "tags": [
+        "Investment Strategy"
+      ]
+    },
+    {
+      "slug": "the-frontier-acceleration",
+      "title": "The Frontier Acceleration",
+      "datePublished": "2026-05-27",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/the-frontier-acceleration",
+      "url": "/writing/the-frontier-acceleration/",
+      "summary": "Leapfrogging and the Super-Linear Metabolism of Uganda",
+      "native": true,
+      "tags": [
+        "Africa & Development"
+      ]
+    },
+    {
+      "slug": "15-billion-heartbeats",
+      "title": "1.5 Billion Heartbeats",
+      "datePublished": "2026-05-11",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/15-billion-heartbeats",
+      "url": "/writing/15-billion-heartbeats/",
+      "summary": "The Biological Scaling Laws of Money and Why Corporations Die",
+      "native": true,
+      "tags": [
+        "Reflections"
+      ]
+    },
+    {
+      "slug": "the-ai-bubble-why-manias-never-really-3b8",
+      "title": "The AI Bubble: Why Manias Never Really Die (Part 4)",
+      "datePublished": "2026-05-05",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/the-ai-bubble-why-manias-never-really-3b8",
+      "url": "/writing/the-ai-bubble-why-manias-never-really-3b8/",
+      "summary": "How to size a portfolio for survival of the AI Bubble; What survival looks like and what it costs",
+      "native": true,
+      "research": null,
+      "post_id": "196465595.the-ai-bubble-why-manias-never-really-3b8",
+      "tags": [
+        "AI & Technology",
+        "Investment Strategy"
+      ]
+    },
+    {
+      "slug": "the-ai-bubble-why-manias-never-really-582",
+      "title": "The AI Bubble, Why Manias Never Really Die (Part 3): Three Red Lights",
+      "datePublished": "2026-04-30",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/the-ai-bubble-why-manias-never-really-582",
+      "url": "/writing/the-ai-bubble-why-manias-never-really-582/",
+      "summary": "Subtitle: The Survival Directive has been activated. Here is what the warning lights are saying in April 2026, and what to do about it.",
+      "native": true,
+      "tags": [
+        "AI & Technology"
+      ]
+    },
+    {
+      "slug": "the-unified-theory-of-investing-the",
+      "title": "The Unified Theory of Investing: The Illusion of the Clock",
+      "datePublished": "2026-04-20",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/the-unified-theory-of-investing-the",
+      "url": "/writing/the-unified-theory-of-investing-the/",
+      "summary": "Why Your Time Horizon Warps the Fabric of Risk",
+      "native": true,
+      "tags": [
+        "Investment Strategy"
+      ]
+    },
+    {
+      "slug": "the-ai-awakening-a-look-back-at-2025",
+      "title": "The AI Awakening: A Look Back at 2025 and Navigating the Embodied Future of 2026",
+      "datePublished": "2026-03-22",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/the-ai-awakening-a-look-back-at-2025",
+      "url": "/writing/the-ai-awakening-a-look-back-at-2025/",
+      "summary": "I compiled this at the end of 2025, tracking to see how 2026 pans out",
+      "native": true,
+      "tags": [
+        "AI & Technology"
+      ]
+    },
+    {
+      "slug": "how-to-make-africa-a-100-billion",
+      "title": "How to Make Africa a $100 Billion Tradeable Asset Class",
+      "datePublished": "2026-03-18",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/how-to-make-africa-a-100-billion",
+      "url": "/writing/how-to-make-africa-a-100-billion/",
+      "summary": "Originally published on Substack.",
+      "native": true,
+      "tags": [
+        "Investment Strategy",
+        "Africa & Development"
+      ]
+    },
+    {
+      "slug": "tail-risk-the-losses-that-dont-show",
+      "title": "Tail Risk: The Losses That Don’t Show Up in Your Models",
+      "datePublished": "2026-01-22",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/tail-risk-the-losses-that-dont-show",
+      "url": "/writing/tail-risk-the-losses-that-dont-show/",
+      "summary": "The case for investing in frontier and emerging markets",
+      "native": true,
+      "tags": [
+        "Investment Strategy",
+        "Africa & Development",
+        "Reflections"
+      ]
+    },
+    {
+      "slug": "why-freedom-not-peace-prices-returns",
+      "title": "Why Freedom, Not Peace, Prices Returns in Africa",
+      "datePublished": "2026-01-16",
+      "dateAdded": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "type": "Essay / research",
+      "platform": "Impala Market / Legesi.xyz",
+      "originalUrl": "https://blog.impala.market/p/why-freedom-not-peace-prices-returns",
+      "url": "/writing/why-freedom-not-peace-prices-returns/",
+      "summary": "A Machiavellian framework for distinguishing geopolitical agitation from institutional absorption, with a historical 2023 Africa Investability Index.",
+      "native": true,
+      "research": {
+        "repository": "https://github.com/Superstar1910/africa-investability-index"
+      },
+      "tags": [
+        "Africa & Development",
+        "Investment Strategy",
+        "Capital Markets"
+      ]
+    },
+    {
+      "slug": "how-i-turned-macro-outlooks-into",
+      "title": "How I Turned Macro Outlooks into ETF Portfolios and How They Performed by Year-End 2025",
+      "datePublished": "2026-01-03",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/how-i-turned-macro-outlooks-into",
+      "url": "/writing/how-i-turned-macro-outlooks-into/",
+      "summary": "Originally published on Substack.",
+      "native": true,
+      "tags": [
+        "Investment Strategy"
+      ]
+    },
+    {
+      "slug": "the-ai-bubble-why-manias-never-really-3c7",
+      "title": "The AI Bubble: Why Manias Never Really Die (Part 2)",
+      "datePublished": "2025-12-30",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/the-ai-bubble-why-manias-never-really-3c7",
+      "url": "/writing/the-ai-bubble-why-manias-never-really-3c7/",
+      "summary": "How disciplined investors survive the world’s most expensive optimism.",
+      "native": true,
+      "research": null,
+      "post_id": "175921569.the-ai-bubble-why-manias-never-really-3c7",
+      "tags": [
+        "AI & Technology",
+        "Investment Strategy",
+        "Reflections"
+      ]
+    },
+    {
+      "slug": "when-every-man-builds-his-own-ark",
+      "title": "When every man builds his own ark, civilization drowns",
+      "datePublished": "2025-11-03",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/when-every-man-builds-his-own-ark",
+      "url": "/writing/when-every-man-builds-his-own-ark/",
+      "summary": "The Tragedy of the Commons",
+      "native": true,
+      "research": null,
+      "post_id": "177813493.when-every-man-builds-his-own-ark",
+      "tags": [
+        "Africa & Development",
+        "Reflections"
+      ]
+    },
+    {
+      "slug": "the-ai-bubble-why-manias-never-really",
+      "title": "The AI Bubble: Why Manias Never Really Die (Part 1)",
+      "datePublished": "2025-10-12",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/the-ai-bubble-why-manias-never-really",
+      "url": "/writing/the-ai-bubble-why-manias-never-really/",
+      "summary": "From the railway boom to the AI revolution; how markets finance progress, lose their minds and find their footing again.",
+      "native": true,
+      "tags": [
+        "AI & Technology",
+        "Investment Strategy",
+        "Africa & Development",
+        "Reflections"
+      ]
+    },
+    {
+      "slug": "goat-farming-or-goat-ponzi-investors",
+      "title": "Goat Farming or Goat Ponzi?",
+      "datePublished": "2025-10-12",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/goat-farming-or-goat-ponzi-investors",
+      "url": "/writing/goat-farming-or-goat-ponzi-investors/",
+      "summary": "Investors Should Always Ask the Herd Questions",
+      "native": true,
+      "research": null,
+      "post_id": "174324772.goat-farming-or-goat-ponzi-investors",
+      "tags": [
+        "Investment Strategy"
+      ]
+    },
+    {
+      "slug": "i-hope-this-helps-someone-today-how",
+      "title": "I Hope This Helps Someone Today: How to Safely Hold Your Bitcoin",
+      "datePublished": "2025-10-10",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/i-hope-this-helps-someone-today-how",
+      "url": "/writing/i-hope-this-helps-someone-today-how/",
+      "summary": "Originally published on Substack.",
+      "native": true,
+      "tags": [
+        "AI & Technology",
+        "Reflections"
+      ]
+    },
+    {
+      "slug": "why-your-brain-is-your-worst-investment",
+      "title": "Why Your Brain Is Your Worst Investment Enemy",
+      "datePublished": "2025-09-23",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/why-your-brain-is-your-worst-investment",
+      "url": "/writing/why-your-brain-is-your-worst-investment/",
+      "summary": "How psychological biases sabotage your portfolio, and what to do about it",
+      "native": true,
+      "research": null,
+      "post_id": "174086620.why-your-brain-is-your-worst-investment",
+      "tags": [
+        "Investment Strategy"
+      ]
+    },
+    {
+      "slug": "macro-themed-portfolios-with-chatgpt",
+      "title": "Macro-Themed Portfolios with ChatGPT: 2025 ETF Performance (as at Aug 8, 2025)",
+      "datePublished": "2025-09-05",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/macro-themed-portfolios-with-chatgpt",
+      "url": "/writing/macro-themed-portfolios-with-chatgpt/",
+      "summary": "Originally published on Substack.",
+      "native": true,
+      "tags": [
+        "AI & Technology",
+        "Investment Strategy"
+      ]
+    },
+    {
+      "slug": "why-mtn-uganda-is-a-free-call-option",
+      "title": "Why MTN Uganda Is a Free Call Option on Fintech’s Future",
+      "datePublished": "2025-07-26",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/why-mtn-uganda-is-a-free-call-option",
+      "url": "/writing/why-mtn-uganda-is-a-free-call-option/",
+      "summary": "Originally published on Substack.",
+      "native": true,
+      "research": {
+        "repository": "https://github.com/Superstar1910/mtn-uganda-stock-coverage",
+        "reviewStatus": "Suggested linkage; verify before final publication"
+      },
+      "post_id": "167227844.why-mtn-uganda-is-a-free-call-option",
+      "tags": [
+        "AI & Technology",
+        "Equity & Valuation",
+        "Africa & Development"
       ]
     },
     {
@@ -216,420 +629,28 @@
       ]
     },
     {
-      "slug": "the-ai-awakening-a-look-back-at-2025",
-      "title": "The AI Awakening: A Look Back at 2025 and Navigating the Embodied Future of 2026",
-      "datePublished": "2026-03-22",
+      "slug": "optionality-and-the-investors-mindset",
+      "title": "Optionality and the Investor’s Mindset: Part 1, Lessons from Umeme",
+      "datePublished": "2025-06-19",
       "dateAdded": "2026-10-14",
       "dateModified": null,
       "type": "Essay / research",
       "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/the-ai-awakening-a-look-back-at-2025",
-      "url": "/writing/the-ai-awakening-a-look-back-at-2025/",
-      "summary": "I compiled this at the end of 2025, tracking to see how 2026 pans out",
-      "native": true,
-      "tags": [
-        "AI & Technology"
-      ]
-    },
-    {
-      "slug": "i-hope-this-helps-someone-today-how",
-      "title": "I Hope This Helps Someone Today: How to Safely Hold Your Bitcoin",
-      "datePublished": "2025-10-10",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/i-hope-this-helps-someone-today-how",
-      "url": "/writing/i-hope-this-helps-someone-today-how/",
-      "summary": "Originally published on Substack.",
-      "native": true,
-      "tags": [
-        "AI & Technology",
-        "Reflections"
-      ]
-    },
-    {
-      "slug": "the-great-arbitrage",
-      "title": "The Great Arbitrage",
-      "datePublished": "2026-08-02",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/the-great-arbitrage",
-      "url": "/writing/the-great-arbitrage/",
-      "summary": "Buying Time When the “Fast Clock” Panics",
-      "native": true,
-      "tags": [
-        "Investment Strategy"
-      ]
-    },
-    {
-      "slug": "how-i-turned-macro-outlooks-into",
-      "title": "How I Turned Macro Outlooks into ETF Portfolios and How They Performed by Year-End 2025",
-      "datePublished": "2026-01-03",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/how-i-turned-macro-outlooks-into",
-      "url": "/writing/how-i-turned-macro-outlooks-into/",
-      "summary": "Originally published on Substack.",
-      "native": true,
-      "tags": [
-        "Investment Strategy"
-      ]
-    },
-    {
-      "slug": "15-billion-heartbeats",
-      "title": "1.5 Billion Heartbeats",
-      "datePublished": "2026-05-11",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/15-billion-heartbeats",
-      "url": "/writing/15-billion-heartbeats/",
-      "summary": "The Biological Scaling Laws of Money and Why Corporations Die",
-      "native": true,
-      "tags": [
-        "Reflections"
-      ]
-    },
-    {
-      "slug": "the-frontier-acceleration",
-      "title": "The Frontier Acceleration",
-      "datePublished": "2026-05-27",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/the-frontier-acceleration",
-      "url": "/writing/the-frontier-acceleration/",
-      "summary": "Leapfrogging and the Super-Linear Metabolism of Uganda",
-      "native": true,
-      "tags": [
-        "Africa & Development"
-      ]
-    },
-    {
-      "slug": "how-to-make-africa-a-100-billion",
-      "title": "How to Make Africa a $100 Billion Tradeable Asset Class",
-      "datePublished": "2026-03-18",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/how-to-make-africa-a-100-billion",
-      "url": "/writing/how-to-make-africa-a-100-billion/",
-      "summary": "Originally published on Substack.",
-      "native": true,
-      "tags": [
-        "Investment Strategy",
-        "Africa & Development"
-      ]
-    },
-    {
-      "slug": "the-ai-bubble-why-manias-never-really",
-      "title": "The AI Bubble: Why Manias Never Really Die (Part 1)",
-      "datePublished": "2025-10-12",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/the-ai-bubble-why-manias-never-really",
-      "url": "/writing/the-ai-bubble-why-manias-never-really/",
-      "summary": "From the railway boom to the AI revolution; how markets finance progress, lose their minds and find their footing again.",
-      "native": true,
-      "tags": [
-        "AI & Technology",
-        "Investment Strategy",
-        "Africa & Development",
-        "Reflections"
-      ]
-    },
-    {
-      "slug": "the-ai-bubble-why-manias-never-really-582",
-      "title": "The AI Bubble, Why Manias Never Really Die (Part 3): Three Red Lights",
-      "datePublished": "2026-04-30",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/the-ai-bubble-why-manias-never-really-582",
-      "url": "/writing/the-ai-bubble-why-manias-never-really-582/",
-      "summary": "Subtitle: The Survival Directive has been activated. Here is what the warning lights are saying in April 2026, and what to do about it.",
-      "native": true,
-      "tags": [
-        "AI & Technology"
-      ]
-    },
-    {
-      "slug": "macro-themed-portfolios-with-chatgpt",
-      "title": "Macro-Themed Portfolios with ChatGPT: 2025 ETF Performance (as at Aug 8, 2025)",
-      "datePublished": "2025-09-05",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/macro-themed-portfolios-with-chatgpt",
-      "url": "/writing/macro-themed-portfolios-with-chatgpt/",
-      "summary": "Originally published on Substack.",
-      "native": true,
-      "tags": [
-        "AI & Technology",
-        "Investment Strategy"
-      ]
-    },
-    {
-      "slug": "ergodicity",
-      "title": "Ergodicity",
-      "datePublished": "2026-06-04",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/ergodicity",
-      "url": "/writing/ergodicity/",
-      "summary": "Why the “Average” Investor Is a Myth — and Why Your Survival Is the Only Statistic That Matters",
-      "native": true,
-      "tags": [
-        "Investment Strategy"
-      ]
-    },
-    {
-      "slug": "the-gem-inside-the-rump",
-      "title": "The Gem Inside the Rump",
-      "datePublished": "2026-08-26",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/the-gem-inside-the-rump",
-      "url": "/writing/the-gem-inside-the-rump/",
-      "summary": "Why some public companies secretly behave like venture capital funds",
+      "originalUrl": "https://legesi.substack.com/p/optionality-and-the-investors-mindset",
+      "url": "/writing/optionality-and-the-investors-mindset/",
+      "summary": "Lessons in risk reward and why small decisions today can shape outsized outcomes tomorrow",
       "native": true,
       "research": {
-        "repository": "https://github.com/Superstar1910/mtn-uganda-stock-coverage",
-        "analysis": "https://github.com/Superstar1910/mtn-uganda-stock-coverage/blob/main/docs/index.html",
-        "reviewStatus": "Research linkage identified; original article snapshot not pinned"
+        "repository": "https://github.com/Superstar1910/umeme-stock-coverage",
+        "methodology": "https://github.com/Superstar1910/umeme-stock-coverage/blob/main/docs/methodology.md",
+        "analysis": "https://github.com/Superstar1910/umeme-stock-coverage/blob/main/research/coverage.md",
+        "cutoff": null,
+        "reviewStatus": "Historical research; current recovery and arbitration status not verified"
       },
       "tags": [
         "Equity & Valuation",
-        "Reflections"
-      ]
-    },
-    {
-      "slug": "the-unified-theory-of-investing-the",
-      "title": "The Unified Theory of Investing: The Illusion of the Clock",
-      "datePublished": "2026-04-20",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/the-unified-theory-of-investing-the",
-      "url": "/writing/the-unified-theory-of-investing-the/",
-      "summary": "Why Your Time Horizon Warps the Fabric of Risk",
-      "native": true,
-      "tags": [
-        "Investment Strategy"
-      ]
-    },
-    {
-      "slug": "tail-risk-the-losses-that-dont-show",
-      "title": "Tail Risk: The Losses That Don’t Show Up in Your Models",
-      "datePublished": "2026-01-22",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/tail-risk-the-losses-that-dont-show",
-      "url": "/writing/tail-risk-the-losses-that-dont-show/",
-      "summary": "The case for investing in frontier and emerging markets",
-      "native": true,
-      "tags": [
-        "Investment Strategy",
-        "Africa & Development",
-        "Reflections"
-      ]
-    },
-    {
-      "slug": "can-pavlov-and-skinner-help-us-find",
-      "title": "Can Pavlov and Skinner Help Us Find Better Investments?",
-      "datePublished": "2026-08-18",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/can-pavlov-and-skinner-help-us-find",
-      "url": "/writing/can-pavlov-and-skinner-help-us-find/",
-      "summary": "Exploring behavioural conditioning as a screen for identifying economic moats in listed companies",
-      "native": true,
-      "research": {
-        "repository": "https://github.com/Superstar1910/behavioural-capital-investing",
-        "reviewStatus": "Repository linkage provisional; verify availability and source version"
-      },
-      "tags": [
-        "Investment Strategy"
-      ]
-    },
-    {
-      "slug": "quickmart-ipo-what-is-a-share-really",
-      "title": "Quickmart IPO: What Is a Share Really Worth at KES 7.50?",
-      "datePublished": "2026-10-12",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/quickmart-ipo-what-is-a-share-really",
-      "url": "/writing/quickmart-ipo-what-is-a-share-really/",
-      "summary": "A good business is not necessarily a good investment at any price. Examining Quickmart’s earnings, cash flows, comparables and intrinsic value to assess if the IPO offers investors a margin of safety",
-      "native": true,
-      "research": {
-        "repository": "https://github.com/Superstar1910/quickmart-ipo-investment-analysis",
-        "reviewStatus": "Suggested linkage; verify before final publication"
-      },
-      "post_id": "219992382.quickmart-ipo-what-is-a-share-really",
-      "tags": [
-        "Equity & Valuation",
-        "Investment Strategy"
-      ]
-    },
-    {
-      "slug": "before-the-gem-why-this-series-exists",
-      "title": "Finding Venture Capital Returns in Public Markets",
-      "datePublished": "2026-08-22",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/before-the-gem-why-this-series-exists",
-      "url": "/writing/before-the-gem-why-this-series-exists/",
-      "summary": "Series Introduction: Why this Series Exists",
-      "native": true,
-      "research": null,
-      "post_id": "211891066.before-the-gem-why-this-series-exists",
-      "tags": [
-        "Equity & Valuation",
         "Investment Strategy",
         "Reflections"
-      ]
-    },
-    {
-      "slug": "the-ai-bubble-why-manias-never-really-3b8",
-      "title": "The AI Bubble: Why Manias Never Really Die (Part 4)",
-      "datePublished": "2026-05-05",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/the-ai-bubble-why-manias-never-really-3b8",
-      "url": "/writing/the-ai-bubble-why-manias-never-really-3b8/",
-      "summary": "How to size a portfolio for survival of the AI Bubble; What survival looks like and what it costs",
-      "native": true,
-      "research": null,
-      "post_id": "196465595.the-ai-bubble-why-manias-never-really-3b8",
-      "tags": [
-        "AI & Technology",
-        "Investment Strategy"
-      ]
-    },
-    {
-      "slug": "when-every-man-builds-his-own-ark",
-      "title": "When every man builds his own ark, civilization drowns",
-      "datePublished": "2025-11-03",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/when-every-man-builds-his-own-ark",
-      "url": "/writing/when-every-man-builds-his-own-ark/",
-      "summary": "The Tragedy of the Commons",
-      "native": true,
-      "research": null,
-      "post_id": "177813493.when-every-man-builds-his-own-ark",
-      "tags": [
-        "Africa & Development",
-        "Reflections"
-      ]
-    },
-    {
-      "slug": "the-ai-bubble-why-manias-never-really-3c7",
-      "title": "The AI Bubble: Why Manias Never Really Die (Part 2)",
-      "datePublished": "2025-12-30",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/the-ai-bubble-why-manias-never-really-3c7",
-      "url": "/writing/the-ai-bubble-why-manias-never-really-3c7/",
-      "summary": "How disciplined investors survive the world’s most expensive optimism.",
-      "native": true,
-      "research": null,
-      "post_id": "175921569.the-ai-bubble-why-manias-never-really-3c7",
-      "tags": [
-        "AI & Technology",
-        "Investment Strategy",
-        "Reflections"
-      ]
-    },
-    {
-      "slug": "goat-farming-or-goat-ponzi-investors",
-      "title": "Goat Farming or Goat Ponzi?",
-      "datePublished": "2025-10-12",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/goat-farming-or-goat-ponzi-investors",
-      "url": "/writing/goat-farming-or-goat-ponzi-investors/",
-      "summary": "Investors Should Always Ask the Herd Questions",
-      "native": true,
-      "research": null,
-      "post_id": "174324772.goat-farming-or-goat-ponzi-investors",
-      "tags": [
-        "Investment Strategy"
-      ]
-    },
-    {
-      "slug": "why-your-brain-is-your-worst-investment",
-      "title": "Why Your Brain Is Your Worst Investment Enemy",
-      "datePublished": "2025-09-23",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/why-your-brain-is-your-worst-investment",
-      "url": "/writing/why-your-brain-is-your-worst-investment/",
-      "summary": "How psychological biases sabotage your portfolio, and what to do about it",
-      "native": true,
-      "research": null,
-      "post_id": "174086620.why-your-brain-is-your-worst-investment",
-      "tags": [
-        "Investment Strategy"
-      ]
-    },
-    {
-      "slug": "why-mtn-uganda-is-a-free-call-option",
-      "title": "Why MTN Uganda Is a Free Call Option on Fintech’s Future",
-      "datePublished": "2025-07-26",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/why-mtn-uganda-is-a-free-call-option",
-      "url": "/writing/why-mtn-uganda-is-a-free-call-option/",
-      "summary": "Originally published on Substack.",
-      "native": true,
-      "research": {
-        "repository": "https://github.com/Superstar1910/mtn-uganda-stock-coverage",
-        "reviewStatus": "Suggested linkage; verify before final publication"
-      },
-      "post_id": "167227844.why-mtn-uganda-is-a-free-call-option",
-      "tags": [
-        "AI & Technology",
-        "Equity & Valuation",
-        "Africa & Development"
       ]
     },
     {
@@ -736,25 +757,6 @@
       ]
     },
     {
-      "slug": "nobody-talks-about-this-path-to-homeownership",
-      "title": "Nobody Talks About This Path to Homeownership in Africa — But It Could Change Everything",
-      "datePublished": "2025-04-18",
-      "dateAdded": "2026-10-14",
-      "dateModified": null,
-      "type": "Essay / research",
-      "platform": "Substack",
-      "originalUrl": "https://legesi.substack.com/p/nobody-talks-about-this-path-to-homeownership",
-      "url": "/writing/nobody-talks-about-this-path-to-homeownership/",
-      "summary": "How to turn renters into owners",
-      "native": true,
-      "research": null,
-      "post_id": "161635241.nobody-talks-about-this-path-to-homeownership",
-      "tags": [
-        "Infrastructure & Energy",
-        "Africa & Development"
-      ]
-    },
-    {
       "slug": "you-dont-need-to-buy-land-now-you",
       "title": "You Don’t Need to Buy Land Now. You Just Need the Option.",
       "datePublished": "2025-04-19",
@@ -789,6 +791,25 @@
       "tags": [
         "Investment Strategy",
         "Reflections"
+      ]
+    },
+    {
+      "slug": "nobody-talks-about-this-path-to-homeownership",
+      "title": "Nobody Talks About This Path to Homeownership in Africa — But It Could Change Everything",
+      "datePublished": "2025-04-18",
+      "dateAdded": "2026-10-14",
+      "dateModified": null,
+      "type": "Essay / research",
+      "platform": "Substack",
+      "originalUrl": "https://legesi.substack.com/p/nobody-talks-about-this-path-to-homeownership",
+      "url": "/writing/nobody-talks-about-this-path-to-homeownership/",
+      "summary": "How to turn renters into owners",
+      "native": true,
+      "research": null,
+      "post_id": "161635241.nobody-talks-about-this-path-to-homeownership",
+      "tags": [
+        "Infrastructure & Energy",
+        "Africa & Development"
       ]
     },
     {
