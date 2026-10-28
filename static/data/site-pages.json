@@ -35,156 +35,6 @@
     "path": "privacy/index.html"
   },
   {
-    "url": "/projects/africa-enduring-enterprises/",
-    "title": "Africa’s Enduring Enterprises",
-    "path": "projects/africa-enduring-enterprises/index.html"
-  },
-  {
-    "url": "/projects/",
-    "title": "Work",
-    "path": "projects/index.html"
-  },
-  {
-    "url": "/projects/professional-services-future/ai-policy/",
-    "title": "AI Governance & Acceptable Use Policy",
-    "path": "projects/professional-services-future/ai-policy/index.html"
-  },
-  {
-    "url": "/projects/professional-services-future/",
-    "title": "Professional Services Firm of the Future",
-    "path": "projects/professional-services-future/index.html"
-  },
-  {
-    "url": "/research/HS_Code/",
-    "title": "HS Code",
-    "path": "research/HS_Code/index.html"
-  },
-  {
-    "url": "/research/HS_Codes_Checker/",
-    "title": "HS Codes Checker",
-    "path": "research/HS_Codes_Checker/index.html"
-  },
-  {
-    "url": "/research/Ran_Inference/",
-    "title": "Inference Experiments",
-    "path": "research/Ran_Inference/index.html"
-  },
-  {
-    "url": "/research/africa-affordable-housing-lab/calculator.html",
-    "title": "Africa Affordable Housing Lab",
-    "path": "research/africa-affordable-housing-lab/calculator.html"
-  },
-  {
-    "url": "/research/africa-affordable-housing-lab/developer.html",
-    "title": "Developer Feasibility",
-    "path": "research/africa-affordable-housing-lab/developer.html"
-  },
-  {
-    "url": "/research/africa-affordable-housing-lab/",
-    "title": "Africa Affordable Housing Lab",
-    "path": "research/africa-affordable-housing-lab/index.html"
-  },
-  {
-    "url": "/research/africa-fx-pressure-watch/",
-    "title": "Africa FX Pressure Watch",
-    "path": "research/africa-fx-pressure-watch/index.html"
-  },
-  {
-    "url": "/research/africa-investability-index/",
-    "title": "Africa Investability Index",
-    "path": "research/africa-investability-index/index.html"
-  },
-  {
-    "url": "/research/client_onboarding/",
-    "title": "Client Onboarding",
-    "path": "research/client_onboarding/index.html"
-  },
-  {
-    "url": "/research/cyanase-collective/",
-    "title": "Cyanase Collective",
-    "path": "research/cyanase-collective/index.html"
-  },
-  {
-    "url": "/research/dangote-refinery-ipo-investment-analysis/full-report/",
-    "title": "Dangote Petroleum Refinery IPO",
-    "path": "research/dangote-refinery-ipo-investment-analysis/full-report/index.html"
-  },
-  {
-    "url": "/research/dangote-refinery-ipo-investment-analysis/",
-    "title": "Dangote Refinery IPO Research",
-    "path": "research/dangote-refinery-ipo-investment-analysis/index.html"
-  },
-  {
-    "url": "/research/impala_market/",
-    "title": "Impala Market",
-    "path": "research/impala_market/index.html"
-  },
-  {
-    "url": "/research/investment-access-mvp/",
-    "title": "Investment Access MVP",
-    "path": "research/investment-access-mvp/index.html"
-  },
-  {
-    "url": "/research/nsagu-industrial-park/",
-    "title": "Nsagu Industrial Park",
-    "path": "research/nsagu-industrial-park/index.html"
-  },
-  {
-    "url": "/research/paygo-trojan-rail-africa/full-report/",
-    "title": "The Trojan Rail",
-    "path": "research/paygo-trojan-rail-africa/full-report/index.html"
-  },
-  {
-    "url": "/research/paygo-trojan-rail-africa/",
-    "title": "PAYGo: The Trojan Rail",
-    "path": "research/paygo-trojan-rail-africa/index.html"
-  },
-  {
-    "url": "/research/quickmart-ipo-investment-analysis/full-report/",
-    "title": "Quickmart IPO",
-    "path": "research/quickmart-ipo-investment-analysis/full-report/index.html"
-  },
-  {
-    "url": "/research/quickmart-ipo-investment-analysis/",
-    "title": "Quickmart IPO Research",
-    "path": "research/quickmart-ipo-investment-analysis/index.html"
-  },
-  {
-    "url": "/research/robo_advisor_project/",
-    "title": "Robo Adviser",
-    "path": "research/robo_advisor_project/index.html"
-  },
-  {
-    "url": "/research/uganda-capital-formation/dashboard/",
-    "title": "Uganda Capital Formation",
-    "path": "research/uganda-capital-formation/dashboard/index.html"
-  },
-  {
-    "url": "/research/uganda-capital-formation/dashboard/inspect.html",
-    "title": "Research inspection index",
-    "path": "research/uganda-capital-formation/dashboard/inspect.html"
-  },
-  {
-    "url": "/research/uganda-capital-formation/dashboard/programme.html",
-    "title": "Programme architecture",
-    "path": "research/uganda-capital-formation/dashboard/programme.html"
-  },
-  {
-    "url": "/research/uganda-capital-formation/",
-    "title": "Uganda Capital Formation",
-    "path": "research/uganda-capital-formation/index.html"
-  },
-  {
-    "url": "/research/umeme-stock-coverage/full-report/",
-    "title": "Umeme",
-    "path": "research/umeme-stock-coverage/full-report/index.html"
-  },
-  {
-    "url": "/research/umeme-stock-coverage/",
-    "title": "Umeme Research",
-    "path": "research/umeme-stock-coverage/index.html"
-  },
-  {
     "url": "/sitemap/",
     "title": "Site map",
     "path": "sitemap/index.html"
@@ -193,6 +43,176 @@
     "url": "/terms/",
     "title": "Terms",
     "path": "terms/index.html"
+  },
+  {
+    "url": "/work/africa-affordable-housing-lab/calculator/",
+    "title": "Africa Affordable Housing Lab",
+    "path": "work/africa-affordable-housing-lab/calculator/index.html"
+  },
+  {
+    "url": "/work/africa-affordable-housing-lab/developer/",
+    "title": "Developer Feasibility",
+    "path": "work/africa-affordable-housing-lab/developer/index.html"
+  },
+  {
+    "url": "/work/africa-affordable-housing-lab/",
+    "title": "Africa Affordable Housing Lab",
+    "path": "work/africa-affordable-housing-lab/index.html"
+  },
+  {
+    "url": "/work/africa-enduring-enterprises/",
+    "title": "Africa’s Enduring Enterprises",
+    "path": "work/africa-enduring-enterprises/index.html"
+  },
+  {
+    "url": "/work/africa-fx-pressure-watch/",
+    "title": "Africa FX Pressure Watch",
+    "path": "work/africa-fx-pressure-watch/index.html"
+  },
+  {
+    "url": "/work/africa-investability-index/",
+    "title": "Africa Investability Index",
+    "path": "work/africa-investability-index/index.html"
+  },
+  {
+    "url": "/work/client-onboarding/",
+    "title": "Client Onboarding",
+    "path": "work/client-onboarding/index.html"
+  },
+  {
+    "url": "/work/cyanase-collective/",
+    "title": "Cyanase Collective",
+    "path": "work/cyanase-collective/index.html"
+  },
+  {
+    "url": "/work/dangote-refinery-ipo-investment-analysis/full-report/",
+    "title": "Dangote Petroleum Refinery IPO",
+    "path": "work/dangote-refinery-ipo-investment-analysis/full-report/index.html"
+  },
+  {
+    "url": "/work/dangote-refinery-ipo-investment-analysis/",
+    "title": "Dangote Refinery IPO Research",
+    "path": "work/dangote-refinery-ipo-investment-analysis/index.html"
+  },
+  {
+    "url": "/work/hs-code/",
+    "title": "HS Code",
+    "path": "work/hs-code/index.html"
+  },
+  {
+    "url": "/work/hs-codes-checker/",
+    "title": "HS Codes Checker",
+    "path": "work/hs-codes-checker/index.html"
+  },
+  {
+    "url": "/work/impala-market/",
+    "title": "Impala Market",
+    "path": "work/impala-market/index.html"
+  },
+  {
+    "url": "/work/",
+    "title": "Work",
+    "path": "work/index.html"
+  },
+  {
+    "url": "/work/investment-access-mvp/",
+    "title": "Investment Access MVP",
+    "path": "work/investment-access-mvp/index.html"
+  },
+  {
+    "url": "/work/mtn-uganda-stock-coverage/",
+    "title": "MTN Uganda Research",
+    "path": "work/mtn-uganda-stock-coverage/index.html"
+  },
+  {
+    "url": "/work/mtn-uganda-stock-coverage/ownership/",
+    "title": "Can the shareholder capture the Gem?",
+    "path": "work/mtn-uganda-stock-coverage/ownership/index.html"
+  },
+  {
+    "url": "/work/mtn-uganda-stock-coverage/substack/",
+    "title": "The published articles behind the coverage",
+    "path": "work/mtn-uganda-stock-coverage/substack/index.html"
+  },
+  {
+    "url": "/work/mtn-uganda-stock-coverage/valuation/",
+    "title": "From sum of the parts to investor returns",
+    "path": "work/mtn-uganda-stock-coverage/valuation/index.html"
+  },
+  {
+    "url": "/work/nsagu-industrial-park/",
+    "title": "Nsagu Industrial Park",
+    "path": "work/nsagu-industrial-park/index.html"
+  },
+  {
+    "url": "/work/paygo-trojan-rail-africa/full-report/",
+    "title": "The Trojan Rail",
+    "path": "work/paygo-trojan-rail-africa/full-report/index.html"
+  },
+  {
+    "url": "/work/paygo-trojan-rail-africa/",
+    "title": "PAYGo: The Trojan Rail",
+    "path": "work/paygo-trojan-rail-africa/index.html"
+  },
+  {
+    "url": "/work/professional-services-future/ai-policy/",
+    "title": "AI Governance & Acceptable Use Policy",
+    "path": "work/professional-services-future/ai-policy/index.html"
+  },
+  {
+    "url": "/work/professional-services-future/",
+    "title": "Professional Services Firm of the Future",
+    "path": "work/professional-services-future/index.html"
+  },
+  {
+    "url": "/work/quickmart-ipo-investment-analysis/full-report/",
+    "title": "Quickmart IPO",
+    "path": "work/quickmart-ipo-investment-analysis/full-report/index.html"
+  },
+  {
+    "url": "/work/quickmart-ipo-investment-analysis/",
+    "title": "Quickmart IPO Research",
+    "path": "work/quickmart-ipo-investment-analysis/index.html"
+  },
+  {
+    "url": "/work/ran-inference/",
+    "title": "Inference Experiments",
+    "path": "work/ran-inference/index.html"
+  },
+  {
+    "url": "/work/robo-advisor-project/",
+    "title": "Robo Adviser",
+    "path": "work/robo-advisor-project/index.html"
+  },
+  {
+    "url": "/work/uganda-capital-formation/dashboard/",
+    "title": "Uganda Capital Formation",
+    "path": "work/uganda-capital-formation/dashboard/index.html"
+  },
+  {
+    "url": "/work/uganda-capital-formation/dashboard/inspect/",
+    "title": "Research inspection index",
+    "path": "work/uganda-capital-formation/dashboard/inspect/index.html"
+  },
+  {
+    "url": "/work/uganda-capital-formation/dashboard/programme/",
+    "title": "Programme architecture",
+    "path": "work/uganda-capital-formation/dashboard/programme/index.html"
+  },
+  {
+    "url": "/work/uganda-capital-formation/",
+    "title": "Uganda Capital Formation",
+    "path": "work/uganda-capital-formation/index.html"
+  },
+  {
+    "url": "/work/umeme-stock-coverage/full-report/",
+    "title": "Umeme",
+    "path": "work/umeme-stock-coverage/full-report/index.html"
+  },
+  {
+    "url": "/work/umeme-stock-coverage/",
+    "title": "Umeme Research",
+    "path": "work/umeme-stock-coverage/index.html"
   },
   {
     "url": "/writing/15-billion-heartbeats/",

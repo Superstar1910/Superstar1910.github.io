@@ -121,7 +121,7 @@
       "type": "Investment research",
       "platform": "Legesi Research",
       "originalUrl": "https://github.com/Superstar1910/quickmart-ipo-investment-analysis/blob/main/research/quickmart-ipo-investment-assessment.md",
-      "url": "/research/quickmart-ipo-investment-analysis/full-report/",
+      "url": "/work/quickmart-ipo-investment-analysis/full-report/",
       "summary": "Independent assessment of Quickmart's IPO valuation, cash flows, lease economics and margin of safety.",
       "native": true,
       "research": {
@@ -138,7 +138,8 @@
       "tags": [
         "Equity & Valuation",
         "Investment Strategy"
-      ]
+      ],
+      "feedGuid": "https://legesi.xyz/research/quickmart-ipo-investment-analysis/full-report/"
     },
     {
       "slug": "dangote-refinery-ipo-coverage",
@@ -149,7 +150,7 @@
       "type": "Investment research",
       "platform": "Legesi Research",
       "originalUrl": "https://github.com/Superstar1910/dangote-refinery-ipo-investment-analysis",
-      "url": "/research/dangote-refinery-ipo-investment-analysis/full-report/",
+      "url": "/work/dangote-refinery-ipo-investment-analysis/full-report/",
       "summary": "Initial valuation, funding, governance and downside assessment of the proposed refinery IPO.",
       "native": true,
       "research": {
@@ -163,7 +164,8 @@
         "Equity & Valuation",
         "Investment Strategy",
         "Infrastructure & Energy"
-      ]
+      ],
+      "feedGuid": "https://legesi.xyz/research/dangote-refinery-ipo-investment-analysis/full-report/"
     },
     {
       "slug": "quickmart-ipo-what-is-a-share-really",

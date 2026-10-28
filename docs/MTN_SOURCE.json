@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/Superstar1910/mtn-uganda-stock-coverage",
+  "sourceCommit": "988835f2ef9765e1aa0d6bbc70f19a160e3a533b",
+  "generator": "scripts/build_reports.py",
+  "publicationRoot": "/work/mtn-uganda-stock-coverage/",
+  "note": "Versioned public research snapshot. Re-run importer and build_site.py after reviewing generator changes."
+}

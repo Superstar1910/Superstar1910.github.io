@@ -30,7 +30,7 @@ jobs:
           mkdir -p test-results/performance
           export CHROME_PATH="$(node -e 'console.log(require("playwright").chromium.executablePath())')"
           npx lighthouse http://127.0.0.1:8765/ --chrome-flags='--headless --no-sandbox' --output=json --output=html --output-path=test-results/performance/home --quiet
-          npx lighthouse http://127.0.0.1:8765/projects/ --chrome-flags='--headless --no-sandbox' --output=json --output=html --output-path=test-results/performance/work --quiet
+          npx lighthouse http://127.0.0.1:8765/work/ --chrome-flags='--headless --no-sandbox' --output=json --output=html --output-path=test-results/performance/work --quiet
           npx lighthouse http://127.0.0.1:8765/writing/ --chrome-flags='--headless --no-sandbox' --output=json --output=html --output-path=test-results/performance/writing --quiet
           node - <<'JS'
           const fs=require('fs');for(const name of ['home','work','writing']){const x=JSON.parse(fs.readFileSync('test-results/performance/'+name+'.report.json'));console.log(JSON.stringify({page:name,tool:x.lighthouseVersion,performance:x.categories.performance.score,accessibility:x.categories.accessibility.score,lcp:x.audits['largest-contentful-paint'].numericValue,cls:x.audits['cumulative-layout-shift'].numericValue,tbt:x.audits['total-blocking-time'].numericValue}));}

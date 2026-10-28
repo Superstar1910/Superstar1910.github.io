@@ -43,3 +43,7 @@ Historical Substack posts were imported as native pages through PR #12. Original
 ## Rollback
 
 Revert the relevant merge commit via a reviewed PR if a release causes regressions. Preserve `CNAME` and `.nojekyll` unless intentionally changing hosting architecture.
+
+## Public URL contract
+
+Work, research programmes and tools share `/work/<slug>/`; Writing remains at `/writing/`. See [URL migration and rollback](docs/URL_MIGRATION.md). Run `python scripts/audit_urls.py` after building.

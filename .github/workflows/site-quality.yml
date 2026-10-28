@@ -19,6 +19,7 @@ jobs:
           python scripts/audit_publishing.py
           python scripts/audit_navigation.py
           python scripts/audit_coherence.py
+          python scripts/audit_urls.py
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '22'
@@ -30,6 +31,7 @@ jobs:
         run: |
           python -m http.server 8765 --bind 127.0.0.1 >/tmp/legesi-qa.log 2>&1 &
           node scripts/browser_qa.cjs
+          node scripts/url_qa.cjs
       - name: Package approved public files
         run: python scripts/package_site.py
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4

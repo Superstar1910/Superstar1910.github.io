@@ -27,7 +27,7 @@ for k,v in (("title","Legesi.xyz — Writing and Research"),("link",BASE+"/writi
 for a in native:
     item=SubElement(channel,"item")
     url=BASE+a["url"]
-    for k,v in (("title",a["title"]),("link",url),("guid",url),("description",a.get("summary",""))):
+    for k,v in (("title",a["title"]),("link",url),("guid",a.get("feedGuid",url)),("description",a.get("summary",""))):
         SubElement(item,k).text=v
     dt=datetime.combine(date.fromisoformat(a["datePublished"]),datetime.min.time(),tzinfo=timezone.utc)
     SubElement(item,"pubDate").text=format_datetime(dt)
