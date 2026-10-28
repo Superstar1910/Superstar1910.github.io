@@ -1,0 +1,422 @@
+[
+  {
+    "url": "/404.html",
+    "title": "Page not found",
+    "path": "404.html"
+  },
+  {
+    "url": "/about/",
+    "title": "About",
+    "path": "about/index.html"
+  },
+  {
+    "url": "/disclaimer/",
+    "title": "Investment Disclaimer",
+    "path": "disclaimer/index.html"
+  },
+  {
+    "url": "/financial-literacy/emergency-fund/",
+    "title": "Emergency Fund Planner",
+    "path": "financial-literacy/emergency-fund/index.html"
+  },
+  {
+    "url": "/financial-literacy/",
+    "title": "Financial Literacy & Investing",
+    "path": "financial-literacy/index.html"
+  },
+  {
+    "url": "/",
+    "title": "Home",
+    "path": "index.html"
+  },
+  {
+    "url": "/privacy/",
+    "title": "Privacy",
+    "path": "privacy/index.html"
+  },
+  {
+    "url": "/projects/africa-enduring-enterprises/",
+    "title": "Africa’s Enduring Enterprises",
+    "path": "projects/africa-enduring-enterprises/index.html"
+  },
+  {
+    "url": "/projects/",
+    "title": "Work",
+    "path": "projects/index.html"
+  },
+  {
+    "url": "/projects/professional-services-future/ai-policy/",
+    "title": "AI Governance & Acceptable Use Policy",
+    "path": "projects/professional-services-future/ai-policy/index.html"
+  },
+  {
+    "url": "/projects/professional-services-future/",
+    "title": "Professional Services Firm of the Future",
+    "path": "projects/professional-services-future/index.html"
+  },
+  {
+    "url": "/research/HS_Code/",
+    "title": "HS Code",
+    "path": "research/HS_Code/index.html"
+  },
+  {
+    "url": "/research/HS_Codes_Checker/",
+    "title": "HS Codes Checker",
+    "path": "research/HS_Codes_Checker/index.html"
+  },
+  {
+    "url": "/research/Ran_Inference/",
+    "title": "Inference Experiments",
+    "path": "research/Ran_Inference/index.html"
+  },
+  {
+    "url": "/research/africa-affordable-housing-lab/calculator.html",
+    "title": "Africa Affordable Housing Lab",
+    "path": "research/africa-affordable-housing-lab/calculator.html"
+  },
+  {
+    "url": "/research/africa-affordable-housing-lab/developer.html",
+    "title": "Developer Feasibility",
+    "path": "research/africa-affordable-housing-lab/developer.html"
+  },
+  {
+    "url": "/research/africa-affordable-housing-lab/",
+    "title": "Africa Affordable Housing Lab",
+    "path": "research/africa-affordable-housing-lab/index.html"
+  },
+  {
+    "url": "/research/africa-fx-pressure-watch/",
+    "title": "Africa FX Pressure Watch",
+    "path": "research/africa-fx-pressure-watch/index.html"
+  },
+  {
+    "url": "/research/africa-investability-index/",
+    "title": "Africa Investability Index",
+    "path": "research/africa-investability-index/index.html"
+  },
+  {
+    "url": "/research/client_onboarding/",
+    "title": "Client Onboarding",
+    "path": "research/client_onboarding/index.html"
+  },
+  {
+    "url": "/research/cyanase-collective/",
+    "title": "Cyanase Collective",
+    "path": "research/cyanase-collective/index.html"
+  },
+  {
+    "url": "/research/dangote-refinery-ipo-investment-analysis/full-report/",
+    "title": "Dangote Petroleum Refinery IPO",
+    "path": "research/dangote-refinery-ipo-investment-analysis/full-report/index.html"
+  },
+  {
+    "url": "/research/dangote-refinery-ipo-investment-analysis/",
+    "title": "Dangote Refinery IPO Research",
+    "path": "research/dangote-refinery-ipo-investment-analysis/index.html"
+  },
+  {
+    "url": "/research/impala_market/",
+    "title": "Impala Market",
+    "path": "research/impala_market/index.html"
+  },
+  {
+    "url": "/research/investment-access-mvp/",
+    "title": "Investment Access MVP",
+    "path": "research/investment-access-mvp/index.html"
+  },
+  {
+    "url": "/research/nsagu-industrial-park/",
+    "title": "Nsagu Industrial Park",
+    "path": "research/nsagu-industrial-park/index.html"
+  },
+  {
+    "url": "/research/paygo-trojan-rail-africa/full-report/",
+    "title": "The Trojan Rail",
+    "path": "research/paygo-trojan-rail-africa/full-report/index.html"
+  },
+  {
+    "url": "/research/paygo-trojan-rail-africa/",
+    "title": "PAYGo: The Trojan Rail",
+    "path": "research/paygo-trojan-rail-africa/index.html"
+  },
+  {
+    "url": "/research/quickmart-ipo-investment-analysis/full-report/",
+    "title": "Quickmart IPO",
+    "path": "research/quickmart-ipo-investment-analysis/full-report/index.html"
+  },
+  {
+    "url": "/research/quickmart-ipo-investment-analysis/",
+    "title": "Quickmart IPO Research",
+    "path": "research/quickmart-ipo-investment-analysis/index.html"
+  },
+  {
+    "url": "/research/robo_advisor_project/",
+    "title": "Robo Adviser",
+    "path": "research/robo_advisor_project/index.html"
+  },
+  {
+    "url": "/research/uganda-capital-formation/dashboard/",
+    "title": "Uganda Capital Formation",
+    "path": "research/uganda-capital-formation/dashboard/index.html"
+  },
+  {
+    "url": "/research/uganda-capital-formation/dashboard/inspect.html",
+    "title": "Research inspection index",
+    "path": "research/uganda-capital-formation/dashboard/inspect.html"
+  },
+  {
+    "url": "/research/uganda-capital-formation/dashboard/programme.html",
+    "title": "Programme architecture",
+    "path": "research/uganda-capital-formation/dashboard/programme.html"
+  },
+  {
+    "url": "/research/uganda-capital-formation/",
+    "title": "Uganda Capital Formation",
+    "path": "research/uganda-capital-formation/index.html"
+  },
+  {
+    "url": "/research/umeme-stock-coverage/full-report/",
+    "title": "Umeme",
+    "path": "research/umeme-stock-coverage/full-report/index.html"
+  },
+  {
+    "url": "/research/umeme-stock-coverage/",
+    "title": "Umeme Research",
+    "path": "research/umeme-stock-coverage/index.html"
+  },
+  {
+    "url": "/sitemap/",
+    "title": "Site map",
+    "path": "sitemap/index.html"
+  },
+  {
+    "url": "/terms/",
+    "title": "Terms",
+    "path": "terms/index.html"
+  },
+  {
+    "url": "/writing/15-billion-heartbeats/",
+    "title": "1.5 Billion Heartbeats",
+    "path": "writing/15-billion-heartbeats/index.html"
+  },
+  {
+    "url": "/writing/africas-enduring-enterprises-26-october-2026/",
+    "title": "Africa's Enduring Enterprises: 26 October 2026 Evidence Update",
+    "path": "writing/africas-enduring-enterprises-26-october-2026/index.html"
+  },
+  {
+    "url": "/writing/as-a-stanbic-shareholder-heres-what/",
+    "title": "As a Stanbic Shareholder, Here’s What I’m Seeing in Uganda’s Banking Sector (2024)",
+    "path": "writing/as-a-stanbic-shareholder-heres-what/index.html"
+  },
+  {
+    "url": "/writing/before-the-gem-why-this-series-exists/",
+    "title": "Finding Venture Capital Returns in Public Markets",
+    "path": "writing/before-the-gem-why-this-series-exists/index.html"
+  },
+  {
+    "url": "/writing/bond-yield-rate-vs-bond-coupon-rate/",
+    "title": "Bond Yield rate Vs Bond Coupon rate",
+    "path": "writing/bond-yield-rate-vs-bond-coupon-rate/index.html"
+  },
+  {
+    "url": "/writing/can-pavlov-and-skinner-help-us-find/",
+    "title": "Can Pavlov and Skinner Help Us Find Better Investments?",
+    "path": "writing/can-pavlov-and-skinner-help-us-find/index.html"
+  },
+  {
+    "url": "/writing/carbon-markets-in-east-africa/",
+    "title": "Carbon Markets in East Africa",
+    "path": "writing/carbon-markets-in-east-africa/index.html"
+  },
+  {
+    "url": "/writing/economic-opportunity-is-not-investability/",
+    "title": "Economic Opportunity Is Not Investability",
+    "path": "writing/economic-opportunity-is-not-investability/index.html"
+  },
+  {
+    "url": "/writing/ergodicity/",
+    "title": "Ergodicity",
+    "path": "writing/ergodicity/index.html"
+  },
+  {
+    "url": "/writing/goat-farming-or-goat-ponzi-investors/",
+    "title": "Goat Farming or Goat Ponzi?",
+    "path": "writing/goat-farming-or-goat-ponzi-investors/index.html"
+  },
+  {
+    "url": "/writing/how-i-turned-macro-outlooks-into/",
+    "title": "How I Turned Macro Outlooks into ETF Portfolios and How They Performed by Year-End 2025",
+    "path": "writing/how-i-turned-macro-outlooks-into/index.html"
+  },
+  {
+    "url": "/writing/how-to-make-africa-a-100-billion/",
+    "title": "How to Make Africa a $100 Billion Tradeable Asset Class",
+    "path": "writing/how-to-make-africa-a-100-billion/index.html"
+  },
+  {
+    "url": "/writing/i-hope-this-helps-someone-today-how/",
+    "title": "I Hope This Helps Someone Today: How to Safely Hold Your Bitcoin",
+    "path": "writing/i-hope-this-helps-someone-today-how/index.html"
+  },
+  {
+    "url": "/writing/",
+    "title": "Writing",
+    "path": "writing/index.html"
+  },
+  {
+    "url": "/writing/kakira-the-company-that-had-to-be-rebuilt/",
+    "title": "Kakira: The Company That Had to Be Rebuilt",
+    "path": "writing/kakira-the-company-that-had-to-be-rebuilt/index.html"
+  },
+  {
+    "url": "/writing/macro-themed-portfolios-with-chatgpt/",
+    "title": "Macro-Themed Portfolios with ChatGPT: 2025 ETF Performance (as at Aug 8, 2025)",
+    "path": "writing/macro-themed-portfolios-with-chatgpt/index.html"
+  },
+  {
+    "url": "/writing/nobody-talks-about-this-path-to-homeownership/",
+    "title": "Nobody Talks About This Path to Homeownership in Africa",
+    "path": "writing/nobody-talks-about-this-path-to-homeownership/index.html"
+  },
+  {
+    "url": "/writing/optionality-and-the-investors-mindset/",
+    "title": "Optionality and the Investor’s Mindset: Part 1, Lessons from Umeme",
+    "path": "writing/optionality-and-the-investors-mindset/index.html"
+  },
+  {
+    "url": "/writing/optionality-and-the-investors-mindset-7f5/",
+    "title": "Optionality and the Investor’s Mindset: Part 2, What's Umeme's Probability of Winning the Arbitration?",
+    "path": "writing/optionality-and-the-investors-mindset-7f5/index.html"
+  },
+  {
+    "url": "/writing/quickmart-ipo-what-is-a-share-really/",
+    "title": "Quickmart IPO: What Is a Share Really Worth at KES 7.50?",
+    "path": "writing/quickmart-ipo-what-is-a-share-really/index.html"
+  },
+  {
+    "url": "/writing/risk-is-personal-but-also-a-privilege/",
+    "title": "Risk is Personal, but Also a Privilege",
+    "path": "writing/risk-is-personal-but-also-a-privilege/index.html"
+  },
+  {
+    "url": "/writing/solar-investment-in-uganda-policies/",
+    "title": "Solar Investment in Uganda: Policies, Incentives, and Market Response",
+    "path": "writing/solar-investment-in-uganda-policies/index.html"
+  },
+  {
+    "url": "/writing/tail-risk-the-losses-that-dont-show/",
+    "title": "Tail Risk: The Losses That Don’t Show Up in Your Models",
+    "path": "writing/tail-risk-the-losses-that-dont-show/index.html"
+  },
+  {
+    "url": "/writing/the-ai-awakening-a-look-back-at-2025/",
+    "title": "The AI Awakening: A Look Back at 2025 and Navigating the Embodied Future of 2026",
+    "path": "writing/the-ai-awakening-a-look-back-at-2025/index.html"
+  },
+  {
+    "url": "/writing/the-ai-bubble-why-manias-never-really/",
+    "title": "The AI Bubble: Why Manias Never Really Die (Part 1)",
+    "path": "writing/the-ai-bubble-why-manias-never-really/index.html"
+  },
+  {
+    "url": "/writing/the-ai-bubble-why-manias-never-really-3b8/",
+    "title": "The AI Bubble: Why Manias Never Really Die (Part 4)",
+    "path": "writing/the-ai-bubble-why-manias-never-really-3b8/index.html"
+  },
+  {
+    "url": "/writing/the-ai-bubble-why-manias-never-really-3c7/",
+    "title": "The AI Bubble: Why Manias Never Really Die (Part 2)",
+    "path": "writing/the-ai-bubble-why-manias-never-really-3c7/index.html"
+  },
+  {
+    "url": "/writing/the-ai-bubble-why-manias-never-really-582/",
+    "title": "The AI Bubble, Why Manias Never Really Die (Part 3): Three Red Lights",
+    "path": "writing/the-ai-bubble-why-manias-never-really-582/index.html"
+  },
+  {
+    "url": "/writing/the-frontier-acceleration/",
+    "title": "The Frontier Acceleration",
+    "path": "writing/the-frontier-acceleration/index.html"
+  },
+  {
+    "url": "/writing/the-gem-inside-the-rump/",
+    "title": "The Gem Inside the Rump",
+    "path": "writing/the-gem-inside-the-rump/index.html"
+  },
+  {
+    "url": "/writing/the-ghosts-of-drawdowns-past-present/",
+    "title": "The Ghosts of Drawdowns Past, Present, and Yet to Come",
+    "path": "writing/the-ghosts-of-drawdowns-past-present/index.html"
+  },
+  {
+    "url": "/writing/the-great-arbitrage/",
+    "title": "The Great Arbitrage",
+    "path": "writing/the-great-arbitrage/index.html"
+  },
+  {
+    "url": "/writing/the-illusion-of-ownership-what-mtn/",
+    "title": "The Illusion of Ownership: What MTN Uganda’s MoMo Restructure Means for Investors",
+    "path": "writing/the-illusion-of-ownership-what-mtn/index.html"
+  },
+  {
+    "url": "/writing/the-rise-of-carbon-markets-in-east/",
+    "title": "The Rise of Carbon Markets in East Africa: Opportunities and Challenges",
+    "path": "writing/the-rise-of-carbon-markets-in-east/index.html"
+  },
+  {
+    "url": "/writing/the-unified-theory-of-investing-the/",
+    "title": "The Unified Theory of Investing: The Illusion of the Clock",
+    "path": "writing/the-unified-theory-of-investing-the/index.html"
+  },
+  {
+    "url": "/writing/the-untold-story-behind-africas-most/",
+    "title": "The Untold Story behind Africa’s Most Valuable Fintech Spinout",
+    "path": "writing/the-untold-story-behind-africas-most/index.html"
+  },
+  {
+    "url": "/writing/the-world-is-reordering-africa-must/",
+    "title": "The World Is Reordering. Africa Must Be the Centre",
+    "path": "writing/the-world-is-reordering-africa-must/index.html"
+  },
+  {
+    "url": "/writing/three-models-of-institutional-continuity/",
+    "title": "Three Models of Institutional Continuity: Cooperative, Bank and Airline",
+    "path": "writing/three-models-of-institutional-continuity/index.html"
+  },
+  {
+    "url": "/writing/unlocking-climate-finance-for-east/",
+    "title": "Unlocking Climate Finance for East Africa",
+    "path": "writing/unlocking-climate-finance-for-east/index.html"
+  },
+  {
+    "url": "/writing/when-every-man-builds-his-own-ark/",
+    "title": "When every man builds his own ark, civilization drowns",
+    "path": "writing/when-every-man-builds-his-own-ark/index.html"
+  },
+  {
+    "url": "/writing/why-africas-enterprises-must-outlive-their-founders/",
+    "title": "Why Africa’s Enterprises Must Outlive Their Founders",
+    "path": "writing/why-africas-enterprises-must-outlive-their-founders/index.html"
+  },
+  {
+    "url": "/writing/why-freedom-not-peace-prices-returns/",
+    "title": "Why Freedom, Not Peace, Prices Returns in Africa",
+    "path": "writing/why-freedom-not-peace-prices-returns/index.html"
+  },
+  {
+    "url": "/writing/why-mtn-uganda-is-a-free-call-option/",
+    "title": "Why MTN Uganda Is a Free Call Option on Fintech’s Future",
+    "path": "writing/why-mtn-uganda-is-a-free-call-option/index.html"
+  },
+  {
+    "url": "/writing/why-your-brain-is-your-worst-investment/",
+    "title": "Why Your Brain Is Your Worst Investment Enemy",
+    "path": "writing/why-your-brain-is-your-worst-investment/index.html"
+  },
+  {
+    "url": "/writing/you-dont-need-to-buy-land-now-you/",
+    "title": "You Don’t Need to Buy Land Now. You Just Need the Option.",
+    "path": "writing/you-dont-need-to-buy-land-now-you/index.html"
+  }
+]
