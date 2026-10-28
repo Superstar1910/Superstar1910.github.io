@@ -1,34 +1,13 @@
 name: Audit static publishing
-on:
-  push:
-    paths:
-      - 'writing/**'
-      - 'research/**'
-      - 'static/**'
-      - 'scripts/audit_publishing.py'
-      - 'scripts/audit_navigation.py'
-      - 'scripts/build_article_feeds.py'
-      - 'scripts/validate_articles.py'
-      - '.nojekyll'
-      - 'CNAME'
-      - '.github/workflows/audit-publishing.yml'
-  pull_request:
-    paths:
-      - 'writing/**'
-      - 'research/**'
-      - 'static/**'
-      - 'scripts/**'
-      - '.nojekyll'
-      - 'CNAME'
-  workflow_dispatch:
+on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
 jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: '3.12'
       - name: Validate article metadata

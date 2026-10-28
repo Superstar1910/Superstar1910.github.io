@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://legesi.xyz/sitemap.xml

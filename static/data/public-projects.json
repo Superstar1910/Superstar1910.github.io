@@ -29,7 +29,15 @@
       "category": "Data & experiments",
       "description": "Prototype personal-finance dashboard bringing together wallets, goals, investments and community activity using illustrative data.",
       "viewUrl": "https://legesi.xyz/research/cyanase-collective/",
-      "viewLabel": "Project overview ↗"
+      "viewLabel": "Project overview ↗",
+      "title": "Cyanase Collective",
+      "lifecycleStatus": "Prototype",
+      "reviewStatus": "Independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "dataCutoff": null,
+      "role": "Independent public research; institutional engagements separately scoped"
     },
     {
       "name": "investment-access-mvp",
@@ -37,7 +45,15 @@
       "category": "Investment technology",
       "description": "Early-stage investment planning tool that guides users from financial goals to an investment policy and portfolio simulation.",
       "viewUrl": "https://legesi.xyz/research/investment-access-mvp/",
-      "viewLabel": "Project overview ↗"
+      "viewLabel": "Project overview ↗",
+      "title": "Investment Access MVP",
+      "lifecycleStatus": "Prototype",
+      "reviewStatus": "Independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "dataCutoff": null,
+      "role": "Independent public research; institutional engagements separately scoped"
     },
     {
       "name": "nsagu-industrial-park",
@@ -45,7 +61,15 @@
       "category": "Infrastructure",
       "description": "Industrial park development project exploring infrastructure and investment planning.",
       "viewUrl": "https://legesi.xyz/research/nsagu-industrial-park/",
-      "viewLabel": "Project overview ↗"
+      "viewLabel": "Project overview ↗",
+      "title": "Nsagu Industrial Park",
+      "lifecycleStatus": "Research / exploratory",
+      "reviewStatus": "Independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "dataCutoff": null,
+      "role": "Independent public research; institutional engagements separately scoped"
     },
     {
       "name": "robo_advisor_project",
@@ -53,7 +77,15 @@
       "category": "Investment technology",
       "description": "Experimental digital investment-advice and portfolio-planning project.",
       "viewUrl": "https://legesi.xyz/research/robo_advisor_project/",
-      "viewLabel": "Project overview ↗"
+      "viewLabel": "Project overview ↗",
+      "title": "Robo Adviser",
+      "lifecycleStatus": "Prototype",
+      "reviewStatus": "Independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "dataCutoff": null,
+      "role": "Independent public research; institutional engagements separately scoped"
     },
     {
       "name": "client_onboarding",
@@ -61,7 +93,15 @@
       "category": "Investment technology",
       "description": "Prototype workflow for onboarding clients to financial or investment services.",
       "viewUrl": "https://legesi.xyz/research/client_onboarding/",
-      "viewLabel": "Project overview ↗"
+      "viewLabel": "Project overview ↗",
+      "title": "Client Onboarding",
+      "lifecycleStatus": "Prototype",
+      "reviewStatus": "Independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "dataCutoff": null,
+      "role": "Independent public research; institutional engagements separately scoped"
     },
     {
       "name": "Ran_Inference",
@@ -69,7 +109,15 @@
       "category": "Data & experiments",
       "description": "Technical experimentation with inference and analytical workflows.",
       "viewUrl": "https://legesi.xyz/research/Ran_Inference/",
-      "viewLabel": "Project overview ↗"
+      "viewLabel": "Project overview ↗",
+      "title": "Inference Experiments",
+      "lifecycleStatus": "Prototype",
+      "reviewStatus": "Independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "dataCutoff": null,
+      "role": "Independent public research; institutional engagements separately scoped"
     },
     {
       "name": "impala_market",
@@ -77,7 +125,15 @@
       "category": "Data & experiments",
       "description": "Uganda-first African bond-market intelligence dashboard covering auctions, yield curves, secondary trading and alerts.",
       "viewUrl": "https://legesi.xyz/research/impala_market/",
-      "viewLabel": "Project overview ↗"
+      "viewLabel": "Project overview ↗",
+      "title": "Impala Market",
+      "lifecycleStatus": "Research / exploratory",
+      "reviewStatus": "Independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "dataCutoff": null,
+      "role": "Independent public research; institutional engagements separately scoped"
     },
     {
       "name": "HS_Code",
@@ -85,7 +141,15 @@
       "category": "Data & experiments",
       "description": "Customs classification and shipment pre-check tool with product coding, risk flags, bulk review and audit trail.",
       "viewUrl": "https://legesi.xyz/research/HS_Code/",
-      "viewLabel": "Project overview ↗"
+      "viewLabel": "Project overview ↗",
+      "title": "HS Code",
+      "lifecycleStatus": "Research / exploratory",
+      "reviewStatus": "Independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "dataCutoff": null,
+      "role": "Independent public research; institutional engagements separately scoped"
     },
     {
       "name": "HS_Codes_Checker",
@@ -93,7 +157,15 @@
       "category": "Data & experiments",
       "description": "Lightweight export-readiness checker for shipment descriptions, commodity codes and missing customs information.",
       "viewUrl": "https://legesi.xyz/research/HS_Codes_Checker/",
-      "viewLabel": "Project overview ↗"
+      "viewLabel": "Project overview ↗",
+      "title": "HS Codes Checker",
+      "lifecycleStatus": "Research / exploratory",
+      "reviewStatus": "Independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "dataCutoff": null,
+      "role": "Independent public research; institutional engagements separately scoped"
     },
     {
       "name": "quickmart-ipo-investment-analysis",
@@ -101,7 +173,15 @@
       "category": "Investment research",
       "description": "Independent Quickmart IPO research with valuation scenarios, an enterprise DCF and documented assumptions.",
       "viewUrl": "https://legesi.xyz/research/quickmart-ipo-investment-analysis/",
-      "viewLabel": "Explore research website ↗"
+      "viewLabel": "Explore research website ↗",
+      "title": "Quickmart IPO Research",
+      "lifecycleStatus": "Research / exploratory",
+      "reviewStatus": "Independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "dataCutoff": null,
+      "role": "Independent public research; institutional engagements separately scoped"
     },
     {
       "name": "dangote-refinery-ipo-investment-analysis",
@@ -111,7 +191,15 @@
       "viewUrl": "https://legesi.xyz/research/dangote-refinery-ipo-investment-analysis/",
       "viewLabel": "Explore research website ↗",
       "publishedDate": "2026-09-17",
-      "updatedDate": "2026-10-18"
+      "updatedDate": "2026-10-18",
+      "title": "Dangote Refinery IPO Research",
+      "lifecycleStatus": "Research / exploratory",
+      "reviewStatus": "Independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "dataCutoff": "2026-10-18",
+      "role": "Independent public research; institutional engagements separately scoped"
     },
     {
       "name": "uganda-capital-formation",
@@ -119,7 +207,15 @@
       "category": "Capital markets",
       "description": "Open framework for mobilising long-term capital in Uganda, including a scenario laboratory and implementation programme.",
       "viewUrl": "https://legesi.xyz/research/uganda-capital-formation/",
-      "viewLabel": "Explore research website ↗"
+      "viewLabel": "Explore research website ↗",
+      "title": "Uganda Capital Formation",
+      "lifecycleStatus": "Research / exploratory",
+      "reviewStatus": "Independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "dataCutoff": null,
+      "role": "Independent public research; institutional engagements separately scoped"
     },
     {
       "name": "umeme-stock-coverage",
@@ -127,7 +223,15 @@
       "category": "Investment research",
       "description": "Research on Umeme’s concession exit, potential recoveries and uncertainty around shareholder distributions.",
       "viewUrl": "https://legesi.xyz/research/umeme-stock-coverage/",
-      "viewLabel": "Explore research website ↗"
+      "viewLabel": "Explore research website ↗",
+      "title": "Umeme Research",
+      "lifecycleStatus": "Research / exploratory",
+      "reviewStatus": "Independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "dataCutoff": null,
+      "role": "Independent public research; institutional engagements separately scoped"
     },
     {
       "name": "mtn-uganda-stock-coverage",
@@ -135,7 +239,15 @@
       "category": "Investment research",
       "description": "Investor research on MTN Uganda, its mobile-money restructuring, shareholder rights and valuation methodology.",
       "viewUrl": "https://legesi.xyz/mtn-uganda-stock-coverage/",
-      "viewLabel": "Read research website ↗"
+      "viewLabel": "Read research website ↗",
+      "title": "MTN Uganda Research",
+      "lifecycleStatus": "Research / exploratory",
+      "reviewStatus": "Independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "dataCutoff": null,
+      "role": "Independent public research; institutional engagements separately scoped"
     },
     {
       "name": "africa-fx-pressure-watch",
@@ -143,7 +255,15 @@
       "category": "Capital markets",
       "description": "Open research dashboard for tracking currency pressures across African markets, beginning with Uganda.",
       "viewUrl": "https://legesi.xyz/research/africa-fx-pressure-watch/",
-      "viewLabel": "Explore research website ↗"
+      "viewLabel": "Explore research website ↗",
+      "title": "Africa FX Pressure Watch",
+      "lifecycleStatus": "Research / exploratory",
+      "reviewStatus": "Independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "dataCutoff": null,
+      "role": "Independent public research; institutional engagements separately scoped"
     },
     {
       "name": "africa-affordable-housing-lab",
@@ -151,7 +271,15 @@
       "category": "Infrastructure",
       "description": "Open research and interactive rent-to-own housing affordability simulator for African households, developers and financiers.",
       "viewUrl": "https://legesi.xyz/research/africa-affordable-housing-lab/",
-      "viewLabel": "Explore housing lab ↗"
+      "viewLabel": "Explore housing lab ↗",
+      "title": "Africa Affordable Housing Lab",
+      "lifecycleStatus": "Research / exploratory",
+      "reviewStatus": "Independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "dataCutoff": null,
+      "role": "Independent public research; institutional engagements separately scoped"
     },
     {
       "name": "paygo-trojan-rail-africa",
@@ -159,7 +287,63 @@
       "category": "Capital markets",
       "description": "Source-backed research on how PayGo solar built a distributed origination, servicing and receivables-finance rail for Africa's informal economy.",
       "viewUrl": "https://legesi.xyz/research/paygo-trojan-rail-africa/",
-      "viewLabel": "Read the illustrated research ↗"
+      "viewLabel": "Read the illustrated research ↗",
+      "title": "PAYGo: The Trojan Rail",
+      "lifecycleStatus": "Research / exploratory",
+      "reviewStatus": "Independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "dataCutoff": null,
+      "role": "Independent public research; institutional engagements separately scoped"
+    },
+    {
+      "name": "professional-services-future",
+      "title": "Professional Services Firm of the Future",
+      "url": null,
+      "category": "Research programmes",
+      "description": "Research and working tools on AI operating models, firm readiness and economics.",
+      "viewUrl": "/projects/professional-services-future/",
+      "viewLabel": "Explore research programme →",
+      "lifecycleStatus": "Developing research programme",
+      "reviewStatus": "Provisional; methodology and evidence review ongoing",
+      "researchLead": "Kenneth S. Legesi",
+      "dataCutoff": null,
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "role": "Independent public research; institutional engagements separately scoped"
+    },
+    {
+      "name": "africa-enduring-enterprises",
+      "title": "Africa’s Enduring Enterprises",
+      "url": "https://github.com/Superstar1910/africa-enduring-enterprises",
+      "category": "Research programmes",
+      "description": "Research into enterprise longevity, succession, governance and institutional continuity.",
+      "viewUrl": "/projects/africa-enduring-enterprises/",
+      "viewLabel": "Explore research programme →",
+      "lifecycleStatus": "Developing research programme",
+      "reviewStatus": "Provisional; methodology and evidence review ongoing",
+      "researchLead": "Kenneth S. Legesi",
+      "dataCutoff": "2026-10-26",
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "role": "Independent public research; institutional engagements separately scoped"
+    },
+    {
+      "name": "africa-investability-index",
+      "title": "Africa Investability Index",
+      "url": null,
+      "category": "Research programmes",
+      "description": "Developing research on the institutions, capital formation and market mechanisms that shape investability; no validated country scores.",
+      "viewUrl": "/research/africa-investability-index/",
+      "viewLabel": "Explore research programme →",
+      "lifecycleStatus": "Developing research programme",
+      "reviewStatus": "Provisional; methodology and evidence review ongoing",
+      "researchLead": "Kenneth S. Legesi",
+      "dataCutoff": null,
+      "lastReviewed": null,
+      "nextReviewTrigger": "Material source update or methodology revision",
+      "role": "Independent public research; institutional engagements separately scoped"
     }
   ]
 }

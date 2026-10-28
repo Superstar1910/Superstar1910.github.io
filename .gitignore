@@ -1,3 +1,4 @@
-.DS_Store
-static/img/logo
-.vscode
+_site/
+node_modules/
+test-results/
+__pycache__/
