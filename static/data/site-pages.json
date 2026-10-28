@@ -10,11 +10,6 @@
     "path": "about/index.html"
   },
   {
-    "url": "/connect/",
-    "title": "Start a conversation",
-    "path": "connect/index.html"
-  },
-  {
     "url": "/disclaimer/",
     "title": "Investment Disclaimer",
     "path": "disclaimer/index.html"

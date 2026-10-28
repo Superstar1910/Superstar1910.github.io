@@ -69,5 +69,7 @@
   "/financial-literacy/": "/work/financial-literacy/",
   "/financial-literacy/index.html": "/work/financial-literacy/",
   "/financial-literacy/emergency-fund/": "/work/financial-literacy/emergency-fund/",
-  "/financial-literacy/emergency-fund/index.html": "/work/financial-literacy/emergency-fund/"
+  "/financial-literacy/emergency-fund/index.html": "/work/financial-literacy/emergency-fund/",
+  "/connect/": "/#connect",
+  "/connect/index.html": "/#connect"
 }

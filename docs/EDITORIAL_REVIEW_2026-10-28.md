@@ -39,12 +39,12 @@ remains sticky while scrolling, with focus/anchor offsets on desktop and mobile.
 
 ## Contact
 
-The exposed corporate email and direct mailto links are removed from published
-pages. Contact CTAs and global Connect links use `/connect/`. The flow prepares a
-message locally, lets the visitor copy it and opens the verified LinkedIn profile
-for the visitor to send. Privacy requests have a dedicated topic. The interface
-states that nothing is sent from the website; there is no fake submission success,
-backend inbox, hidden email address or local-storage collection of the draft.
+Updated after the review at the owner's request: Connect returns to the homepage
+contact section and Start a conversation opens an email draft addressed to
+`sklegesi@gmail.com`. The corporate address remains removed. Privacy contact and
+footer links use the same recipient. The LinkedIn draft workflow is removed.
+The website does not send or store email drafts; visitors send them through their
+chosen email client.
 
 ## RSS and publishing
 
@@ -58,5 +58,5 @@ Medium/Substack supported import workflows are documented in `PUBLISHING.md`.
 
 Publication, navigation, URL and editorial audits cover the full generated site.
 CI also exercises sticky headers, old/new URLs, Work search, historical/platform
-archive filters, contact draft preparation, calculator behaviour and no-JS
+archive filters, email-recipient links, calculator behaviour and no-JS
 availability. The packaged artifact excludes imports, documentation and scripts.
