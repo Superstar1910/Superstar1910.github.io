@@ -20,6 +20,8 @@ for p in pages:
         if values!=[BASE+u]:errors.append(f'{u}: {expected} mismatch {values}')
     for tag,a in tags:
         if tag!='a' or not a.get('href'):continue
+        if '&amp;' in a['href']:errors.append(f'{u}: double-escaped URL {a["href"]}')
+        if a['href'].startswith('https://github.com/Superstar1910/work/'):errors.append(f'{u}: invalid source repository URL')
         target=urlsplit(urljoin(BASE+u,a['href']))
         if target.netloc!='legesi.xyz':continue
         if target.path in aliases:errors.append(f'{u}: links through alias {a["href"]}')
