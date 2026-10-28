@@ -12,7 +12,7 @@ class Page(HTMLParser):
 pages=json.loads((R/'static/data/site-pages.json').read_text())
 projects=json.loads((R/'static/data/public-projects.json').read_text())['projects']
 articles=json.loads((R/'static/data/articles.json').read_text())['articles']
-allowed={'/mtn-uganda-stock-coverage/'} # Independent Pages deployment, checked by live monitoring.
+allowed=set() # All public work pages are now published in this repository.
 def check_url(value,source):
  u=urlsplit(value)
  if u.netloc and u.netloc!='legesi.xyz':return
@@ -47,8 +47,8 @@ for p in projects:
  check_url(p['viewUrl'],p['name'])
  for u in p.get('methodologyUrls',[]):check_url(u,p['name'])
 for a in articles:check_url(a['url'],a['slug'])
-for path,expected in [('projects/index.html',len(projects)),('writing/index.html',len(articles))]:
- s=(R/path).read_text();n=s.count('data-category=') if path.startswith('projects') else s.count('data-search=')
+for path,expected in [('work/index.html',len(projects)),('writing/index.html',len(articles))]:
+ s=(R/path).read_text();n=s.count('data-category=') if path.startswith('work') else s.count('data-search=')
  if n!=expected:errors.append(f'{path}: static entries {n} != register {expected}')
 urls={x.text for x in ElementTree.parse(R/'sitemap.xml').findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
 for p in pages:
