@@ -344,6 +344,20 @@
       "lastReviewed": null,
       "nextReviewTrigger": "Material source update or methodology revision",
       "role": "Independent public research; institutional engagements separately scoped"
+    },
+    {
+      "name": "financial-literacy",
+      "title": "Financial Literacy & Investing",
+      "category": "Financial education",
+      "description": "An education project combining published personal-finance and investment articles with a practical emergency-fund planner.",
+      "url": null,
+      "viewUrl": "https://legesi.xyz/work/financial-literacy/",
+      "viewLabel": "Explore project →",
+      "lifecycleStatus": "Published reading and working tool",
+      "reviewStatus": "Educational material; further guides planned",
+      "researchLead": "Kenneth S. Legesi",
+      "nextReviewTrigger": "New guide or tool release",
+      "role": "Independent financial education"
     }
   ]
 }

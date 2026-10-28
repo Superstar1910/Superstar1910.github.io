@@ -13,15 +13,15 @@ const aliases=JSON.parse(fs.readFileSync('static/data/url-redirects.json','utf8'
    await page.waitForURL(expected.href);
    if(await page.locator('#site-header').count()!==1)throw Error('Missing canonical page after '+old);
   }
-  await page.goto(base+'/connect/');await page.waitForURL(base+'/#connect');
+  await page.goto(base+'/connect/');if(await page.locator('#conversation-form').count()!==1)throw Error('Conversation workflow missing');
   const nojs=await browser.newContext({javaScriptEnabled:false});
   const fallback=await nojs.newPage();
-  for(const old of ['/projects.html','/research/HS_Code/','/research/africa-affordable-housing-lab/calculator.html','/mtn-uganda-stock-coverage/valuation.html']){
+  for(const old of ['/projects.html','/research/HS_Code/','/research/africa-affordable-housing-lab/calculator.html','/mtn-uganda-stock-coverage/valuation.html','/financial-literacy/emergency-fund/']){
    await fallback.goto(base+old);await fallback.waitForURL(base+aliases[old]);
   }
   await nojs.close();
   fs.mkdirSync('test-results',{recursive:true});
-  fs.writeFileSync('test-results/url-qa.json',JSON.stringify({legacyForms:Object.keys(aliases).length,queryAndFragment:'passed',defaultFragment:'passed',noJavaScriptFallbacks:4},null,2));
-  console.log('Passed '+Object.keys(aliases).length+' legacy redirects, query/anchor preservation and 4 no-JS fallbacks.');
+  fs.writeFileSync('test-results/url-qa.json',JSON.stringify({legacyForms:Object.keys(aliases).length,queryAndFragment:'passed',conversationWorkflow:'passed',noJavaScriptFallbacks:5},null,2));
+  console.log('Passed '+Object.keys(aliases).length+' legacy redirects, query/anchor preservation and 5 no-JS fallbacks.');
  } finally {await browser.close();}
 })().catch(e=>{console.error(e);process.exit(1)});
