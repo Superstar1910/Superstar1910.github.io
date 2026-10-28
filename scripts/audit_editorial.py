@@ -10,9 +10,9 @@ pages=json.loads((R/'static/data/site-pages.json').read_text());articles=json.lo
 for p in pages:
     text=(R/p['path']).read_text()
     assert 'klegesi@oakstonecapital.co' not in text.lower(),p['url']+' exposed contact address'
-    assert 'href="mailto:' not in text.lower(),p['url']+' bypasses conversation flow'
+    assert all(u.lower().startswith('mailto:sklegesi@gmail.com') for u in re.findall(r'href="(mailto:[^"]+)"',text,re.I)),p['url']+' unexpected email recipient'
     header=text.split('<!-- site-header:start -->')[1].split('<!-- site-header:end -->')[0]
-    assert 'href="/connect/"' in header,p['url']+' contact navigation'
+    assert 'href="/#connect"' in header,p['url']+' contact navigation'
 writing=(R/'writing/index.html').read_text()
 assert 'LEARNING COLLECTION' not in writing and 'ORIGINAL SERIES' not in writing
 assert writing.index('id="article-search"')<writing.index('Other publishing platforms')
@@ -33,4 +33,4 @@ assert any(a['datePublished']<'2025-01-01' for a in articles),'Historical archiv
 assert any(a.get('native') and a['platform']=='Medium' for a in articles)
 assert all(not a.get('native') for a in articles if a['platform']=='LinkedIn'),'Unverified LinkedIn full-text claim'
 css=(R/'static/css/site-shell.css').read_text();assert '#site-header{position:sticky;top:0;' in css
-print(f'Editorial: {len(pages)} pages use the contact flow; {len(projects)} internal Work landing pages; {len(items)} full-text RSS items.')
+print(f'Editorial: {len(pages)} pages use email contact; {len(projects)} internal Work landing pages; {len(items)} full-text RSS items.')
