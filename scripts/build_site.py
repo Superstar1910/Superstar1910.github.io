@@ -109,7 +109,7 @@ for f in files():
   t=re.sub(r'<footer\b([^>]*)>(.*?)</footer>',old_footer,t,flags=re.S);t=t.replace('</body>','<!-- site-footer:start -->'+footer+'<!-- site-footer:end --></body>')
  else:t=replaced
  t=re.sub(r'(<a\b[^>]*href=["\'](?:/projects/|https://legesi.xyz/projects/)["\'][^>]*>)(← )?Projects(</a>)',lambda m:m[1]+(m[2] or '')+'Work'+m[3],t)
- for css in ['brand-tokens.css','editorial.css','site-shell.css']:
+ for css in ['brand-tokens.css','site-shell.css']:
   if '/static/css/'+css not in t:t=t.replace('</head>',f'<link rel="stylesheet" href="/static/css/{css}"></head>')
  canonical=BASE+url
  if re.search(r'<link[^>]*rel=["\']canonical["\']',t):t=re.sub(r'<link\b[^>]*rel=["\']canonical["\'][^>]*>',f'<link rel="canonical" href="{canonical}">',t)
