@@ -137,6 +137,7 @@ for f in files():
     except (ImportError,OSError):pass
   return s
  t=re.sub(r'<img\b[^>]*>',image,t)
+ t=re.sub(r'(?<!<!-- table-scroll:start -->)(<table\b.*?</table>)',lambda m:'<div class="site-table-scroll" role="region" aria-label="Scrollable data table" tabindex="0"><!-- table-scroll:start -->'+m[1]+'<!-- table-scroll:end --></div>',t,flags=re.S)
  if url.startswith('/writing/') and url!='/writing/':
   a=next((a for a in articles if a['url']==url),None);repo=((a or {}).get('research') or {}).get('repository');work=next((p for p in projects if p.get('url') and p['url']==repo),None)
   if not work and url in ['/writing/economic-opportunity-is-not-investability/','/writing/why-freedom-not-peace-prices-returns/']:work=next(p for p in projects if p['name']=='africa-investability-index')

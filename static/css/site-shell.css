@@ -12,3 +12,4 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 .skip{position:absolute;left:12px;top:-80px;background:#15253a;color:white;padding:10px;z-index:1000}.skip:focus{top:12px}.model>*,.grid>*,.hero-bottom>*{min-width:0}@media(max-width:800px){.model{grid-template-columns:minmax(0,1fr)}.metrics{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.site-table-scroll{width:100%;max-width:100%;overflow-x:auto}.grid2>*,.grid3>*,.grid4>*,.verdict>*,.page,.chart,.card{min-width:0}.rating{max-width:100%;flex-wrap:wrap}main a{overflow-wrap:anywhere}
