@@ -5,7 +5,6 @@
   "/about.html": "/about/",
   "/writing.html": "/writing/",
   "/archive.html": "/writing/",
-  "/connect/": "/#connect",
   "/projects/africa-enduring-enterprises/": "/work/africa-enduring-enterprises/",
   "/projects/professional-services-future/": "/work/professional-services-future/",
   "/projects/professional-services-future/ai-policy/": "/work/professional-services-future/ai-policy/",
@@ -41,7 +40,6 @@
   "/mtn-uganda-stock-coverage/substack.html": "/work/mtn-uganda-stock-coverage/substack/",
   "/projects/index.html": "/work/",
   "/research/index.html": "/work/",
-  "/connect/index.html": "/#connect",
   "/projects/africa-enduring-enterprises/index.html": "/work/africa-enduring-enterprises/",
   "/projects/professional-services-future/index.html": "/work/professional-services-future/",
   "/projects/professional-services-future/ai-policy/index.html": "/work/professional-services-future/ai-policy/",
@@ -67,5 +65,9 @@
   "/research/umeme-stock-coverage/full-report/index.html": "/work/umeme-stock-coverage/full-report/",
   "/research/uganda-capital-formation/dashboard/index.html": "/work/uganda-capital-formation/dashboard/",
   "/research/quickmart-ipo-investment-analysis/full-report/index.html": "/work/quickmart-ipo-investment-analysis/full-report/",
-  "/mtn-uganda-stock-coverage/index.html": "/work/mtn-uganda-stock-coverage/"
+  "/mtn-uganda-stock-coverage/index.html": "/work/mtn-uganda-stock-coverage/",
+  "/financial-literacy/": "/work/financial-literacy/",
+  "/financial-literacy/index.html": "/work/financial-literacy/",
+  "/financial-literacy/emergency-fund/": "/work/financial-literacy/emergency-fund/",
+  "/financial-literacy/emergency-fund/index.html": "/work/financial-literacy/emergency-fund/"
 }

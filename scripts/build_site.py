@@ -3,7 +3,7 @@
 import html,json,re
 from url_routes import alias_files, write_redirects
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, urlencode
 from xml.etree.ElementTree import Element,SubElement,ElementTree
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://legesi.xyz'
@@ -31,44 +31,51 @@ titles={urlsplit(p['viewUrl']).path:p.get('title') or p['name'].replace('_',' ')
 def project_markup(p):
  title=p.get('title') or p['name'].replace('_',' ').replace('-',' ').title()
  links=f'<a href="{esc(p["viewUrl"])}">{esc(p.get("viewLabel") or "Explore work →")}</a>'
- if p.get('url'):links+=f' <a href="{esc(p["url"])}" rel="noopener noreferrer" target="_blank">Source &amp; methodology ↗</a>'
+
  cutoff=f' · Data cutoff: {esc(p["dataCutoff"])}' if p.get('dataCutoff') else ''
- return f'<article class="project-item" data-category="{esc(p["category"])}"><span class="project-category">{esc(p["category"])}</span><h2>{esc(title)}</h2><p>{esc(p.get("description"))}</p><p class="work-status">{esc(p["lifecycleStatus"])} · {esc(p["reviewStatus"])}{cutoff}</p><div class="project-actions">{links}</div></article>'
+ return f'<article class="project-item" data-category="{esc(p["category"])}" data-search="{esc((title+' '+p.get('description','')+' '+p['category']).lower())}"><span class="project-category">{esc(p["category"])}</span><h2><a href="{esc(p["viewUrl"])}">{esc(title)}</a></h2><p>{esc(p.get("description"))}</p><p class="work-status">{esc(p["lifecycleStatus"])} · {esc(p["reviewStatus"])}{cutoff}</p><div class="project-actions">{links}</div></article>'
 f=ROOT/'work/index.html';t=f.read_text();t=re.sub(r'<section class="panel".*?</section>','',t,count=1,flags=re.S)
 t=t.replace('Projects &amp; experiments.','Work, research &amp; tools.').replace('Projects &amp; Experiments — Legesi.xyz','Work — Legesi.xyz');t=directory(t,'project-directory',''.join(project_markup(p) for p in projects))
 if '<option>Research programmes</option>' not in t:t=t.replace('<option value="all">All projects</option>','<option value="all">All work</option><option>Research programmes</option>')
 t=t.replace('PUBLIC PROJECT LIBRARY','PUBLIC WORK LIBRARY').replace('Explore by theme','Filter work by theme')
 if 'id="project-count"' not in t:t=t.replace('<div id="project-directory"',f'<p id="project-count" role="status">{len(projects)} public work entries</p><noscript><p>All work is listed below. Enable JavaScript to filter by theme.</p></noscript><div id="project-directory"')
 f.write_text(t)
+def article_work(a):
+ repo=(a.get('research') or {}).get('repository')
+ paths=list(a.get('workUrls',[]))
+ match=next((p for p in projects if p.get('url') and p['url']==repo),None)
+ if match:paths.append(urlsplit(match['viewUrl']).path)
+ if a['slug'] in ('economic-opportunity-is-not-investability','why-freedom-not-peace-prices-returns'):paths.append('/work/africa-investability-index/')
+ return list(dict.fromkeys(paths))
 def article_markup(a):
- tags=''.join(f'<button type="button" class="article-tag" data-topic="{esc(x)}">{esc(x)}</button>' for x in a.get('tags',[]));source=f'<a href="{esc(a["originalUrl"])}">Original source ↗</a>';repo=(a.get('research') or {}).get('repository')
- if repo:source+=f' · <a href="{esc(repo)}">Research repository ↗</a>'
- work=next((p for p in projects if p.get('url') and p['url']==repo),None)
- if not work and a['slug'] in ('economic-opportunity-is-not-investability','why-freedom-not-peace-prices-returns'):work=next(p for p in projects if p['name']=='africa-investability-index')
- if work:source+=f' · <a href="{esc(work["viewUrl"])}">Related work →</a>'
- kind='Research report' if a['url'].startswith('/work/') else 'Article';search=' '.join([a['title'],a.get('summary',''),a.get('type',''),a.get('platform',''),*a.get('tags',[])])
- return f'<article class="archive-item" data-search="{esc(search.lower())}" data-year="{esc(a.get("datePublished","")[:4])}" data-topics="{esc(json.dumps(a.get("tags",[])))}"><p class="eyebrow">{esc(a.get("datePublished"))} · {kind}</p><h2><a href="{esc(a["url"])}">{esc(a["title"])}</a></h2><p>{esc(a.get("summary"))}</p><div class="article-tags" aria-label="Article topics">{tags}</div><p>{source}</p></article>'
+ tags=''.join(f'<button type="button" class="article-tag" data-topic="{esc(x)}">{esc(x)}</button>' for x in a.get('tags',[]))
+ source=f'<a href="{esc(a["originalUrl"])}">Original source ↗</a>'
+ repo=(a.get('research') or {}).get('repository')
+ if repo:source+=f' · <a class="research-flag" href="{esc(repo)}">Research repository ↗</a>'
+ for path in article_work(a):source+=f' · <a class="related-work-flag" href="{esc(path)}">Related work: {esc(titles.get(path,"Project"))} →</a>'
+ for edition in a.get('syndications',[]):source+=f' · <a href="{esc(edition["url"])}">{esc(edition["platform"])} edition ↗</a>'
+ kind='Research report' if a['url'].startswith('/work/') else 'Article'
+ location='Full text on Legesi.xyz' if a.get('native') else 'External article · '+a['platform']
+ search=' '.join([a['title'],a.get('summary',''),a.get('type',''),a.get('platform',''),*a.get('tags',[])])
+ return f'<article class="archive-item" data-search="{esc(search.lower())}" data-year="{esc(a.get("datePublished","")[:4])}" data-platform="{esc(a["platform"])}" data-topics="{esc(json.dumps(a.get("tags",[])))}"><p class="eyebrow">{esc(a.get("datePublished"))} · {kind} · {esc(a["platform"])}</p><h2><a href="{esc(a["url"])}">{esc(a["title"])}</a></h2><span class="publication-kind">{esc(location)}</span><p>{esc(a.get("summary"))}</p><div class="article-tags" aria-label="Article topics">{tags}</div><p>{source}</p></article>'
 f=ROOT/'writing/index.html';t=f.read_text();ordered=sorted(articles,key=lambda a:(a.get('datePublished',''),a['title']),reverse=True);t=directory(t,'article-list',''.join(article_markup(a) for a in ordered))
-t=t.replace('class="archive-count" aria-live="polite"></p>',f'class="archive-count" aria-live="polite">{len(articles)} publications</p>')
+t=re.sub(r'(<p id="article-count"[^>]*>).*?(</p>)',lambda m:m[1]+str(len(articles))+' publications'+m[2],t)
 if '<noscript>' not in t:t=t.replace('<div class="archive-controls">','<noscript><p>All publications are listed below. Enable JavaScript to search, filter or show smaller batches.</p></noscript><div class="archive-controls">')
 if 'id="article-more"' not in t:t=t.replace('</section><h2>Other publishing platforms','<button type="button" id="article-more" class="archive-clear" hidden>Show more publications</button></section><h2>Other publishing platforms')
 f.write_text(t)
 write_redirects(ROOT)
 header=(ROOT/'templates/header.html').read_text().strip();footer=(ROOT/'templates/footer.html').read_text().strip()
-def label(path):return titles.get(path) or {'/':'Home','/about/':'About','/work/':'Work','/writing/':'Writing','/financial-literacy/':'Financial Literacy & Investing','/financial-literacy/emergency-fund/':'Emergency Fund Planner','/privacy/':'Privacy','/terms/':'Terms','/disclaimer/':'Investment Disclaimer','/sitemap/':'Site map'}.get(path)
+def label(path):return titles.get(path) or {'/':'Home','/about/':'About','/work/':'Work','/writing/':'Writing','/work/financial-literacy/':'Financial Literacy & Investing','/work/financial-literacy/emergency-fund/':'Emergency Fund Planner','/privacy/':'Privacy','/terms/':'Terms','/disclaimer/':'Investment Disclaimer','/sitemap/':'Site map','/connect/':'Start a conversation'}.get(path)
 def breadcrumbs(url,title):
  chain=[('Home','/')]
  if url=='/':return ''
  if url.startswith('/writing/') and url!='/writing/':chain.append(('Writing','/writing/'))
- elif url.startswith('/financial-literacy/'):
-  chain.append(('Writing','/writing/'))
-  if url!='/financial-literacy/':chain.append(('Financial Literacy','/financial-literacy/'))
  elif url.startswith('/work/') and url!='/work/':
   chain.append(('Work','/work/'));root=next((u for u in titles if url.startswith(u) and url!=u),None)
   if root:chain.append((titles[root],root))
   if '/dashboard/' in url and not url.endswith('/dashboard/'):chain.append(('Dashboard','/work/uganda-capital-formation/dashboard/'))
  return '<nav class="site-breadcrumbs shell" aria-label="Breadcrumb"><ol>'+''.join(f'<li><a href="{u}">{esc(n)}</a></li>' for n,u in chain)+f'<li aria-current="page">{esc(title)}</li></ol></nav>'
-content='<p>Find the public pages, research programmes and tools.</p><h2>Main pages</h2><ul>'+''.join(f'<li><a href="{u}">{n}</a></li>' for n,u in [('Home','/'),('About','/about/'),('Work','/work/'),('Writing','/writing/'),('Financial Literacy & Investing','/financial-literacy/'),('Emergency Fund Planner','/financial-literacy/emergency-fund/'),('Connect','/#connect')])+'</ul><h2>Work and research programmes</h2><ul>'+''.join(f'<li><a href="{esc(p["viewUrl"])}">{esc(p.get("title") or p["name"])}</a></li>' for p in projects)+'</ul><h2>Publications</h2><ul>'+''.join(f'<li><a href="{esc(a["url"])}">{esc(a["title"])}</a></li>' for a in ordered)+'</ul>'
+content='<p>Find the public pages, research programmes and tools.</p><h2>Main pages</h2><ul>'+''.join(f'<li><a href="{u}">{n}</a></li>' for n,u in [('Home','/'),('About','/about/'),('Work','/work/'),('Writing','/writing/'),('Financial Literacy & Investing','/work/financial-literacy/'),('Emergency Fund Planner','/work/financial-literacy/emergency-fund/'),('Connect','/connect/')])+'</ul><h2>Work and research programmes</h2><ul>'+''.join(f'<li><a href="{esc(p["viewUrl"])}">{esc(p.get("title") or p["name"])}</a></li>' for p in projects)+'</ul><h2>Publications</h2><ul>'+''.join(f'<li><a href="{esc(a["url"])}">{esc(a["title"])}</a></li>' for a in ordered)+'</ul>'
 (ROOT/'sitemap').mkdir(exist_ok=True);(ROOT/'sitemap/index.html').write_text(page('Site map',content));(ROOT/'404.html').write_text(page('Page not found','<p>The address may have changed. Use the <a href="/sitemap/">site map</a>, <a href="/work/">work directory</a> or <a href="/writing/">writing archive</a> to find what you need.</p>'))
 manifest=[]
 for f in files():
@@ -90,7 +97,7 @@ for f in files():
    opening=re.sub(r'\bid=["\'][^"\']+["\']','id="main"',main[0]);t=t[:main.start()]+opening+f'<span id="{esc(old[1])}"></span>'+t[main.end():]
   elif not old:t=t[:main.start()]+main[0].replace('<main','<main id="main"',1)+t[main.end():]
  t=re.sub(r'<a\b[^>]*class=["\']skip["\'][^>]*>.*?</a>','',t,flags=re.S)
- h=header;active='/work/' if url.startswith('/work/') else '/writing/' if url.startswith(('/writing/','/financial-literacy/')) else '/about/' if url=='/about/' else None
+ h=header;active='/work/' if url.startswith('/work/') else '/writing/' if url.startswith('/writing/') else '/about/' if url=='/about/' else '/connect/' if url=='/connect/' else None
  if active:h=h.replace(f'href="{active}"',f'href="{active}" aria-current="page"')
  h='<a class="skip" href="#main">Skip to content</a>'+h;replaced=marked(t,'site-header',h)
  if replaced is None:
@@ -111,6 +118,7 @@ for f in files():
  t=re.sub(r'(<a\b[^>]*href=["\'](?:/projects/|https://legesi.xyz/projects/)["\'][^>]*>)(← )?Projects(</a>)',lambda m:m[1]+(m[2] or '')+'Work'+m[3],t)
  for css in ['brand-tokens.css','site-shell.css']:
   if '/static/css/'+css not in t:t=t.replace('</head>',f'<link rel="stylesheet" href="/static/css/{css}"></head>')
+ if 'type="application/rss+xml"' not in t:t=t.replace('</head>','<link rel="alternate" type="application/rss+xml" title="Legesi.xyz Writing RSS" href="/writing/feed.xml"></head>')
  canonical=BASE+url
  if re.search(r'<link[^>]*rel=["\']canonical["\']',t):t=re.sub(r'<link\b[^>]*rel=["\']canonical["\'][^>]*>',f'<link rel="canonical" href="{canonical}">',t)
  else:t=t.replace('</head>',f'<link rel="canonical" href="{canonical}"></head>')
@@ -120,7 +128,7 @@ for f in files():
  if 'name="twitter:card"' not in t:t=t.replace('</head>','<meta name="twitter:card" content="summary_large_image"></head>')
  if 'name="referrer"' not in t:t=t.replace('</head>','<meta name="referrer" content="strict-origin-when-cross-origin"></head>')
  if 'http-equiv="Content-Security-Policy"' not in t:
-  policy="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; connect-src 'self'; font-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self' mailto:"
+  policy="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; connect-src 'self'; font-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'"
   t=t.replace('</head>',f'<meta http-equiv="Content-Security-Policy" content="{esc(policy)}"></head>')
  if url=='/' and 'application/ld+json' not in t:
   person={'@context':'https://schema.org','@type':'Person','name':'Kenneth S. Legesi','url':BASE+'/','sameAs':['https://www.linkedin.com/in/kenneth-legesi','https://legesi.substack.com/','https://github.com/Superstar1910','https://x.com/sklegesi']}
@@ -144,9 +152,21 @@ for f in files():
   if not work and url in ['/writing/economic-opportunity-is-not-investability/','/writing/why-freedom-not-peace-prices-returns/']:work=next(p for p in projects if p['name']=='africa-investability-index')
   if work and 'related-work:start' not in t:
    block=f'<aside class="related-work shell" aria-label="Related work"><p>Related research: <a href="{esc(work["viewUrl"])}">{esc(work.get("title") or work["name"])}</a>. <a href="/writing/">Back to all writing →</a></p></aside>';t=t.replace('</main>','<!-- related-work:start -->'+block+'<!-- related-work:end --></main>')
+ if url.startswith('/writing/') and url!='/writing/':
+  article=next((a for a in articles if a['url']==url),None)
+  if article:
+   paths=article_work(article)
+   if paths:
+    links=' · '.join(f'<a href="{esc(u)}">{esc(titles.get(u,"Related work"))}</a>' for u in paths)
+    block='<aside class="related-work shell" aria-label="Related work"><p>Related work: '+links+'</p></aside>'
+    replacement=marked(t,'related-work',block)
+    t=replacement if replacement else t.replace('</main>','<!-- related-work:start -->'+block+'<!-- related-work:end --></main>')
+   share='<nav class="article-share" aria-label="Share article"><a href="https://x.com/intent/tweet?'+esc(urlencode({'text':article['title'],'url':canonical}))+'" target="_blank" rel="noopener noreferrer">Share on X ↗</a><a href="https://www.linkedin.com/sharing/share-offsite/?'+esc(urlencode({'url':canonical}))+'" target="_blank" rel="noopener noreferrer">Share on LinkedIn ↗</a><a href="/writing/feed.xml">RSS feed ↗</a></nav>'
+   replacement=marked(t,'article-share',share)
+   t=replacement if replacement else t.replace('</main>','<!-- article-share:start -->'+share+'<!-- article-share:end --></main>')
  work=next((p for p in projects if urlsplit(p['viewUrl']).path==url),None)
  if work:
-  related=[a for a in articles if work.get('url') and (a.get('research') or {}).get('repository')==work['url']]
+  related=[a for a in articles if url in article_work(a)]
   if work['name']=='africa-investability-index':related=[a for a in articles if a['slug'] in ('economic-opportunity-is-not-investability','why-freedom-not-peace-prices-returns')]
   if related:
    links=''.join(f'<li><a href="{esc(a["url"])}">{esc(a["title"])}</a></li>' for a in related)

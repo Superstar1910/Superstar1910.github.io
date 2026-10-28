@@ -415,6 +415,9 @@
         "Investment Strategy",
         "Africa & Development",
         "Reflections"
+      ],
+      "workUrls": [
+        "/work/financial-literacy/"
       ]
     },
     {
@@ -452,6 +455,9 @@
       "native": true,
       "tags": [
         "Investment Strategy"
+      ],
+      "workUrls": [
+        "/work/financial-literacy/"
       ]
     },
     {
@@ -563,6 +569,9 @@
       "post_id": "174086620.why-your-brain-is-your-worst-investment",
       "tags": [
         "Investment Strategy"
+      ],
+      "workUrls": [
+        "/work/financial-literacy/"
       ]
     },
     {
@@ -715,6 +724,9 @@
       "tags": [
         "Investment Strategy",
         "Reflections"
+      ],
+      "workUrls": [
+        "/work/financial-literacy/"
       ]
     },
     {
@@ -812,6 +824,13 @@
       "tags": [
         "Infrastructure & Energy",
         "Africa & Development"
+      ],
+      "syndications": [
+        {
+          "platform": "LinkedIn",
+          "url": "https://www.linkedin.com/pulse/nobody-talks-path-homeownership-africa-could-change-legesi-cfa-rzoze",
+          "datePublished": "2025-03-27"
+        }
       ]
     },
     {
@@ -854,6 +873,13 @@
         "Climate & Sustainability",
         "Africa & Development",
         "Reflections"
+      ],
+      "syndications": [
+        {
+          "platform": "LinkedIn",
+          "url": "https://www.linkedin.com/pulse/rise-carbon-markets-east-africa-opportunities-kenneth-legesi-cfa-ip32e",
+          "datePublished": "2025-04-07"
+        }
       ]
     },
     {
@@ -912,6 +938,447 @@
       "post_id": "160549620.bond-yield-rate-vs-bond-coupon-rate",
       "tags": [
         "Investment Strategy"
+      ],
+      "workUrls": [
+        "/work/financial-literacy/"
+      ]
+    },
+    {
+      "slug": "what-you-should-know-before-you-participate-in-an-initial-coin-offering-ico",
+      "title": "What you should know before you participate in an Initial Coin Offering (ICO)",
+      "datePublished": "2018-09-26",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "Medium",
+      "originalUrl": "https://medium.com/@kennethlegesi/what-you-should-know-before-you-participate-in-an-initial-coin-offering-ico-b5b834ef197a",
+      "url": "/writing/what-you-should-know-before-you-participate-in-an-initial-coin-offering-ico/",
+      "summary": "After a warning from Uganda’s central bank about One Coin, https://www.bou.or.ug/bou/media/statements/One-Coin-Digital-Money-operations-in-Uganda.html there continue to be anecdota…",
+      "native": true,
+      "tags": [
+        "Technology & Development"
+      ],
+      "archiveStatus": "Full text reproduced from author RSS"
+    },
+    {
+      "slug": "go-big-or-go-home-metrics-to-measure-growth-of-your-startup",
+      "title": "Go big or go home — metrics to measure growth of your startup",
+      "datePublished": "2018-09-18",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "Medium",
+      "originalUrl": "https://medium.com/@kennethlegesi/go-big-or-go-home-metrics-to-measure-growth-of-your-startup-1b156e249c45",
+      "url": "/writing/go-big-or-go-home-metrics-to-measure-growth-of-your-startup/",
+      "summary": "For a startup business to succeed, key DNA markers that investors look for are a good idea, clear product/market fit, founder focus and tenacity, team alignment and fit. However, a…",
+      "native": true,
+      "tags": [
+        "Entrepreneurship & Venture Capital"
+      ],
+      "archiveStatus": "Full text reproduced from author RSS"
+    },
+    {
+      "slug": "to-convert-or-not-to-convert-term-sheets",
+      "title": "To convert or not to convert…Term sheets",
+      "datePublished": "2018-07-30",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "Medium",
+      "originalUrl": "https://medium.com/@kennethlegesi/to-convert-or-not-to-convert-term-sheets-f6c35b29f962",
+      "url": "/writing/to-convert-or-not-to-convert-term-sheets/",
+      "summary": "Previously Digest Africa has shared an article on startup jargon founders and entrepreneurs need to know as they raise funds for their company. http://digestafrica.com/startup-jarg…",
+      "native": true,
+      "tags": [
+        "Entrepreneurship & Venture Capital"
+      ],
+      "archiveStatus": "Full text reproduced from author RSS"
+    },
+    {
+      "slug": "bloomberg-by-bloomberg-some-lessons",
+      "title": "Bloomberg by Bloomberg — Some Lessons",
+      "datePublished": "2018-07-19",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "Medium",
+      "originalUrl": "https://medium.com/@kennethlegesi/bloomberg-by-bloomberg-some-lessons-828dfe358b5b",
+      "url": "/writing/bloomberg-by-bloomberg-some-lessons/",
+      "summary": "I was recently asked to be on the Board of Advisors for a media and data analytics startup. The pitch was we are Company X and we want to tell the story of African startups to i) e…",
+      "native": true,
+      "tags": [
+        "Technology & Development"
+      ],
+      "archiveStatus": "Full text reproduced from author RSS"
+    },
+    {
+      "slug": "how-block-chain-technology-can-build-uganda-s-real-estate-platform",
+      "title": "How block chain technology can build Uganda’s real estate platform",
+      "datePublished": "2018-07-19",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "Medium",
+      "originalUrl": "https://medium.com/@kennethlegesi/how-block-chain-technology-can-build-ugandas-real-estate-platform-b777bb317cfb",
+      "url": "/writing/how-block-chain-technology-can-build-uganda-s-real-estate-platform/",
+      "summary": "Uganda is recognized as having a complex land tenure system, with four (4) land tenure systems including freehold, leasehold, private mailo, customary freehold and crown land, all …",
+      "native": true,
+      "tags": [
+        "Technology & Development"
+      ],
+      "archiveStatus": "Full text reproduced from author RSS"
+    },
+    {
+      "slug": "on-uganda-s-digital-economy-part-1-to-tax-or-not-to-tax-mobile-money",
+      "title": "On Uganda’s Digital Economy: Part 1, to tax or not to tax mobile money?",
+      "datePublished": "2018-07-06",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "Medium",
+      "originalUrl": "https://medium.com/@kennethlegesi/on-ugandas-digital-economy-part-1-to-tax-or-not-to-tax-mobile-money-92aae26bda22",
+      "url": "/writing/on-uganda-s-digital-economy-part-1-to-tax-or-not-to-tax-mobile-money/",
+      "summary": "I note the recent debates in Uganda on the issues of the Social Media Tax and the Mobile Money Transaction Tax. Just to say at the outset that I believe levying these taxes is wron…",
+      "native": true,
+      "tags": [
+        "Technology & Development"
+      ],
+      "archiveStatus": "Full text reproduced from author RSS",
+      "syndications": [
+        {
+          "platform": "LinkedIn",
+          "url": "https://www.linkedin.com/pulse/ugandas-digital-economy-part-1-tax-mobilemoney-kenneth-legesi",
+          "datePublished": "2018-07-06"
+        }
+      ]
+    },
+    {
+      "slug": "the-case-for-investment-clubs-retirement-benefit-schemes-and-pension-funds-in-funding-local",
+      "title": "The case for investment clubs, retirement benefit schemes and pension funds in funding local…",
+      "datePublished": "2018-07-06",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "Medium",
+      "originalUrl": "https://medium.com/@kennethlegesi/the-case-for-investment-clubs-retirement-benefit-schemes-and-pension-funds-in-funding-local-3264880ad2c9",
+      "url": "/writing/the-case-for-investment-clubs-retirement-benefit-schemes-and-pension-funds-in-funding-local/",
+      "summary": "The case for investment clubs, retirement benefit schemes and pension funds in funding local startups Startups can be defined as businesses that are at idea, seed and or early stag…",
+      "native": true,
+      "tags": [
+        "Technology & Development"
+      ],
+      "archiveStatus": "Full text reproduced from author RSS"
+    },
+    {
+      "slug": "how-to-value-your-startup-part-2",
+      "title": "How to value your startup: Part 2",
+      "datePublished": "2018-07-03",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "Medium",
+      "originalUrl": "https://medium.com/@kennethlegesi/how-to-value-your-startup-part-2-ccaad4c37c1b",
+      "url": "/writing/how-to-value-your-startup-part-2/",
+      "summary": "In Part 1, I outlined the three broad methods for valuing startups the Asset approach; an Income approach; and a Comparables approach and the challenges associated with trying to v…",
+      "native": true,
+      "tags": [
+        "Entrepreneurship & Venture Capital"
+      ],
+      "archiveStatus": "Full text reproduced from author RSS"
+    },
+    {
+      "slug": "how-to-value-your-start-up-part-1",
+      "title": "How to value your start-up: Part 1",
+      "datePublished": "2018-06-29",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "Medium",
+      "originalUrl": "https://medium.com/@kennethlegesi/how-to-value-your-start-up-part-1-ac5bca77b2f5",
+      "url": "/writing/how-to-value-your-start-up-part-1/",
+      "summary": "For entrepreneurs looking to raise capital for their startup or investors seeking to make an investment in a startup, a valuation is normally a key negotiating factor. How then do …",
+      "native": true,
+      "tags": [
+        "Technology & Development"
+      ],
+      "archiveStatus": "Full text reproduced from author RSS"
+    },
+    {
+      "slug": "what-angel-investors-look-for-in-a-startup",
+      "title": "What Angel Investors look for in a startup?",
+      "datePublished": "2018-06-29",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "Medium",
+      "originalUrl": "https://medium.com/@kennethlegesi/it-is-estimated-that-up-to-80-of-startups-do-not-reach-their-fifth-anniversary-29beee10d33",
+      "url": "https://medium.com/@kennethlegesi/it-is-estimated-that-up-to-80-of-startups-do-not-reach-their-fifth-anniversary-29beee10d33",
+      "summary": "Advice to  entrepreneurs and founders as they build a startup Continue reading on Medium »",
+      "native": false,
+      "tags": [
+        "Entrepreneurship & Venture Capital"
+      ],
+      "archiveStatus": "External article; full text not available in feed"
+    },
+    {
+      "slug": "the-code-that-wants-to-govern-every-financial-asset-on-earth",
+      "title": "The Code That Wants to Govern Every Financial Asset on Earth",
+      "datePublished": "2026-04-10",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "LinkedIn",
+      "originalUrl": "https://www.linkedin.com/pulse/code-wants-govern-every-financial-asset-earth-kenneth-legesi-cfa-3n35e",
+      "url": "https://www.linkedin.com/pulse/code-wants-govern-every-financial-asset-earth-kenneth-legesi-cfa-3n35e",
+      "summary": "Originally published on LinkedIn. Read the complete article at its original publication.",
+      "native": false,
+      "tags": [
+        "Investment & Development"
+      ],
+      "archiveStatus": "External article; full-text migration outstanding"
+    },
+    {
+      "slug": "from-prompt-to-practitioner-what-my-ai-journey-taught-me-about-the-future-of-work-in-africa",
+      "title": "From Prompt to Practitioner: What My AI Journey Taught Me About the Future of Work in Africa",
+      "datePublished": "2026-04-22",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "LinkedIn",
+      "originalUrl": "https://www.linkedin.com/pulse/from-prompt-practitioner-what-my-ai-journey-taught-me-legesi-cfa-f5lde",
+      "url": "https://www.linkedin.com/pulse/from-prompt-practitioner-what-my-ai-journey-taught-me-legesi-cfa-f5lde",
+      "summary": "Originally published on LinkedIn. Read the complete article at its original publication.",
+      "native": false,
+      "tags": [
+        "Investment & Development"
+      ],
+      "archiveStatus": "External article; full-text migration outstanding",
+      "workUrls": [
+        "/work/professional-services-future/"
+      ]
+    },
+    {
+      "slug": "new-year-new-me",
+      "title": "New year, new me?",
+      "datePublished": "2026-01-03",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "LinkedIn",
+      "originalUrl": "https://www.linkedin.com/pulse/new-year-me-kenneth-legesi-cfa-cawke",
+      "url": "https://www.linkedin.com/pulse/new-year-me-kenneth-legesi-cfa-cawke",
+      "summary": "Originally published on LinkedIn. Read the complete article at its original publication.",
+      "native": false,
+      "tags": [
+        "Reflections"
+      ],
+      "archiveStatus": "External article; full-text migration outstanding"
+    },
+    {
+      "slug": "the-invisible-moat",
+      "title": "The Invisible Moat",
+      "datePublished": "2026-06-04",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "LinkedIn",
+      "originalUrl": "https://www.linkedin.com/pulse/invisible-moat-kenneth-legesi-cfa-3bvze",
+      "url": "https://www.linkedin.com/pulse/invisible-moat-kenneth-legesi-cfa-3bvze",
+      "summary": "Originally published on LinkedIn. Read the complete article at its original publication.",
+      "native": false,
+      "tags": [
+        "Investment & Development"
+      ],
+      "archiveStatus": "External article; full-text migration outstanding"
+    },
+    {
+      "slug": "uganda-is-at-a-digital-inflection-point-most-of-our-organisations-are-still-running-on-infrastructure-designed",
+      "title": "Uganda Is at a Digital Inflection Point. Most of Our Organisations Are Still Running on Infrastructure Designed for a Different Era",
+      "datePublished": "2026-05-13",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "LinkedIn",
+      "originalUrl": "https://www.linkedin.com/pulse/uganda-digital-inflection-point-most-our-still-era-legesi-cfa-gfsie",
+      "url": "https://www.linkedin.com/pulse/uganda-digital-inflection-point-most-our-still-era-legesi-cfa-gfsie",
+      "summary": "Originally published on LinkedIn. Read the complete article at its original publication.",
+      "native": false,
+      "tags": [
+        "Investment & Development"
+      ],
+      "archiveStatus": "External article; full-text migration outstanding",
+      "workUrls": [
+        "/work/professional-services-future/"
+      ]
+    },
+    {
+      "slug": "the-capital-we-need-is-already-in-the-room",
+      "title": "The Capital We Need Is Already in the Room",
+      "datePublished": "2025-06-07",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "LinkedIn",
+      "originalUrl": "https://www.linkedin.com/pulse/capital-we-need-already-room-kenneth-legesi-cfa-3fc0c",
+      "url": "https://www.linkedin.com/pulse/capital-we-need-already-room-kenneth-legesi-cfa-3fc0c",
+      "summary": "Originally published on LinkedIn. Read the complete article at its original publication.",
+      "native": false,
+      "tags": [
+        "Investment & Development"
+      ],
+      "archiveStatus": "External article; full-text migration outstanding"
+    },
+    {
+      "slug": "saas-is-dead-long-live-saas",
+      "title": "SaaS is Dead. Long Live SaaS.",
+      "datePublished": "2025-03-15",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "LinkedIn",
+      "originalUrl": "https://www.linkedin.com/pulse/saas-dead-long-live-kenneth-legesi-cfa-0puge",
+      "url": "https://www.linkedin.com/pulse/saas-dead-long-live-kenneth-legesi-cfa-0puge",
+      "summary": "Originally published on LinkedIn. Read the complete article at its original publication.",
+      "native": false,
+      "tags": [
+        "Investment & Development"
+      ],
+      "archiveStatus": "External article; full-text migration outstanding",
+      "workUrls": [
+        "/work/professional-services-future/"
+      ]
+    },
+    {
+      "slug": "building-the-perfect-rainy-day-fund",
+      "title": "Building the Perfect Rainy-Day Fund",
+      "datePublished": "2025-01-24",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "LinkedIn",
+      "originalUrl": "https://www.linkedin.com/pulse/building-perfect-rainy-day-fund-kenneth-legesi-cfa-uciae",
+      "url": "https://www.linkedin.com/pulse/building-perfect-rainy-day-fund-kenneth-legesi-cfa-uciae",
+      "summary": "Originally published on LinkedIn. Read the complete article at its original publication.",
+      "native": false,
+      "tags": [
+        "Investment & Development"
+      ],
+      "archiveStatus": "External article; full-text migration outstanding",
+      "workUrls": [
+        "/work/financial-literacy/"
+      ]
+    },
+    {
+      "slug": "what-is-sweat-equity-worth",
+      "title": "What is sweat equity worth?",
+      "datePublished": "2025-02-18",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "LinkedIn",
+      "originalUrl": "https://www.linkedin.com/pulse/what-sweat-equity-worth-kenneth-legesi-cfa-5phne",
+      "url": "https://www.linkedin.com/pulse/what-sweat-equity-worth-kenneth-legesi-cfa-5phne",
+      "summary": "Originally published on LinkedIn. Read the complete article at its original publication.",
+      "native": false,
+      "tags": [
+        "Investment & Development"
+      ],
+      "archiveStatus": "External article; full-text migration outstanding"
+    },
+    {
+      "slug": "thoughts-on-a-model-for-affordable-healthcare-financing-in-africa",
+      "title": "Thoughts on a Model for Affordable Healthcare Financing in Africa",
+      "datePublished": "2024-12-30",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "LinkedIn",
+      "originalUrl": "https://www.linkedin.com/pulse/thoughts-model-affordable-healthcare-financing-africa-legesi-cfa-23nve",
+      "url": "https://www.linkedin.com/pulse/thoughts-model-affordable-healthcare-financing-africa-legesi-cfa-23nve",
+      "summary": "Originally published on LinkedIn. Read the complete article at its original publication.",
+      "native": false,
+      "tags": [
+        "Investment & Development"
+      ],
+      "archiveStatus": "External article; full-text migration outstanding"
+    },
+    {
+      "slug": "navigating-non-performing-loans-a-strategic-approach-to-lending-rates",
+      "title": "Navigating Non-Performing Loans: A Strategic Approach to Lending Rates",
+      "datePublished": "2024-02-21",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "LinkedIn",
+      "originalUrl": "https://www.linkedin.com/pulse/navigating-non-performing-loans-strategic-approach-legesi-cfa-wdgze",
+      "url": "https://www.linkedin.com/pulse/navigating-non-performing-loans-strategic-approach-legesi-cfa-wdgze",
+      "summary": "Originally published on LinkedIn. Read the complete article at its original publication.",
+      "native": false,
+      "tags": [
+        "Investment & Development"
+      ],
+      "archiveStatus": "External article; full-text migration outstanding"
+    },
+    {
+      "slug": "what-is-your-why",
+      "title": "What is your why?",
+      "datePublished": "2020-08-28",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "LinkedIn",
+      "originalUrl": "https://www.linkedin.com/pulse/what-your-why-kenneth-legesi-cfa",
+      "url": "https://www.linkedin.com/pulse/what-your-why-kenneth-legesi-cfa",
+      "summary": "Originally published on LinkedIn. Read the complete article at its original publication.",
+      "native": false,
+      "tags": [
+        "Reflections"
+      ],
+      "archiveStatus": "External article; full-text migration outstanding"
+    },
+    {
+      "slug": "on-the-future-of-africa-s-stock-exchanges",
+      "title": "On the future of Africa's Stock Exchanges",
+      "datePublished": "2020-01-22",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "LinkedIn",
+      "originalUrl": "https://www.linkedin.com/pulse/future-africas-stock-exchanges-kenneth-legesi-cfa",
+      "url": "https://www.linkedin.com/pulse/future-africas-stock-exchanges-kenneth-legesi-cfa",
+      "summary": "Originally published on LinkedIn. Read the complete article at its original publication.",
+      "native": false,
+      "tags": [
+        "Investment & Development"
+      ],
+      "archiveStatus": "External article; full-text migration outstanding"
+    },
+    {
+      "slug": "covid19-economic-strategies-and-interventions-for-uganda",
+      "title": "COVID19: Economic Strategies and Interventions for Uganda",
+      "datePublished": "2020-04-02",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "LinkedIn",
+      "originalUrl": "https://www.linkedin.com/pulse/covid19-economic-strategies-interventions-uganda-kenneth-legesi-cfa",
+      "url": "https://www.linkedin.com/pulse/covid19-economic-strategies-interventions-uganda-kenneth-legesi-cfa",
+      "summary": "Originally published on LinkedIn. Read the complete article at its original publication.",
+      "native": false,
+      "tags": [
+        "Investment & Development"
+      ],
+      "archiveStatus": "External article; full-text migration outstanding"
+    },
+    {
+      "slug": "my-take-aways-from-the-11th-uganda-ceo-forum-2020",
+      "title": "My take aways from the 11th Uganda CEO Forum 2020",
+      "datePublished": "2020-09-11",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "LinkedIn",
+      "originalUrl": "https://www.linkedin.com/pulse/my-take-aways-from-11th-ceo-forum-2020-kenneth-legesi-cfa",
+      "url": "https://www.linkedin.com/pulse/my-take-aways-from-11th-ceo-forum-2020-kenneth-legesi-cfa",
+      "summary": "Originally published on LinkedIn. Read the complete article at its original publication.",
+      "native": false,
+      "tags": [
+        "Investment & Development"
+      ],
+      "archiveStatus": "External article; full-text migration outstanding"
+    },
+    {
+      "slug": "thoughts-on-a-model-for-affordable-housing-in-africa",
+      "title": "Thoughts on a Model for Affordable Housing in Africa",
+      "datePublished": "2021-02-05",
+      "dateAdded": "2026-10-28",
+      "type": "Essay",
+      "platform": "LinkedIn",
+      "originalUrl": "https://www.linkedin.com/pulse/thoughts-model-affordable-housing-africa-kenneth-legesi-cfa",
+      "url": "https://www.linkedin.com/pulse/thoughts-model-affordable-housing-africa-kenneth-legesi-cfa",
+      "summary": "Originally published on LinkedIn. Read the complete article at its original publication.",
+      "native": false,
+      "tags": [
+        "Investment & Development"
+      ],
+      "archiveStatus": "External article; full-text migration outstanding",
+      "workUrls": [
+        "/work/africa-affordable-housing-lab/"
       ]
     }
   ]

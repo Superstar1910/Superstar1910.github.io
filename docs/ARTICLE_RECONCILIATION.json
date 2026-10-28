@@ -1,0 +1,231 @@
+{
+  "checkedAt": "2026-10-28",
+  "baselinePublications": 46,
+  "medium": {
+    "feedItems": 10,
+    "fullTextImported": 9,
+    "externalOnly": 1,
+    "completeProfileVerified": false,
+    "limitation": "Feed exposes 10 recent entries; it does not establish a complete lifetime bibliography. One item contains an excerpt only.",
+    "items": [
+      {
+        "title": "What you should know before you participate in an Initial Coin Offering (ICO)",
+        "datePublished": "2018-09-26",
+        "originalUrl": "https://medium.com/@kennethlegesi/what-you-should-know-before-you-participate-in-an-initial-coin-offering-ico-b5b834ef197a",
+        "native": true,
+        "source": "https://medium.com/feed/@kennethlegesi"
+      },
+      {
+        "title": "Go big or go home — metrics to measure growth of your startup",
+        "datePublished": "2018-09-18",
+        "originalUrl": "https://medium.com/@kennethlegesi/go-big-or-go-home-metrics-to-measure-growth-of-your-startup-1b156e249c45",
+        "native": true,
+        "source": "https://medium.com/feed/@kennethlegesi"
+      },
+      {
+        "title": "To convert or not to convert…Term sheets",
+        "datePublished": "2018-07-30",
+        "originalUrl": "https://medium.com/@kennethlegesi/to-convert-or-not-to-convert-term-sheets-f6c35b29f962",
+        "native": true,
+        "source": "https://medium.com/feed/@kennethlegesi"
+      },
+      {
+        "title": "Bloomberg by Bloomberg — Some Lessons",
+        "datePublished": "2018-07-19",
+        "originalUrl": "https://medium.com/@kennethlegesi/bloomberg-by-bloomberg-some-lessons-828dfe358b5b",
+        "native": true,
+        "source": "https://medium.com/feed/@kennethlegesi"
+      },
+      {
+        "title": "How block chain technology can build Uganda’s real estate platform",
+        "datePublished": "2018-07-19",
+        "originalUrl": "https://medium.com/@kennethlegesi/how-block-chain-technology-can-build-ugandas-real-estate-platform-b777bb317cfb",
+        "native": true,
+        "source": "https://medium.com/feed/@kennethlegesi"
+      },
+      {
+        "title": "On Uganda’s Digital Economy: Part 1, to tax or not to tax mobile money?",
+        "datePublished": "2018-07-06",
+        "originalUrl": "https://medium.com/@kennethlegesi/on-ugandas-digital-economy-part-1-to-tax-or-not-to-tax-mobile-money-92aae26bda22",
+        "native": true,
+        "source": "https://medium.com/feed/@kennethlegesi"
+      },
+      {
+        "title": "The case for investment clubs, retirement benefit schemes and pension funds in funding local…",
+        "datePublished": "2018-07-06",
+        "originalUrl": "https://medium.com/@kennethlegesi/the-case-for-investment-clubs-retirement-benefit-schemes-and-pension-funds-in-funding-local-3264880ad2c9",
+        "native": true,
+        "source": "https://medium.com/feed/@kennethlegesi"
+      },
+      {
+        "title": "How to value your startup: Part 2",
+        "datePublished": "2018-07-03",
+        "originalUrl": "https://medium.com/@kennethlegesi/how-to-value-your-startup-part-2-ccaad4c37c1b",
+        "native": true,
+        "source": "https://medium.com/feed/@kennethlegesi"
+      },
+      {
+        "title": "How to value your start-up: Part 1",
+        "datePublished": "2018-06-29",
+        "originalUrl": "https://medium.com/@kennethlegesi/how-to-value-your-start-up-part-1-ac5bca77b2f5",
+        "native": true,
+        "source": "https://medium.com/feed/@kennethlegesi"
+      },
+      {
+        "title": "What Angel Investors look for in a startup?",
+        "datePublished": "2018-06-29",
+        "originalUrl": "https://medium.com/@kennethlegesi/it-is-estimated-that-up-to-80-of-startups-do-not-reach-their-fifth-anniversary-29beee10d33",
+        "native": false,
+        "source": "https://medium.com/feed/@kennethlegesi"
+      }
+    ]
+  },
+  "linkedin": {
+    "verifiedArticleURLs": 19,
+    "completeProfileVerified": false,
+    "items": [
+      {
+        "title": "The Code That Wants to Govern Every Financial Asset on Earth",
+        "datePublished": "2026-04-10",
+        "originalUrl": "https://www.linkedin.com/pulse/code-wants-govern-every-financial-asset-earth-kenneth-legesi-cfa-3n35e",
+        "status": "External article indexed",
+        "native": false
+      },
+      {
+        "title": "From Prompt to Practitioner: What My AI Journey Taught Me About the Future of Work in Africa",
+        "datePublished": "2026-04-22",
+        "originalUrl": "https://www.linkedin.com/pulse/from-prompt-practitioner-what-my-ai-journey-taught-me-legesi-cfa-f5lde",
+        "status": "External article indexed",
+        "native": false
+      },
+      {
+        "title": "New year, new me?",
+        "datePublished": "2026-01-03",
+        "originalUrl": "https://www.linkedin.com/pulse/new-year-me-kenneth-legesi-cfa-cawke",
+        "status": "External article indexed",
+        "native": false
+      },
+      {
+        "title": "The Invisible Moat",
+        "datePublished": "2026-06-04",
+        "originalUrl": "https://www.linkedin.com/pulse/invisible-moat-kenneth-legesi-cfa-3bvze",
+        "status": "External article indexed",
+        "native": false
+      },
+      {
+        "title": "Uganda Is at a Digital Inflection Point. Most of Our Organisations Are Still Running on Infrastructure Designed for a Different Era",
+        "datePublished": "2026-05-13",
+        "originalUrl": "https://www.linkedin.com/pulse/uganda-digital-inflection-point-most-our-still-era-legesi-cfa-gfsie",
+        "status": "External article indexed",
+        "native": false
+      },
+      {
+        "title": "The Capital We Need Is Already in the Room",
+        "datePublished": "2025-06-07",
+        "originalUrl": "https://www.linkedin.com/pulse/capital-we-need-already-room-kenneth-legesi-cfa-3fc0c",
+        "status": "External article indexed",
+        "native": false
+      },
+      {
+        "title": "SaaS is Dead. Long Live SaaS.",
+        "datePublished": "2025-03-15",
+        "originalUrl": "https://www.linkedin.com/pulse/saas-dead-long-live-kenneth-legesi-cfa-0puge",
+        "status": "External article indexed",
+        "native": false
+      },
+      {
+        "title": "Building the Perfect Rainy-Day Fund",
+        "datePublished": "2025-01-24",
+        "originalUrl": "https://www.linkedin.com/pulse/building-perfect-rainy-day-fund-kenneth-legesi-cfa-uciae",
+        "status": "External article indexed",
+        "native": false
+      },
+      {
+        "title": "What is sweat equity worth?",
+        "datePublished": "2025-02-18",
+        "originalUrl": "https://www.linkedin.com/pulse/what-sweat-equity-worth-kenneth-legesi-cfa-5phne",
+        "status": "External article indexed",
+        "native": false
+      },
+      {
+        "title": "Thoughts on a Model for Affordable Healthcare Financing in Africa",
+        "datePublished": "2024-12-30",
+        "originalUrl": "https://www.linkedin.com/pulse/thoughts-model-affordable-healthcare-financing-africa-legesi-cfa-23nve",
+        "status": "External article indexed",
+        "native": false
+      },
+      {
+        "title": "Navigating Non-Performing Loans: A Strategic Approach to Lending Rates",
+        "datePublished": "2024-02-21",
+        "originalUrl": "https://www.linkedin.com/pulse/navigating-non-performing-loans-strategic-approach-legesi-cfa-wdgze",
+        "status": "External article indexed",
+        "native": false
+      },
+      {
+        "title": "What is your why?",
+        "datePublished": "2020-08-28",
+        "originalUrl": "https://www.linkedin.com/pulse/what-your-why-kenneth-legesi-cfa",
+        "status": "External article indexed",
+        "native": false
+      },
+      {
+        "title": "On the future of Africa's Stock Exchanges",
+        "datePublished": "2020-01-22",
+        "originalUrl": "https://www.linkedin.com/pulse/future-africas-stock-exchanges-kenneth-legesi-cfa",
+        "status": "External article indexed",
+        "native": false
+      },
+      {
+        "title": "COVID19: Economic Strategies and Interventions for Uganda",
+        "datePublished": "2020-04-02",
+        "originalUrl": "https://www.linkedin.com/pulse/covid19-economic-strategies-interventions-uganda-kenneth-legesi-cfa",
+        "status": "External article indexed",
+        "native": false
+      },
+      {
+        "title": "My take aways from the 11th Uganda CEO Forum 2020",
+        "datePublished": "2020-09-11",
+        "originalUrl": "https://www.linkedin.com/pulse/my-take-aways-from-11th-ceo-forum-2020-kenneth-legesi-cfa",
+        "status": "External article indexed",
+        "native": false
+      },
+      {
+        "title": "Thoughts on a Model for Affordable Housing in Africa",
+        "datePublished": "2021-02-05",
+        "originalUrl": "https://www.linkedin.com/pulse/thoughts-model-affordable-housing-africa-kenneth-legesi-cfa",
+        "status": "External article indexed",
+        "native": false
+      },
+      {
+        "title": "On Uganda’s Digital Economy: Part 1, to tax or not to tax mobile money?",
+        "datePublished": "2018-07-06",
+        "originalUrl": "https://www.linkedin.com/pulse/ugandas-digital-economy-part-1-tax-mobilemoney-kenneth-legesi",
+        "status": "Alternate edition linked",
+        "native": true
+      },
+      {
+        "title": "The Rise of Carbon Markets in East Africa: Opportunities and Challenges",
+        "datePublished": "2025-04-07",
+        "originalUrl": "https://www.linkedin.com/pulse/rise-carbon-markets-east-africa-opportunities-kenneth-legesi-cfa-ip32e",
+        "status": "Alternate edition linked",
+        "native": true
+      },
+      {
+        "title": "Nobody Talks About This Path to Homeownership in Africa — But It Could Change Everything",
+        "datePublished": "2025-03-27",
+        "originalUrl": "https://www.linkedin.com/pulse/nobody-talks-path-homeownership-africa-could-change-legesi-cfa-rzoze",
+        "status": "Alternate edition linked",
+        "native": true
+      }
+    ],
+    "limitation": "Public search establishes these article URLs and edition dates, not complete profile coverage or full-text equivalence. Authenticated archive/export needed for exhaustive reconciliation.",
+    "pendingKnownTitle": "Dr. Geoffrey Alan Onegi-Obel: A Life of Building Markets (27 October 2026); profile lists it, but article URL and full text were not retrievable."
+  },
+  "substack": {
+    "registeredNativeArticles": 38,
+    "liveArchiveVerified": false,
+    "limitation": "Archive and feed returned a Site Unavailable document in this assessment environment; existing author-exported content retained. No assertion that all live posts are mirrored."
+  },
+  "totalArchiveEntries": 72,
+  "nativeFullText": 55
+}

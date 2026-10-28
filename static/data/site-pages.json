@@ -10,19 +10,14 @@
     "path": "about/index.html"
   },
   {
+    "url": "/connect/",
+    "title": "Start a conversation",
+    "path": "connect/index.html"
+  },
+  {
     "url": "/disclaimer/",
     "title": "Investment Disclaimer",
     "path": "disclaimer/index.html"
-  },
-  {
-    "url": "/financial-literacy/emergency-fund/",
-    "title": "Emergency Fund Planner",
-    "path": "financial-literacy/emergency-fund/index.html"
-  },
-  {
-    "url": "/financial-literacy/",
-    "title": "Financial Literacy & Investing",
-    "path": "financial-literacy/index.html"
   },
   {
     "url": "/",
@@ -93,6 +88,16 @@
     "url": "/work/dangote-refinery-ipo-investment-analysis/",
     "title": "Dangote Refinery IPO Research",
     "path": "work/dangote-refinery-ipo-investment-analysis/index.html"
+  },
+  {
+    "url": "/work/financial-literacy/emergency-fund/",
+    "title": "Emergency Fund Planner",
+    "path": "work/financial-literacy/emergency-fund/index.html"
+  },
+  {
+    "url": "/work/financial-literacy/",
+    "title": "Financial Literacy & Investing",
+    "path": "work/financial-literacy/index.html"
   },
   {
     "url": "/work/hs-code/",
@@ -235,6 +240,11 @@
     "path": "writing/before-the-gem-why-this-series-exists/index.html"
   },
   {
+    "url": "/writing/bloomberg-by-bloomberg-some-lessons/",
+    "title": "Bloomberg by Bloomberg",
+    "path": "writing/bloomberg-by-bloomberg-some-lessons/index.html"
+  },
+  {
     "url": "/writing/bond-yield-rate-vs-bond-coupon-rate/",
     "title": "Bond Yield rate Vs Bond Coupon rate",
     "path": "writing/bond-yield-rate-vs-bond-coupon-rate/index.html"
@@ -260,9 +270,19 @@
     "path": "writing/ergodicity/index.html"
   },
   {
+    "url": "/writing/go-big-or-go-home-metrics-to-measure-growth-of-your-startup/",
+    "title": "Go big or go home",
+    "path": "writing/go-big-or-go-home-metrics-to-measure-growth-of-your-startup/index.html"
+  },
+  {
     "url": "/writing/goat-farming-or-goat-ponzi-investors/",
     "title": "Goat Farming or Goat Ponzi?",
     "path": "writing/goat-farming-or-goat-ponzi-investors/index.html"
+  },
+  {
+    "url": "/writing/how-block-chain-technology-can-build-uganda-s-real-estate-platform/",
+    "title": "How block chain technology can build Uganda’s real estate platform",
+    "path": "writing/how-block-chain-technology-can-build-uganda-s-real-estate-platform/index.html"
   },
   {
     "url": "/writing/how-i-turned-macro-outlooks-into/",
@@ -273,6 +293,16 @@
     "url": "/writing/how-to-make-africa-a-100-billion/",
     "title": "How to Make Africa a $100 Billion Tradeable Asset Class",
     "path": "writing/how-to-make-africa-a-100-billion/index.html"
+  },
+  {
+    "url": "/writing/how-to-value-your-start-up-part-1/",
+    "title": "How to value your start-up: Part 1",
+    "path": "writing/how-to-value-your-start-up-part-1/index.html"
+  },
+  {
+    "url": "/writing/how-to-value-your-startup-part-2/",
+    "title": "How to value your startup: Part 2",
+    "path": "writing/how-to-value-your-startup-part-2/index.html"
   },
   {
     "url": "/writing/i-hope-this-helps-someone-today-how/",
@@ -298,6 +328,11 @@
     "url": "/writing/nobody-talks-about-this-path-to-homeownership/",
     "title": "Nobody Talks About This Path to Homeownership in Africa",
     "path": "writing/nobody-talks-about-this-path-to-homeownership/index.html"
+  },
+  {
+    "url": "/writing/on-uganda-s-digital-economy-part-1-to-tax-or-not-to-tax-mobile-money/",
+    "title": "On Uganda’s Digital Economy: Part 1, to tax or not to tax mobile money?",
+    "path": "writing/on-uganda-s-digital-economy-part-1-to-tax-or-not-to-tax-mobile-money/index.html"
   },
   {
     "url": "/writing/optionality-and-the-investors-mindset/",
@@ -355,6 +390,11 @@
     "path": "writing/the-ai-bubble-why-manias-never-really-582/index.html"
   },
   {
+    "url": "/writing/the-case-for-investment-clubs-retirement-benefit-schemes-and-pension-funds-in-funding-local/",
+    "title": "The case for investment clubs, retirement benefit schemes and pension funds in funding local…",
+    "path": "writing/the-case-for-investment-clubs-retirement-benefit-schemes-and-pension-funds-in-funding-local/index.html"
+  },
+  {
     "url": "/writing/the-frontier-acceleration/",
     "title": "The Frontier Acceleration",
     "path": "writing/the-frontier-acceleration/index.html"
@@ -405,9 +445,19 @@
     "path": "writing/three-models-of-institutional-continuity/index.html"
   },
   {
+    "url": "/writing/to-convert-or-not-to-convert-term-sheets/",
+    "title": "To convert or not to convert…Term sheets",
+    "path": "writing/to-convert-or-not-to-convert-term-sheets/index.html"
+  },
+  {
     "url": "/writing/unlocking-climate-finance-for-east/",
     "title": "Unlocking Climate Finance for East Africa",
     "path": "writing/unlocking-climate-finance-for-east/index.html"
+  },
+  {
+    "url": "/writing/what-you-should-know-before-you-participate-in-an-initial-coin-offering-ico/",
+    "title": "What you should know before you participate in an Initial Coin Offering (ICO)",
+    "path": "writing/what-you-should-know-before-you-participate-in-an-initial-coin-offering-ico/index.html"
   },
   {
     "url": "/writing/when-every-man-builds-his-own-ark/",
