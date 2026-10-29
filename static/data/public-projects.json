@@ -358,6 +358,22 @@
       "researchLead": "Kenneth S. Legesi",
       "nextReviewTrigger": "New guide or tool release",
       "role": "Independent financial education"
+    },
+    {
+      "name": "coffee-pricing-engine",
+      "url": "https://coffee-pricing-engine.onrender.com/",
+      "category": "Research programmes",
+      "description": "Farm-to-green coffee unit costing, processing yield, trade finance and physical market pricing research with an illustrative public calculator.",
+      "viewUrl": "https://legesi.xyz/work/coffee-pricing-engine/",
+      "viewLabel": "Research and contribution invitation ↗",
+      "title": "Coffee Pricing Engine",
+      "lifecycleStatus": "Research and prototype",
+      "reviewStatus": "Empirical calibration and independent validation outstanding",
+      "researchLead": "Kenneth S. Legesi",
+      "lastReviewed": "2026-10-29",
+      "nextReviewTrigger": "Measured farm/mill outturn or validated market transaction data",
+      "dataCutoff": "2026-10-29",
+      "role": "Independent research programme; prototype calculations illustrative"
     }
   ]
 }
