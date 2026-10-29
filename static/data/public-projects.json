@@ -363,16 +363,16 @@
       "name": "coffee-pricing-engine",
       "url": "https://coffee-pricing-engine.onrender.com/",
       "category": "Research programmes",
-      "description": "Farm-to-green coffee unit costing, processing yield, trade finance and physical market pricing research with an illustrative public calculator.",
+      "description": "Farm-to-market coffee costing and financial intelligence: five role-led journeys linking farm economics, physical grade recovery, trade finance, buyer netbacks and governed market reference data.",
       "viewUrl": "https://legesi.xyz/work/coffee-pricing-engine/",
-      "viewLabel": "Research and contribution invitation ↗",
+      "viewLabel": "Research, architecture and working prototype",
       "title": "Coffee Pricing Engine",
       "lifecycleStatus": "Research and prototype",
       "reviewStatus": "Empirical calibration and independent validation outstanding",
       "researchLead": "Kenneth S. Legesi",
-      "lastReviewed": "2026-10-29",
-      "nextReviewTrigger": "Measured farm/mill outturn or validated market transaction data",
-      "dataCutoff": "2026-10-29",
+      "lastReviewed": "2026-10-30",
+      "nextReviewTrigger": "Publication of empirical validation, approved external price source, or verified transaction model",
+      "dataCutoff": "2026-10-30",
       "role": "Independent research programme; prototype calculations illustrative"
     }
   ]
