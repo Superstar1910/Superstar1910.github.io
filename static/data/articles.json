@@ -2,6 +2,54 @@
   "schemaVersion": 1,
   "articles": [
     {
+      "slug": "what-does-a-kilogram-of-coffee-really-cost",
+      "title": "What Does a Kilogram of Coffee Really Cost?",
+      "datePublished": "2026-10-29",
+      "dateAdded": "2026-10-29",
+      "dateModified": null,
+      "type": "Original research / editorial",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://legesi.xyz/writing/what-does-a-kilogram-of-coffee-really-cost/",
+      "url": "/writing/what-does-a-kilogram-of-coffee-really-cost/",
+      "summary": "From productive trees and farm costs through moisture, processing yield, grade recovery and the true cost of saleable green coffee.",
+      "native": true,
+      "research": {
+        "repository": "https://github.com/Superstar1910/coffee-pricing-engine",
+        "cutoff": "2026-10-29",
+        "reviewStatus": "Editorial analysis; farm economics and processing conversion not yet empirically calibrated"
+      },
+      "tags": [
+        "Agriculture",
+        "Coffee",
+        "Pricing",
+        "Africa & Development"
+      ]
+    },
+    {
+      "slug": "coffee-is-traded-not-just-grown",
+      "title": "Coffee Is Traded, Not Just Grown",
+      "datePublished": "2026-10-29",
+      "dateAdded": "2026-10-29",
+      "dateModified": null,
+      "type": "Original research / editorial",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://legesi.xyz/writing/coffee-is-traded-not-just-grown/",
+      "url": "/writing/coffee-is-traded-not-just-grown/",
+      "summary": "Why origin-side coffee producers and traders need cost, quality, conversion and financing intelligence alongside market prices.",
+      "native": true,
+      "research": {
+        "repository": "https://github.com/Superstar1910/coffee-pricing-engine",
+        "cutoff": "2026-10-29",
+        "reviewStatus": "Editorial analysis; farm economics and processing conversion not yet empirically calibrated"
+      },
+      "tags": [
+        "Agriculture",
+        "Coffee",
+        "Pricing",
+        "Africa & Development"
+      ]
+    },
+    {
       "slug": "economic-opportunity-is-not-investability",
       "title": "Economic Opportunity Is Not Investability",
       "datePublished": "2026-10-28",
