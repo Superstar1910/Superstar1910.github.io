@@ -13,16 +13,15 @@
       "url": "/writing/what-does-a-kilogram-of-coffee-really-cost/",
       "summary": "From productive trees and farm costs through moisture, processing yield, grade recovery and the true cost of saleable green coffee.",
       "native": true,
-      "research": {
-        "repository": "https://github.com/Superstar1910/coffee-pricing-engine",
-        "cutoff": "2026-10-29",
-        "reviewStatus": "Editorial analysis; farm economics and processing conversion not yet empirically calibrated"
-      },
+      "research": null,
       "tags": [
         "Agriculture",
         "Coffee",
         "Pricing",
         "Africa & Development"
+      ],
+      "workUrls": [
+        "/work/coffee-pricing-engine/"
       ]
     },
     {
@@ -37,16 +36,15 @@
       "url": "/writing/coffee-is-traded-not-just-grown/",
       "summary": "Why origin-side coffee producers and traders need cost, quality, conversion and financing intelligence alongside market prices.",
       "native": true,
-      "research": {
-        "repository": "https://github.com/Superstar1910/coffee-pricing-engine",
-        "cutoff": "2026-10-29",
-        "reviewStatus": "Editorial analysis; farm economics and processing conversion not yet empirically calibrated"
-      },
+      "research": null,
       "tags": [
         "Agriculture",
         "Coffee",
         "Pricing",
         "Africa & Development"
+      ],
+      "workUrls": [
+        "/work/coffee-pricing-engine/"
       ]
     },
     {
