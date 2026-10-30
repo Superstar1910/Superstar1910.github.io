@@ -70,6 +70,11 @@
     "path": "work/client-onboarding/index.html"
   },
   {
+    "url": "/work/coffee-pricing-engine/",
+    "title": "Coffee Pricing Engine",
+    "path": "work/coffee-pricing-engine/index.html"
+  },
+  {
     "url": "/work/cyanase-collective/",
     "title": "Cyanase Collective",
     "path": "work/cyanase-collective/index.html"
@@ -253,6 +258,11 @@
     "url": "/writing/carbon-markets-in-east-africa/",
     "title": "Carbon Markets in East Africa",
     "path": "writing/carbon-markets-in-east-africa/index.html"
+  },
+  {
+    "url": "/writing/coffee-is-traded-not-just-grown/",
+    "title": "Coffee Is Traded, Not Just Grown",
+    "path": "writing/coffee-is-traded-not-just-grown/index.html"
   },
   {
     "url": "/writing/economic-opportunity-is-not-investability/",
@@ -448,6 +458,11 @@
     "url": "/writing/unlocking-climate-finance-for-east/",
     "title": "Unlocking Climate Finance for East Africa",
     "path": "writing/unlocking-climate-finance-for-east/index.html"
+  },
+  {
+    "url": "/writing/what-does-a-kilogram-of-coffee-really-cost/",
+    "title": "What Does a Kilogram of Coffee Really Cost?",
+    "path": "writing/what-does-a-kilogram-of-coffee-really-cost/index.html"
   },
   {
     "url": "/writing/what-you-should-know-before-you-participate-in-an-initial-coin-offering-ico/",

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" width="1200" height="650">
+  <rect width="1200" height="650" fill="#15253a"/>
+  <g stroke="#29496d" stroke-width="1">
+    <path d="M120 130H1080M120 230H1080M120 330H1080M120 430H1080M120 530H1080"/>
+  </g>
+  <g fill="#29496d">
+    <rect x="170" y="400" width="70" height="130"/>
+    <rect x="300" y="350" width="70" height="180"/>
+    <rect x="430" y="380" width="70" height="150"/>
+    <rect x="560" y="300" width="70" height="230"/>
+    <rect x="690" y="260" width="70" height="270"/>
+    <rect x="820" y="290" width="70" height="240"/>
+    <rect x="950" y="210" width="70" height="320"/>
+  </g>
+  <polyline points="205,330 335,290 465,310 595,230 725,185 855,215 985,140" fill="none" stroke="#e3e8ed" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <g fill="#ffffff">
+    <circle cx="205" cy="330" r="9"/><circle cx="335" cy="290" r="9"/><circle cx="465" cy="310" r="9"/><circle cx="595" cy="230" r="9"/><circle cx="725" cy="185" r="9"/><circle cx="855" cy="215" r="9"/><circle cx="985" cy="140" r="9"/>
+  </g>
+  <path d="M120 530H1080" stroke="#596a7d" stroke-width="3"/>
+</svg>

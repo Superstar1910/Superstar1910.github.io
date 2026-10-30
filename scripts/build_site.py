@@ -24,7 +24,7 @@ def directory(text,id,content):
   if depth==0:
    end=start.end()+m.start();return text[:start.end()]+content+text[end:]
  raise ValueError('Unclosed directory '+id)
-def page(title,content):return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} — Legesi.xyz</title><link rel="stylesheet" href="/static/css/brand-tokens.css"><link rel="stylesheet" href="/static/css/editorial.css"></head><body><main id="main" class="shell section"><h1>{esc(title)}</h1>{content}</main></body></html>'
+def page(title,content,description=''):return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} — Legesi.xyz</title><meta name="description" content="{esc(description or title+" — Legesi.xyz")}"><link rel="stylesheet" href="/static/css/brand-tokens.css"><link rel="stylesheet" href="/static/css/editorial.css"></head><body><main id="main" class="shell section"><h1>{esc(title)}</h1>{content}</main></body></html>'
 projects=json.loads((ROOT/'static/data/public-projects.json').read_text())['projects']
 articles=json.loads((ROOT/'static/data/articles.json').read_text())['articles']
 titles={urlsplit(p['viewUrl']).path:p.get('title') or p['name'].replace('_',' ').replace('-',' ').title() for p in projects}
@@ -76,7 +76,7 @@ def breadcrumbs(url,title):
   if '/dashboard/' in url and not url.endswith('/dashboard/'):chain.append(('Dashboard','/work/uganda-capital-formation/dashboard/'))
  return '<nav class="site-breadcrumbs shell" aria-label="Breadcrumb"><ol>'+''.join(f'<li><a href="{u}">{esc(n)}</a></li>' for n,u in chain)+f'<li aria-current="page">{esc(title)}</li></ol></nav>'
 content='<p>Find the public pages, research programmes and tools.</p><h2>Main pages</h2><ul>'+''.join(f'<li><a href="{u}">{n}</a></li>' for n,u in [('Home','/'),('About','/about/'),('Work','/work/'),('Writing','/writing/'),('Financial Literacy & Investing','/work/financial-literacy/'),('Emergency Fund Planner','/work/financial-literacy/emergency-fund/'),('Connect','/#connect')])+'</ul><h2>Work and research programmes</h2><ul>'+''.join(f'<li><a href="{esc(p["viewUrl"])}">{esc(p.get("title") or p["name"])}</a></li>' for p in projects)+'</ul><h2>Publications</h2><ul>'+''.join(f'<li><a href="{esc(a["url"])}">{esc(a["title"])}</a></li>' for a in ordered)+'</ul>'
-(ROOT/'sitemap').mkdir(exist_ok=True);(ROOT/'sitemap/index.html').write_text(page('Site map',content));(ROOT/'404.html').write_text(page('Page not found','<p>The address may have changed. Use the <a href="/sitemap/">site map</a>, <a href="/work/">work directory</a> or <a href="/writing/">writing archive</a> to find what you need.</p>'))
+(ROOT/'sitemap').mkdir(exist_ok=True);(ROOT/'sitemap/index.html').write_text(page('Site map',content,'A list of every public page on Legesi.xyz: main pages, work and research programmes, and publications.'));(ROOT/'404.html').write_text(page('Page not found','<p>The address may have changed. Use the <a href="/sitemap/">site map</a>, <a href="/work/">work directory</a> or <a href="/writing/">writing archive</a> to find what you need.</p>','This page could not be found on Legesi.xyz. Use the site map, work directory or writing archive to find what you need.'))
 manifest=[]
 for f in files():
  t=f.read_text();url=route(f);title=html.unescape(re.sub('<[^>]*>','',re.search(r'<title>(.*?)</title>',t,re.S).group(1))).split(' — ')[0].split(' | ')[0]
@@ -116,6 +116,8 @@ for f in files():
   t=re.sub(r'<footer\b([^>]*)>(.*?)</footer>',old_footer,t,flags=re.S);t=t.replace('</body>','<!-- site-footer:start -->'+footer+'<!-- site-footer:end --></body>')
  else:t=replaced
  t=re.sub(r'(<a\b[^>]*href=["\'](?:/projects/|https://legesi.xyz/projects/)["\'][^>]*>)(← )?Projects(</a>)',lambda m:m[1]+(m[2] or '')+'Work'+m[3],t)
+ if not re.search(r'<link\b[^>]*rel=["\']icon["\']',t):t=t.replace('</head>','<link rel="icon" href="/static/img/favicon.ico"></head>',1)
+ if not re.search(r'<meta\b[^>]*name=["\']description["\']',t):t=t.replace('</head>',f'<meta name="description" content="{esc(title)} — Legesi.xyz"></head>',1)
  for css in ['brand-tokens.css','site-shell.css']:
   if '/static/css/'+css not in t:t=t.replace('</head>',f'<link rel="stylesheet" href="/static/css/{css}"></head>')
  if 'type="application/rss+xml"' not in t:t=t.replace('</head>','<link rel="alternate" type="application/rss+xml" title="Legesi.xyz Writing RSS" href="/writing/feed.xml"></head>')
