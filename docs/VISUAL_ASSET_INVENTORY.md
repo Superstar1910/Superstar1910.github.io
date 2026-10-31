@@ -60,3 +60,16 @@ Other discovered but not recovered/inspected in this batch include Africa Invest
 - Obtain approved original files or authorised exports before importing.
 - Add reviewed assets to /static/img/visuals/ and the gallery.
 - Audit navigation templates and packaging workflow before deployment.
+
+
+## Discovery batch 3 — expanded image-library audit, 2026-11-01
+
+- Enumerated **812 image-file records** across nine pages of the accessible personal ChatGPT Library. The Library spans multiple Projects and unrelated/private material; 812 is **not** the count of All Things Content visual deliverables.
+- **26 original PNG files** for public-research themes were recovered locally with SHA-256 hashes, dimensions and a separate offline review manifest; they were **not uploaded to GitHub**. No two recovered files had identical SHA-256 digests, but visually similar outputs and revision families remain.
+- The Library contains **13 entries** in a folder named `All Things Content` (including a generated contact sheet and research graphics). Requests to materialize ten relevant entries returned **“This Project file does not have an authorized raw-byte materialization path.”** Original-byte recovery for these files remains blocked.
+- The user has expressly reconciled and accepted final-version selection for the discovered work. This authorisation does not establish third-party rights, confidentiality clearance, factual verification of investment data, or access to inaccessible originals.
+- Prominent candidate families: Coffee Pricing Engine (four closely related visuals); AI and employment (three related images); behavioural equity screen (three related images); PAYGo asset finance (opportunity map, Trojan-rail diagram and evidence contact sheet); Uganda property-income/REIT (two); flooding (two); coffee-sector PPP (two); family financial literacy (one); Africa enduring enterprises (one); access to finance (one); FX and AI research (several).
+- Confidential client transaction, private family-portfolio and raw document-page images are excluded pending individual rights/confidentiality assessment.
+- The current GitHub connector supports text-file writes and base64 blobs, but does not directly ingest local recovered binary files by container path; this run did not transfer the original PNG bytes into the production repository. Avoid publishing the catalogue without corresponding verified files.
+
+**Audit state:** Library metadata enumeration completed; historical conversation enumeration and universal raw-original recovery incomplete. 26 source PNGs recovered locally; 0 new public catalogue images; 0 new live assets. No invented image paths or placeholders.
