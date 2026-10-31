@@ -73,3 +73,10 @@ Other discovered but not recovered/inspected in this batch include Africa Invest
 - The current GitHub connector supports text-file writes and base64 blobs, but does not directly ingest local recovered binary files by container path; this run did not transfer the original PNG bytes into the production repository. Avoid publishing the catalogue without corresponding verified files.
 
 **Audit state:** Library metadata enumeration completed; historical conversation enumeration and universal raw-original recovery incomplete. 26 source PNGs recovered locally; 0 new public catalogue images; 0 new live assets. No invented image paths or placeholders.
+
+### Supplement to discovery batch 3 — expanded thematic extraction
+
+- A second targeted original recovery pass found **29 additional PNGs**, bringing locally recovered original files to **55**. A SHA-256 manifest and contact sheet are retained in the execution archive; no identical SHA-256 hashes among the 55 originals.
+- Newly covered themes include Quickmart IPO research, Uganda 2026–2036 investment outlook, sector-by-sector AI opportunity maps, governance, professional services, financial literacy and African mining policy.
+- Eight further requested image-file materialisations failed because Project-backed bytes were not authorised for export. This is in addition to the ten source-file recovery attempts previously blocked in the All Things Content folder.
+- The candidate inventory is an evidence/review record only; no image files from these batches have been committed or marked live. User approval resolves final-version selection but not the separate public rights, factual-accuracy and confidentiality checks.
