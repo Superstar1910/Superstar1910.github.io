@@ -47,7 +47,7 @@ These are related published pieces, **not** evidence that all historical course 
 3. Fact-check investment examples, laws, taxes, market prices, returns and dated statements; label historical figures and verify calculations.
 4. Check attribution, rights, audience, narrative structure, disclosures and all external links.
 5. Publish the reviewed article at a stable native URL; only then add a verified record to `articles.json` with correct dates and original URL.
-6. Run `scripts/validate_articles.py`, `scripts/audit_publishing.py`, and `scripts/build_article_feeds.py`; inspect generated feeds and website rendering.
+6. Regenerate feeds first with `python scripts/build_article_feeds.py`, then run `python scripts/validate_articles.py` and `python scripts/audit_publishing.py` against the updated register and generated `writing/feed.xml` and `writing/sitemap.xml`; inspect generated feeds and website rendering.
 7. Update the financial literacy hub with a direct link, category and status. Verify live Pages deployment.
 
 ## Interactive tool QA register
