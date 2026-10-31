@@ -7,7 +7,7 @@
 </style></head>
 <body><a class="skip" href="#main">Skip to content</a><header id="site-header" class="site-header shell"><a class="wordmark" href="/">LEGESI.XYZ</a><nav aria-label="Main navigation"><a href="/about/">About</a><a href="/work/">Work</a><a href="/writing/">Writing</a><a href="/visuals/" aria-current="page">Visuals</a><a href="/#connect">Connect</a></nav></header>
 <main id="main" class="shell"><section class="visuals-intro"><p class="eyebrow">VISUAL LIBRARY</p><h1>Images, ideas & perspectives.</h1><p>A growing collection of personal photography and visual explorations across infrastructure, markets, technology and ideas. Images are identified as photographs or illustrations; a visual does not necessarily depict the project with which it is associated.</p></section>
-<div class="visuals-filters" role="group" aria-label="Filter images"><button type="button" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="photography" aria-pressed="false">Photography</button><button type="button" data-filter="research" aria-pressed="false">Research & graphics</button></div>
+<div class="visuals-filters" role="group" aria-label="Filter images"><button type="button" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="photography" aria-pressed="false">Photography</button><button type="button" data-filter="research" aria-pressed="false">Research & graphics</button></div><p id="visuals-catalogue-status" class="visuals-note" aria-live="polite" hidden></p>
 <section class="visuals-grid" aria-label="Visual collection">
 <figure data-category="photography"><a href="/static/img/legesi-lake-hero.webp"><img src="/static/img/legesi-lake-hero-640.webp" alt="A tranquil lake bordered by trees and reeds" loading="lazy" width="640" height="360"></a><figcaption><strong>Lake and perspective</strong><span>Personal photograph · Landscape</span></figcaption></figure>
 <figure data-category="photography"><a href="/static/img/legesi-evening-landscape.webp"><img src="/static/img/legesi-evening-landscape-640.webp" alt="Expansive landscape beneath an evening sky" loading="lazy" width="640" height="400"></a><figcaption><strong>Evening landscape</strong><span>Personal photograph · Landscape</span></figcaption></figure>
@@ -15,4 +15,38 @@
 <figure data-category="research"><a href="/static/img/legesi-research-thumbnail.svg"><img src="/static/img/legesi-research-thumbnail.svg" alt="Illustrative chart with bars and a line" loading="lazy" width="640" height="360"></a><figcaption><strong>Research and analysis</strong><span>Illustrative graphic · Not actual investment data</span></figcaption></figure>
 </section><p class="visuals-note">This is the initial collection. Further personal and project images will be added after source verification and publication review.</p></main>
 <footer class="footer shell"><div><a class="footer-home" href="/">LEGESI.XYZ</a><span>Semper Facere Meliorem.</span></div><div class="footer-links"><a href="/visuals/">Visuals</a><a href="/work/">Work</a><a href="/writing/">Writing</a><a href="https://www.linkedin.com/in/kenneth-legesi">LinkedIn</a><a href="https://x.com/sklegesi">X</a></div><div class="footer-legal"><a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/sitemap/">Site map</a></div><span>© Kenneth Legesi</span></footer>
-<script>document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{const selected=button.dataset.filter;document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));document.querySelectorAll('[data-category]').forEach(item=>{item.hidden=selected!=='all'&&item.dataset.category!==selected;});}));</script></body></html>
+<script>
+/* Progressive enhancement: server-authored gallery remains visible without JavaScript or when catalogue fetch fails. */
+(async()=>{
+const grid=document.querySelector('.visuals-grid');
+const status=document.getElementById('visuals-catalogue-status');
+try{
+const response=await fetch('/static/data/visual-library.json',{cache:'no-cache'});
+if(!response.ok)throw new Error('Catalogue unavailable');
+const data=await response.json();
+if(data.schema_version!=='1.0.0'||!Array.isArray(data.assets))throw new Error('Invalid catalogue');
+const valid=new Set(['photography','research']);
+const entries=data.assets.filter(a=>a.approval_status==='published-existing'||a.approval_status==='approved');
+const ids=new Set(),paths=new Set();
+for(const a of entries){
+if(!a.id||ids.has(a.id)||!a.file||paths.has(a.file)||!a.file.startsWith('/static/img/')||!valid.has(a.category)||!a.title||!a.alt||!a.project||!Array.isArray(a.tags))throw new Error('Invalid or duplicate asset');
+ids.add(a.id);paths.add(a.file);
+}
+const fragment=document.createDocumentFragment();
+for(const a of entries){
+const figure=document.createElement('figure');figure.dataset.category=a.category;figure.dataset.project=a.project;figure.dataset.tags=a.tags.join(' ');
+const link=document.createElement('a');link.href=a.file;
+const img=document.createElement('img');img.src=a.thumbnail||a.file;img.alt=a.alt;img.loading='lazy';img.width=640;img.height=360;
+link.append(img);const caption=document.createElement('figcaption');const strong=document.createElement('strong');strong.textContent=a.title;const detail=document.createElement('span');detail.textContent=a.caption||a.description||'';caption.append(strong,detail);figure.append(link,caption);fragment.append(figure);
+}
+grid.replaceChildren(fragment);
+const projects=[...new Set(entries.map(a=>a.project))].sort();
+const filterBar=document.querySelector('.visuals-filters');
+for(const project of projects){const button=document.createElement('button');button.type='button';button.dataset.projectFilter=project;button.setAttribute('aria-pressed','false');button.textContent='Project: '+project.replace(/-/g,' ');filterBar.append(button);}
+}catch(error){status.hidden=false;status.textContent='Showing the verified gallery; the asset catalogue could not be loaded.';}
+let category='all',project='all';
+function apply(){document.querySelectorAll('[data-category]').forEach(item=>{item.hidden=(category!=='all'&&item.dataset.category!==category)||(project!=='all'&&item.dataset.project!==project);});}
+document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{category=button.dataset.filter;document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));apply();}));
+document.querySelectorAll('[data-project-filter]').forEach(button=>button.addEventListener('click',()=>{project=project===button.dataset.projectFilter?'all':button.dataset.projectFilter;document.querySelectorAll('[data-project-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.projectFilter===project)));apply();}));
+})();
+</script></body></html>

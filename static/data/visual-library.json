@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0",
+  "policy": "Only verified, public-approved final assets; historical candidates excluded until provenance and version verification.",
+  "assets": [
+    {
+      "id": "V001",
+      "title": "Lake and perspective",
+      "file": "/static/img/legesi-lake-hero.webp",
+      "thumbnail": "/static/img/legesi-lake-hero-640.webp",
+      "alt": "A tranquil lake bordered by trees and reeds",
+      "category": "photography",
+      "caption": "Personal photograph · Landscape",
+      "project": "legesi-xyz",
+      "source_type": "website",
+      "source_reference": "docs/VISUAL_ASSET_INVENTORY.md",
+      "tags": [
+        "photography",
+        "landscape"
+      ],
+      "version": "final-published",
+      "approval_status": "published-existing",
+      "rights_status": "site-attributed-personal-photograph",
+      "related_url": "/",
+      "description": "Landscape photograph in the existing public Legesi.xyz collection."
+    },
+    {
+      "id": "V002",
+      "title": "Evening landscape",
+      "file": "/static/img/legesi-evening-landscape.webp",
+      "thumbnail": "/static/img/legesi-evening-landscape-640.webp",
+      "alt": "Expansive landscape beneath an evening sky",
+      "category": "photography",
+      "caption": "Personal photograph · Landscape",
+      "project": "legesi-xyz",
+      "source_type": "website",
+      "source_reference": "docs/VISUAL_ASSET_INVENTORY.md",
+      "tags": [
+        "photography",
+        "landscape"
+      ],
+      "version": "final-published",
+      "approval_status": "published-existing",
+      "rights_status": "site-attributed-personal-photograph",
+      "related_url": "/",
+      "description": "Landscape photograph in the existing public Legesi.xyz collection."
+    },
+    {
+      "id": "V003",
+      "title": "Lakeside jetty",
+      "file": "/static/img/legesi-lakeside-jetty.webp",
+      "thumbnail": "/static/img/legesi-lakeside-jetty-640.webp",
+      "alt": "A wooden jetty extending over a lake",
+      "category": "photography",
+      "caption": "Personal photograph · Landscape",
+      "project": "legesi-xyz",
+      "source_type": "website",
+      "source_reference": "docs/VISUAL_ASSET_INVENTORY.md",
+      "tags": [
+        "photography",
+        "landscape"
+      ],
+      "version": "final-published",
+      "approval_status": "published-existing",
+      "rights_status": "site-attributed-personal-photograph",
+      "related_url": "/",
+      "description": "Landscape photograph in the existing public Legesi.xyz collection."
+    },
+    {
+      "id": "V004",
+      "title": "Research and analysis",
+      "file": "/static/img/legesi-research-thumbnail.svg",
+      "thumbnail": "/static/img/legesi-research-thumbnail.svg",
+      "alt": "Illustrative chart with bars and a line",
+      "category": "research",
+      "caption": "Illustrative graphic · Not actual investment data",
+      "project": "legesi-xyz",
+      "source_type": "website",
+      "source_reference": "docs/VISUAL_ASSET_INVENTORY.md",
+      "tags": [
+        "research",
+        "illustration",
+        "financial-analysis"
+      ],
+      "version": "final-published",
+      "approval_status": "published-existing",
+      "rights_status": "site-illustration",
+      "related_url": "/",
+      "description": "Illustrative research graphic; not actual investment data."
+    }
+  ]
+}
