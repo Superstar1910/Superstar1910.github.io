@@ -1,0 +1,34 @@
+name: Import approved visual-library bundle
+on:
+  push:
+    branches:
+      - 'intake/legesi-visuals-*'
+    paths:
+      - 'imports/legesi_visual_publication_web_batch_18.zip'
+permissions:
+  contents: write
+jobs:
+  import:
+    if: github.repository == 'Superstar1910/Superstar1910.github.io'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check and import the approved image files
+        run: |
+          python scripts/import_visual_library_bundle.py imports/legesi_visual_publication_web_batch_18.zip --dry-run
+          python scripts/import_visual_library_bundle.py imports/legesi_visual_publication_web_batch_18.zip
+          python scripts/validate_visual_library.py
+      - name: Commit prepared images, catalogue and remove intake bundle
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add static/img/visuals static/data/visual-library.json
+          git rm imports/legesi_visual_publication_web_batch_18.zip
+          git commit -m "Import 18 approved final visuals and validated catalogue"
+          git push
