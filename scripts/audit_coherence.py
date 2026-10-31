@@ -29,7 +29,7 @@ for page in pages:
  if s.count('aria-label="Main navigation"')!=1:errors.append(f'{page["path"]}: primary navigation missing/duplicated')
  header=s.split('<!-- site-header:start -->')[1].split('<!-- site-header:end -->')[0]
  labels=re.findall(r'<a\b[^>]*>([^<]+)</a>',header)
- if labels!=['Skip to content','LEGESI.XYZ','About','Work','Writing','Connect']:errors.append(f'{page["path"]}: inconsistent primary labels {labels}')
+ if labels!=['Skip to content','LEGESI.XYZ','About','Work','Writing','Visuals','Connect']:errors.append(f'{page["path"]}: inconsistent primary labels {labels}')
  for url in ['/privacy/','/terms/','/disclaimer/','https://x.com/sklegesi','/sitemap/']:
   footer=s.split('<!-- site-footer:start -->')[1].split('<!-- site-footer:end -->')[0]
   if f'href="{url}"' not in footer:errors.append(f'{page["path"]}: missing footer {url}')
