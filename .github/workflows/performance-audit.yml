@@ -22,16 +22,16 @@ jobs:
       - run: python scripts/build_site.py
       - name: Install exact measurement tooling
         run: |
-          npm install --no-save --ignore-scripts playwright@1.56.1 lighthouse@13.6.0
-          npx playwright install --with-deps chromium
+          npm install --prefix "$RUNNER_TEMP/lighthouse-tools" --no-save --ignore-scripts playwright@1.56.1 lighthouse@12.8.2
+          "$RUNNER_TEMP/lighthouse-tools/node_modules/.bin/playwright" install --with-deps chromium
       - name: Measure representative pages with mobile defaults
         run: |
           python -m http.server 8765 --bind 127.0.0.1 >/tmp/lighthouse-server.log 2>&1 &
           mkdir -p test-results/performance
-          export CHROME_PATH="$(node -e 'console.log(require("playwright").chromium.executablePath())')"
-          npx lighthouse http://127.0.0.1:8765/ --chrome-flags='--headless --no-sandbox' --output=json --output=html --output-path=test-results/performance/home --quiet
-          npx lighthouse http://127.0.0.1:8765/projects/ --chrome-flags='--headless --no-sandbox' --output=json --output=html --output-path=test-results/performance/work --quiet
-          npx lighthouse http://127.0.0.1:8765/writing/ --chrome-flags='--headless --no-sandbox' --output=json --output=html --output-path=test-results/performance/writing --quiet
+          export CHROME_PATH="$(node -e 'console.log(require(process.env.RUNNER_TEMP + "/lighthouse-tools/node_modules/playwright").chromium.executablePath())')"
+          "$RUNNER_TEMP/lighthouse-tools/node_modules/.bin/lighthouse" http://127.0.0.1:8765/ --chrome-flags='--headless --no-sandbox' --output=json --output=html --output-path=test-results/performance/home --quiet
+          "$RUNNER_TEMP/lighthouse-tools/node_modules/.bin/lighthouse" http://127.0.0.1:8765/work/ --chrome-flags='--headless --no-sandbox' --output=json --output=html --output-path=test-results/performance/work --quiet
+          "$RUNNER_TEMP/lighthouse-tools/node_modules/.bin/lighthouse" http://127.0.0.1:8765/writing/ --chrome-flags='--headless --no-sandbox' --output=json --output=html --output-path=test-results/performance/writing --quiet
           node - <<'JS'
           const fs=require('fs');for(const name of ['home','work','writing']){const x=JSON.parse(fs.readFileSync('test-results/performance/'+name+'.report.json'));console.log(JSON.stringify({page:name,tool:x.lighthouseVersion,performance:x.categories.performance.score,accessibility:x.categories.accessibility.score,lcp:x.audits['largest-contentful-paint'].numericValue,cls:x.audits['cumulative-layout-shift'].numericValue,tbt:x.audits['total-blocking-time'].numericValue}));}
           JS
