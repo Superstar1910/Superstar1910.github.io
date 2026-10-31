@@ -21,6 +21,7 @@ jobs:
           python scripts/audit_coherence.py
           python scripts/audit_urls.py
           python scripts/audit_editorial.py
+          python scripts/validate_visual_library.py
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '22'
