@@ -886,30 +886,6 @@
       "source_sha256": "85979a199f94cc6a3e5bb1a535bf75d5a7e74062d7e27809746366adab673c6e"
     },
     {
-      "id": "LVC-849BFB11A81C",
-      "title": "Uganda Investment Outlook 2026–2036",
-      "file": "/static/img/visuals/uganda-investment-outlook/uganda-2026-2036-outlook-final.webp",
-      "thumbnail": "/static/img/visuals/uganda-investment-outlook/uganda-2026-2036-outlook-thumb.webp",
-      "alt": "Uganda Investment Outlook 2026–2036: Long-range Uganda investment opportunity map; scenario assumptions apply.",
-      "category": "research",
-      "caption": "Long-range Uganda investment opportunity map; scenario assumptions apply",
-      "project": "uganda-investment-outlook",
-      "source_type": "chatgpt-library-original",
-      "source_reference": "Recovered original: Uganda 2026–2036 Investment Outlook.png",
-      "tags": [
-        "uganda",
-        "investing",
-        "2036",
-        "outlook"
-      ],
-      "version": "user-approved-selected-final-2026-11-01",
-      "approval_status": "approved",
-      "rights_status": "user-confirmed-publication-selection-remaining-research-2026-11-01",
-      "related_url": "/visuals/",
-      "description": "Long-range Uganda investment opportunity map; scenario assumptions apply",
-      "source_sha256": "849bfb11a81c676868ab4c4c4d1553477d05379cdbe475303afdb244b09b2930"
-    },
-    {
       "id": "LVC-CBE05C849BEC",
       "title": "Uganda FX Pressure — Demand, Supply and Balance of Payments",
       "file": "/static/img/visuals/uganda-fx-research/uganda-fx-pressure-final.webp",
