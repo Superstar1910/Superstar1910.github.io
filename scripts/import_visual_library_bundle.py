@@ -37,6 +37,14 @@ def main():
     with zipfile.ZipFile(args.zip_path) as z:
         if z.testzip() is not None:
             raise ValueError("Invalid ZIP CRC")
+        members = z.infolist()
+        names = [i.filename for i in members]
+        if len(names) != len(set(names)):
+            raise ValueError("Duplicate ZIP member names")
+        if any(i.file_size > 30 * 1024 * 1024 for i in members) or sum(i.file_size for i in members) > 200 * 1024 * 1024:
+            raise ValueError("ZIP extraction size cap exceeded")
+        if any(i.filename.startswith("/") or ".." in Path(i.filename).parts or "\\\\" in i.filename for i in members):
+            raise ValueError("Unsafe ZIP member path")
         proposed = json.loads(z.read("candidate_catalogue_entries.json"))
         base = json.loads(CATALOGUE.read_text(encoding="utf-8"))
         if not isinstance(proposed, list):
@@ -49,10 +57,8 @@ def main():
                 raise ValueError(f"Missing required metadata in {a.get('id')}: {REQUIRED - a.keys()}")
             if a["approval_status"] != "approved":
                 raise ValueError(f"Not approved: {a['id']}")
-            if not a["rights_status"] or "pending" in a["rights_status"].lower():
+            if not isinstance(a["rights_status"], str) or not a["rights_status"].strip() or any(word in a["rights_status"].lower() for word in ("pending", "verify", "uncleared", "restricted")):
                 raise ValueError(f"Rights not cleared: {a['id']}")
-            if a["rights_status"] == "user-authorised-public-research-verify-third-party-elements":
-                a["rights_status"] = "user-confirmed-rights-cleared-2026-11-01"
             if a["id"] in seen_ids or a["file"] in seen_paths:
                 raise ValueError(f"Duplicate in bundle: {a['id']}")
             seen_ids.add(a["id"]); seen_paths.add(a["file"])
@@ -64,7 +70,7 @@ def main():
                 raise ValueError(f"Existing file collides: {a['file']}")
             for key in ("file", "thumbnail"):
                 path, dest = checked_path(a[key])
-                if path.as_posix() not in z.namelist():
+                if path.as_posix() not in names:
                     raise FileNotFoundError(f"Bundle omits {path}")
                 if dest.exists():
                     raise FileExistsError(f"Refusing to overwrite existing image: {dest}")
