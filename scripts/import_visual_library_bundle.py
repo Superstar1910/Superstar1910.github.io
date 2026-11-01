@@ -43,7 +43,7 @@ def main():
             raise ValueError("Duplicate ZIP member names")
         if any(i.file_size > 30 * 1024 * 1024 for i in members) or sum(i.file_size for i in members) > 200 * 1024 * 1024:
             raise ValueError("ZIP extraction size cap exceeded")
-        if any(i.filename.startswith("/") or ".." in Path(i.filename).parts or "\\\\" in i.filename for i in members):
+        if any(i.filename.startswith("/") or ".." in Path(i.filename).parts or chr(92) in i.filename for i in members):
             raise ValueError("Unsafe ZIP member path")
         proposed = json.loads(z.read("candidate_catalogue_entries.json"))
         base = json.loads(CATALOGUE.read_text(encoding="utf-8"))
