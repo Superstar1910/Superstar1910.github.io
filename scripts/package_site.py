@@ -7,7 +7,7 @@ if out.exists():shutil.rmtree(out)
 out.mkdir()
 dirs=['about','visuals','connect','disclaimer','financial-literacy','privacy','projects','research','sitemap','static','terms','work','writing','mtn-uganda-stock-coverage']
 for name in dirs:shutil.copytree(R/name,out/name)
-for name in ['index.html','404.html','about.html','projects.html','writing.html','archive.html','CNAME','.nojekyll','robots.txt','sitemap.xml']:
+for name in ['index.html','404.html','favicon.ico','about.html','projects.html','writing.html','archive.html','CNAME','.nojekyll','robots.txt','sitemap.xml']:
  shutil.copy2(R/name,out/name)
 assert not (out/'imports').exists()
 print('Packaged public-only static artifact in _site/')

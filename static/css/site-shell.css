@@ -20,3 +20,5 @@ html{scroll-padding-top:150px} [id]{scroll-margin-top:150px}#site-header{box-sha
 /* Imported articles sometimes wrap callouts in <pre>; let them wrap on narrow screens. */
 .article-body pre{white-space:pre-wrap;overflow-wrap:anywhere;max-width:100%;font:inherit}
 .article-body .hide-text{display:none}
+
+.about-strip .eyebrow,.featured .eyebrow{color:#52647a}
