@@ -6,6 +6,8 @@ on:
     paths:
       - 'imports/legesi_visual_publication_web_batch_18.zip'
       - 'imports/legesi_visual_publication_web_batch_23.zip'
+      - 'imports/legesi_visual_publication_web_batch_23 (1).zip'
+      - '.github/workflows/import-visual-library-bundle.yml'
 permissions:
   contents: write
 jobs:
@@ -22,7 +24,7 @@ jobs:
           python-version: '3.11'
       - name: Check and import the approved image files
         run: |
-          for bundle in imports/legesi_visual_publication_web_batch_18.zip imports/legesi_visual_publication_web_batch_23.zip; do
+          for bundle in imports/legesi_visual_publication_web_batch_18.zip imports/legesi_visual_publication_web_batch_23.zip 'imports/legesi_visual_publication_web_batch_23 (1).zip'; do
             if [ -f "$bundle" ]; then
               python scripts/import_visual_library_bundle.py "$bundle" --dry-run
               python scripts/import_visual_library_bundle.py "$bundle"
@@ -34,7 +36,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add static/img/visuals static/data/visual-library.json
-          for bundle in imports/legesi_visual_publication_web_batch_18.zip imports/legesi_visual_publication_web_batch_23.zip; do
+          for bundle in imports/legesi_visual_publication_web_batch_18.zip imports/legesi_visual_publication_web_batch_23.zip 'imports/legesi_visual_publication_web_batch_23 (1).zip'; do
             if [ -f "$bundle" ]; then git rm "$bundle"; fi
           done
           git diff --cached --quiet || git commit -m "Import approved final visuals and validated catalogue"
