@@ -1,0 +1,9 @@
+visual_family,source_context,original_file_identified,approval_evidence,source_data_verified,status,reason
+Treasury bill auction charts,Impala Project March 2026 historical discussion,no,no,no,pending-original-recovery,Historical screenshots not present in accessible Library
+Uganda sovereign yield curves,Impala app.py/latest_curve and historical research,no,no,no,pending-source-backed-export,Requires dated BoU observations and separate primary-secondary classification
+Secondary market turnover,Impala app.py/daily_turnover and March 2026 article,no,no,no,pending-source-backed-export,Requires documented outlier clipping and units
+Auction-window liquidity,Impala app.py/auction_window_liquidity and article,no,no,no,pending-source-backed-export,Requires date-window methodology and source reconciliation
+Streamlit market dashboard,Impala app.py dashboard and March 2026 screenshot reference,no,no,no,pending-original-recovery,No original screenshot recovered
+Investment policy statement allocation visuals,Impala Project IPS engine historical discussions,no,no,no,pending-original-recovery,No demonstrably approved original or allocation-engine source record
+Uganda FX Pressure Watch Dashboard.png,Cross-project Oakstone personal Library,yes,no,no,excluded-cross-project,Not Impala branded; image has typographic overlap and unverified macro-financial figures
+Uganda FX Pressure Watch Dashboard(1).png,Cross-project Oakstone personal Library,yes,no,no,excluded-cross-project,Not Impala branded; later suffix does not establish approval
