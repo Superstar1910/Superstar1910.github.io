@@ -505,6 +505,94 @@
       "related_url": "/visuals/",
       "description": "Overview graphic of AI governance approaches; source-date verification required.",
       "source_sha256": "6dcfa84c10bd5f4928e1200bf49d4f1e4b67d8273049b62823d0f8e72fb51195"
+    },
+    {
+      "id": "UGCF-NATIONAL_CAPITAL_FORMATION",
+      "title": "National Capital Formation: From Project Finance to National Capital Formation",
+      "file": "/static/img/visuals/uganda-capital-formation/national-capital-formation.webp",
+      "thumbnail": "/static/img/visuals/uganda-capital-formation/national-capital-formation.webp",
+      "alt": "Strategy overview setting out Uganda's USD 500 billion GDP ambition by 2040 and the capital formation challenge.",
+      "category": "research",
+      "caption": "Strategy overview setting out Uganda's USD 500 billion GDP ambition by 2040 and the capital formation challenge.",
+      "project": "uganda-capital-formation",
+      "source_type": "project-source-pdf",
+      "source_reference": "DOC-20260802-WA0026_260802_160052.pdf; original slide 1",
+      "tags": [
+        "uganda",
+        "capital-formation",
+        "strategy"
+      ],
+      "version": "user-verified-final-2026-11-01",
+      "approval_status": "approved",
+      "rights_status": "user-confirmed-publication-cleared-2026-11-01",
+      "related_url": "/visuals/",
+      "description": "Strategy overview setting out Uganda's USD 500 billion GDP ambition by 2040 and the capital formation challenge."
+    },
+    {
+      "id": "UGCF-IMPLEMENTATION_ROADMAP",
+      "title": "Implementation Roadmap 2026–2040",
+      "file": "/static/img/visuals/uganda-capital-formation/implementation-roadmap.webp",
+      "thumbnail": "/static/img/visuals/uganda-capital-formation/implementation-roadmap.webp",
+      "alt": "Three-phase implementation roadmap for Uganda's national capital formation strategy.",
+      "category": "research",
+      "caption": "Three-phase implementation roadmap for Uganda's national capital formation strategy.",
+      "project": "uganda-capital-formation",
+      "source_type": "project-source-pdf",
+      "source_reference": "DOC-20260802-WA0026_260802_160052.pdf; original slide 10",
+      "tags": [
+        "uganda",
+        "roadmap",
+        "implementation"
+      ],
+      "version": "user-verified-final-2026-11-01",
+      "approval_status": "approved",
+      "rights_status": "user-confirmed-publication-cleared-2026-11-01",
+      "related_url": "/visuals/",
+      "description": "Three-phase implementation roadmap for Uganda's national capital formation strategy."
+    },
+    {
+      "id": "UGCF-NATIONAL_CAPITAL_FORMATION_COUNCIL",
+      "title": "National Capital Formation Council Governance",
+      "file": "/static/img/visuals/uganda-capital-formation/national-capital-formation-council.webp",
+      "thumbnail": "/static/img/visuals/uganda-capital-formation/national-capital-formation-council.webp",
+      "alt": "Institutional governance architecture for a proposed National Capital Formation Council.",
+      "category": "research",
+      "caption": "Institutional governance architecture for a proposed National Capital Formation Council.",
+      "project": "uganda-capital-formation",
+      "source_type": "project-source-pdf",
+      "source_reference": "DOC-20260802-WA0026_260802_160052.pdf; original slide 11",
+      "tags": [
+        "uganda",
+        "governance",
+        "institutional-architecture"
+      ],
+      "version": "user-verified-final-2026-11-01",
+      "approval_status": "approved",
+      "rights_status": "user-confirmed-publication-cleared-2026-11-01",
+      "related_url": "/visuals/",
+      "description": "Institutional governance architecture for a proposed National Capital Formation Council."
+    },
+    {
+      "id": "UGCF-FIVE_TRANSFORMATIVE_ACTIONS",
+      "title": "Five Transformative Actions",
+      "file": "/static/img/visuals/uganda-capital-formation/five-transformative-actions.webp",
+      "thumbnail": "/static/img/visuals/uganda-capital-formation/five-transformative-actions.webp",
+      "alt": "Five priority reform actions to accelerate Uganda's domestic capital formation.",
+      "category": "research",
+      "caption": "Five priority reform actions to accelerate Uganda's domestic capital formation.",
+      "project": "uganda-capital-formation",
+      "source_type": "project-source-pdf",
+      "source_reference": "DOC-20260802-WA0026_260802_160052.pdf; original slide 12",
+      "tags": [
+        "uganda",
+        "reform",
+        "capital-mobilisation"
+      ],
+      "version": "user-verified-final-2026-11-01",
+      "approval_status": "approved",
+      "rights_status": "user-confirmed-publication-cleared-2026-11-01",
+      "related_url": "/visuals/",
+      "description": "Five priority reform actions to accelerate Uganda's domestic capital formation."
     }
   ]
 }
