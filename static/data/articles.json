@@ -2,6 +2,246 @@
   "schemaVersion": 1,
   "articles": [
     {
+      "slug": "luck-risk-wealth-luck-favours-the-prepared-but-not-always",
+      "title": "Luck Favours the Prepared. But Not Always.",
+      "datePublished": "2026-11-01",
+      "dateAdded": "2026-11-01",
+      "dateModified": null,
+      "type": "Essay / financial literacy",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://legesi.xyz/writing/luck-risk-wealth/luck-favours-the-prepared-but-not-always/",
+      "url": "/writing/luck-risk-wealth/luck-favours-the-prepared-but-not-always/",
+      "summary": "Effort, luck, risk, ownership and time in perspective.",
+      "native": true,
+      "research": null,
+      "tags": [
+        "Personal Finance",
+        "Investing",
+        "Behavioural Finance",
+        "Luck, Risk & Wealth"
+      ]
+    },
+    {
+      "slug": "luck-risk-wealth-what-is-your-freedom-number",
+      "title": "What Is Your Freedom Number?",
+      "datePublished": "2026-11-01",
+      "dateAdded": "2026-11-01",
+      "dateModified": null,
+      "type": "Essay / financial literacy",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://legesi.xyz/writing/luck-risk-wealth/what-is-your-freedom-number/",
+      "url": "/writing/luck-risk-wealth/what-is-your-freedom-number/",
+      "summary": "A practical but uncertain framework for financial independence.",
+      "native": true,
+      "research": null,
+      "tags": [
+        "Personal Finance",
+        "Investing",
+        "Behavioural Finance",
+        "Luck, Risk & Wealth"
+      ]
+    },
+    {
+      "slug": "luck-risk-wealth-making-money-is-not-keeping-money",
+      "title": "Making Money Is Not Keeping Money",
+      "datePublished": "2026-11-01",
+      "dateAdded": "2026-11-01",
+      "dateModified": null,
+      "type": "Essay / financial literacy",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://legesi.xyz/writing/luck-risk-wealth/making-money-is-not-keeping-money/",
+      "url": "/writing/luck-risk-wealth/making-money-is-not-keeping-money/",
+      "summary": "Why durable wealth requires protection as well as earnings.",
+      "native": true,
+      "research": null,
+      "tags": [
+        "Personal Finance",
+        "Investing",
+        "Behavioural Finance",
+        "Luck, Risk & Wealth"
+      ]
+    },
+    {
+      "slug": "luck-risk-wealth-your-mind-can-make-you-poorer",
+      "title": "Your Mind Can Make You Poorer",
+      "datePublished": "2026-11-01",
+      "dateAdded": "2026-11-01",
+      "dateModified": null,
+      "type": "Essay / financial literacy",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://legesi.xyz/writing/luck-risk-wealth/your-mind-can-make-you-poorer/",
+      "url": "/writing/luck-risk-wealth/your-mind-can-make-you-poorer/",
+      "summary": "The behavioural biases that undermine financial judgement.",
+      "native": true,
+      "research": null,
+      "tags": [
+        "Personal Finance",
+        "Investing",
+        "Behavioural Finance",
+        "Luck, Risk & Wealth"
+      ]
+    },
+    {
+      "slug": "luck-risk-wealth-one-income-is-a-fragile-foundation",
+      "title": "One Income Is a Fragile Foundation",
+      "datePublished": "2026-11-01",
+      "dateAdded": "2026-11-01",
+      "dateModified": null,
+      "type": "Essay / financial literacy",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://legesi.xyz/writing/luck-risk-wealth/one-income-is-a-fragile-foundation/",
+      "url": "/writing/luck-risk-wealth/one-income-is-a-fragile-foundation/",
+      "summary": "Building complementary sources of income resilience.",
+      "native": true,
+      "research": null,
+      "tags": [
+        "Personal Finance",
+        "Investing",
+        "Behavioural Finance",
+        "Luck, Risk & Wealth"
+      ]
+    },
+    {
+      "slug": "luck-risk-wealth-quiet-mathematics-of-compounding",
+      "title": "The Quiet Mathematics of Compounding",
+      "datePublished": "2026-11-01",
+      "dateAdded": "2026-11-01",
+      "dateModified": null,
+      "type": "Essay / financial literacy",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://legesi.xyz/writing/luck-risk-wealth/quiet-mathematics-of-compounding/",
+      "url": "/writing/luck-risk-wealth/quiet-mathematics-of-compounding/",
+      "summary": "The arithmetic and limitations of long-term investing.",
+      "native": true,
+      "research": null,
+      "tags": [
+        "Personal Finance",
+        "Investing",
+        "Behavioural Finance",
+        "Luck, Risk & Wealth"
+      ]
+    },
+    {
+      "slug": "luck-risk-wealth-dont-get-knocked-out-of-the-game",
+      "title": "Don't Get Knocked Out of the Game",
+      "datePublished": "2026-11-01",
+      "dateAdded": "2026-11-01",
+      "dateModified": null,
+      "type": "Essay / financial literacy",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://legesi.xyz/writing/luck-risk-wealth/dont-get-knocked-out-of-the-game/",
+      "url": "/writing/luck-risk-wealth/dont-get-knocked-out-of-the-game/",
+      "summary": "Protecting capital and liquidity against ruin.",
+      "native": true,
+      "research": null,
+      "tags": [
+        "Personal Finance",
+        "Investing",
+        "Behavioural Finance",
+        "Luck, Risk & Wealth"
+      ]
+    },
+    {
+      "slug": "luck-risk-wealth-hard-work-is-not-a-wealth-strategy",
+      "title": "Hard Work Is Not a Wealth Strategy",
+      "datePublished": "2026-11-01",
+      "dateAdded": "2026-11-01",
+      "dateModified": null,
+      "type": "Essay / financial literacy",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://legesi.xyz/writing/luck-risk-wealth/hard-work-is-not-a-wealth-strategy/",
+      "url": "/writing/luck-risk-wealth/hard-work-is-not-a-wealth-strategy/",
+      "summary": "Why income, ownership, positioning and leverage are different.",
+      "native": true,
+      "research": null,
+      "tags": [
+        "Personal Finance",
+        "Investing",
+        "Behavioural Finance",
+        "Luck, Risk & Wealth"
+      ]
+    },
+    {
+      "slug": "luck-risk-wealth-four-ways-luck-finds-you",
+      "title": "Four Ways Luck Finds You",
+      "datePublished": "2026-11-01",
+      "dateAdded": "2026-11-01",
+      "dateModified": null,
+      "type": "Essay / financial literacy",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://legesi.xyz/writing/luck-risk-wealth/four-ways-luck-finds-you/",
+      "url": "/writing/luck-risk-wealth/four-ways-luck-finds-you/",
+      "summary": "Four ways preparation can increase exposure to opportunity.",
+      "native": true,
+      "research": null,
+      "tags": [
+        "Personal Finance",
+        "Investing",
+        "Behavioural Finance",
+        "Luck, Risk & Wealth"
+      ]
+    },
+    {
+      "slug": "luck-risk-wealth-illusion-of-control",
+      "title": "Are You Really in Control?",
+      "datePublished": "2026-11-01",
+      "dateAdded": "2026-11-01",
+      "dateModified": null,
+      "type": "Essay / financial literacy",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://legesi.xyz/writing/luck-risk-wealth/illusion-of-control/",
+      "url": "/writing/luck-risk-wealth/illusion-of-control/",
+      "summary": "How to plan without confusing forecasts with control.",
+      "native": true,
+      "research": null,
+      "tags": [
+        "Personal Finance",
+        "Investing",
+        "Behavioural Finance",
+        "Luck, Risk & Wealth"
+      ]
+    },
+    {
+      "slug": "luck-risk-wealth-three-types-of-luck",
+      "title": "The Three Types of Luck",
+      "datePublished": "2026-11-01",
+      "dateAdded": "2026-11-01",
+      "dateModified": null,
+      "type": "Essay / financial literacy",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://legesi.xyz/writing/luck-risk-wealth/three-types-of-luck/",
+      "url": "/writing/luck-risk-wealth/three-types-of-luck/",
+      "summary": "How starting conditions, circumstances and outcomes shape financial success.",
+      "native": true,
+      "research": null,
+      "tags": [
+        "Personal Finance",
+        "Investing",
+        "Behavioural Finance",
+        "Luck, Risk & Wealth"
+      ]
+    },
+    {
+      "slug": "luck-risk-wealth-same-effort-different-outcomes",
+      "title": "Same Effort. Different Outcomes.",
+      "datePublished": "2026-11-01",
+      "dateAdded": "2026-11-01",
+      "dateModified": null,
+      "type": "Essay / financial literacy",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://legesi.xyz/writing/luck-risk-wealth/same-effort-different-outcomes/",
+      "url": "/writing/luck-risk-wealth/same-effort-different-outcomes/",
+      "summary": "Why equally hard work can lead to unequal wealth outcomes.",
+      "native": true,
+      "research": null,
+      "tags": [
+        "Personal Finance",
+        "Investing",
+        "Behavioural Finance",
+        "Luck, Risk & Wealth"
+      ]
+    },
+    {
       "slug": "what-does-a-kilogram-of-coffee-really-cost",
       "title": "What Does a Kilogram of Coffee Really Cost?",
       "datePublished": "2026-10-29",
