@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build shared static navigation and progressively enhanced directories in place."""
-import html,json,re,shutil
+import html,json,re,shutil,subprocess,sys
 from url_routes import alias_files, write_redirects
 from pathlib import Path
 from urllib.parse import urlsplit, urlencode
@@ -185,3 +185,6 @@ for x in manifest:
  if a:SubElement(entry,'lastmod').text=a.get('dateModified') or a['datePublished']
 ElementTree(root).write(ROOT/'sitemap.xml',encoding='utf-8',xml_declaration=True);(ROOT/'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: https://legesi.xyz/sitemap.xml\n');(ROOT/'static/data/site-pages.json').write_text(json.dumps(manifest,indent=2,ensure_ascii=False)+'\n')
 print(f'Built shared navigation for {len(manifest)} pages; {len(projects)} work entries; {len(articles)} publications.')
+
+# Keep native writing RSS and sitemap synchronized with the article register before audits.
+subprocess.run([sys.executable, str(ROOT/'scripts/build_article_feeds.py')], check=True)
