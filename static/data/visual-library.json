@@ -1026,6 +1026,29 @@
       "related_url": "/visuals/",
       "description": "Educational breakdown of exchange-rate dynamics and market forces",
       "source_sha256": "2d81b72b2cb5e3e0bcb9cc781af8adfb36432ac57b84bf49bda7d0327110d227"
+    },
+    {
+      "id": "LVC-9C7CB716B833",
+      "title": "Who Captures the Economics of a Coffee Bean?",
+      "file": "/static/img/visuals/coffee-pricing-engine/coffee-bean-economics-final.webp",
+      "thumbnail": "/static/img/visuals/coffee-pricing-engine/coffee-bean-economics-thumb.webp",
+      "alt": "Handwritten coffee value-chain infographic from Uganda farmgate through export and roasting to a London café. An illustrative kilogram yields 43 cups and £180.60 gross sales, explicitly not profit.",
+      "category": "research",
+      "caption": "Historical price observations and an illustrative Uganda-to-London coffee value chain, dated 6 November 2026. The £180.60 represents hypothetical gross retail receipts from 43 cappuccinos, not profit or a traced shipment; a price spread is not a profit margin.",
+      "project": "coffee-pricing-engine",
+      "source_type": "chatgpt-approved-original",
+      "source_reference": "Uganda-to-London Coffee Value Chain.png",
+      "tags": [
+        "coffee",
+        "research",
+        "value-chain"
+      ],
+      "version": "user-approved-final",
+      "approval_status": "approved",
+      "rights_status": "user-approved-for-publication",
+      "related_url": "/writing/who-captures-the-economics-of-a-coffee-bean/",
+      "description": "Historical price observations and an illustrative Uganda-to-London coffee value chain, dated 6 November 2026. The £180.60 represents hypothetical gross retail receipts from 43 cappuccinos, not profit or a traced shipment; a price spread is not a profit margin.",
+      "source_sha256": "9c7cb716b8333450da8289016521fe172aa09d0db6e95220d320f8894562e491"
     }
   ]
 }
