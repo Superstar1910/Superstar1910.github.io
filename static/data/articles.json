@@ -6,16 +6,16 @@
       "title": "Who Captures the Economics of a Coffee Bean?",
       "datePublished": "2026-11-06",
       "dateAdded": "2026-11-06",
-      "dateModified": null,
+      "dateModified": "2026-11-07",
       "type": "Original research / editorial",
       "platform": "Legesi.xyz",
       "originalUrl": "https://legesi.xyz/writing/who-captures-the-economics-of-a-coffee-bean/",
       "url": "/writing/who-captures-the-economics-of-a-coffee-bean/",
-      "summary": "How recovery, grade mix, finance, delivery obligations and physical quantities determine who captures value in the coffee chain.",
+      "summary": "Source-backed Uganda farmgate and export prices, London cappuccino pricing, and a transparent one-kilogram conversion showing why retail receipts are not profit.",
       "native": true,
       "research": {
         "repository": "https://github.com/Superstar1910/coffee-pricing-engine",
-        "reviewStatus": "Conceptual research; synthetic numerical example, not a verified market quote"
+        "reviewStatus": "Source-backed contextual statistics; explicitly labelled hypothetical retail conversion; matched chain-level profits unverified"
       },
       "workUrls": [
         "/work/coffee-pricing-engine/"
