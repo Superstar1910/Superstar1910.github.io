@@ -1049,6 +1049,32 @@
       "related_url": "/writing/who-captures-the-economics-of-a-coffee-bean/",
       "description": "Historical price observations and an illustrative Uganda-to-London coffee value chain, dated 6 November 2026. The £180.60 represents hypothetical gross retail receipts from 43 cappuccinos, not profit or a traced shipment; a price spread is not a profit margin.",
       "source_sha256": "9c7cb716b8333450da8289016521fe172aa09d0db6e95220d320f8894562e491"
+    },
+    {
+      "id": "LVC-6480F1E87A49",
+      "title": "The Autopoietic Economy — A White Paper Thesis",
+      "file": "/static/img/visuals/autopoietic-economy/autopoietic-economy-white-paper-thesis-final.webp",
+      "thumbnail": "/static/img/visuals/autopoietic-economy/autopoietic-economy-white-paper-thesis-thumb.webp",
+      "alt": "Hand-drawn research sketchnote describing an Arthur-inspired self-reinforcing productive economy, six evolutionary mechanisms, empirical tests, investment implications and an industrial park example.",
+      "category": "research",
+      "caption": "Arthur-inspired conceptual hypothesis on productive capabilities, diversification and investment in Africa. Conceptual illustration, not empirical validation.",
+      "project": "autopoietic-economy",
+      "source_type": "chatgpt-user-approved-original",
+      "source_reference": "User-supplied approved image in ChatGPT conversation, 2026-11-07",
+      "tags": [
+        "economic-evolution",
+        "productive-capabilities",
+        "industrial-policy",
+        "africa",
+        "economic-complexity",
+        "research"
+      ],
+      "version": "user-approved-final-2026-11-07",
+      "approval_status": "approved",
+      "rights_status": "user-approved-original-research-illustration-2026-11-07",
+      "related_url": "/visuals/",
+      "description": "Handwritten research thesis comparing an Arthur-inspired economic evolution hypothesis with conventional growth and complexity frameworks, and illustrating industrial-park capability formation.",
+      "source_sha256": "6480f1e87a49b22cbb4b6dc0bdaa02d9bd20f2405f0f6e70f67c3cfe14bd699b"
     }
   ]
 }
