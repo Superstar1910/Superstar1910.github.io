@@ -16,7 +16,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOGUE = ROOT / "static/data/visual-library.json"
-ALLOWED = {".png": b"\x89PNG\\r\\n\\x1a\\n", ".jpg": b"\xff\\xd8\\xff", ".jpeg": b"\xff\\xd8\\xff", ".webp": b"RIFF"}
+ALLOWED = {".png": bytes.fromhex("89504e470d0a1a0a"), ".jpg": bytes.fromhex("ffd8ff"), ".jpeg": bytes.fromhex("ffd8ff"), ".webp": b"RIFF"}
 
 def main():
     p = argparse.ArgumentParser()
