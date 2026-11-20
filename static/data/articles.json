@@ -2,6 +2,32 @@
   "schemaVersion": 1,
   "articles": [
     {
+      "slug": "the-missing-coffee-cost-curve",
+      "title": "The Missing Coffee Cost Curve",
+      "datePublished": "2026-11-20",
+      "dateAdded": "2026-11-20",
+      "dateModified": null,
+      "type": "Original research / editorial",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://legesi.xyz/writing/the-missing-coffee-cost-curve/",
+      "url": "/writing/the-missing-coffee-cost-curve/",
+      "summary": "Why coffee production costs must be measured by farm year, physical outturn and green-bean equivalent rather than inferred from price headlines.",
+      "native": true,
+      "research": {
+        "repository": "https://github.com/Superstar1910/coffee-pricing-engine",
+        "reviewStatus": "Conceptual methodology; no unsupported empirical cost curve or numerical claims"
+      },
+      "workUrls": [
+        "/work/coffee-pricing-engine/"
+      ],
+      "tags": [
+        "Coffee",
+        "Agriculture",
+        "Research",
+        "Coffee Pricing Engine"
+      ]
+    },
+    {
       "slug": "who-captures-the-economics-of-a-coffee-bean",
       "title": "Who Captures the Economics of a Coffee Bean?",
       "datePublished": "2026-11-06",
