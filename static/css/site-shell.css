@@ -22,3 +22,7 @@ html{scroll-padding-top:150px} [id]{scroll-margin-top:150px}#site-header{box-sha
 .article-body .hide-text{display:none}
 
 .about-strip .eyebrow,.featured .eyebrow{color:#52647a}
+/* Work focus areas, matching the homepage focus cards. */
+.project-focus-list{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}
+.project-focus{border:1px solid #d5e1ec;background:#f3f7fb;color:#29496d;border-radius:99px;padding:4px 10px;font:12px/1.4 Arial,sans-serif}
+.focus-grid h3 a{color:inherit;text-decoration:none}.focus-grid h3 a:hover,.focus-grid h3 a:focus-visible{text-decoration:underline;text-underline-offset:4px}

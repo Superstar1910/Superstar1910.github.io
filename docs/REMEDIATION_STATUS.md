@@ -16,7 +16,7 @@ Private repository changes pin database and object access to a single provisione
 
 ## Remaining requirements (do not mark these complete)
 
-1. GitHub blocked saving main protection with a Confirm access / sudo reauthentication. The prepared rule requires pull requests, current site-quality checks and resolved conversations, prohibits force pushes/deletion and applies to administrators. It has NOT been saved. No external reviewer is configured; a single-owner repository must not be locked by requiring self-approval.
+1. ~~Main protection~~ Saved on 21 November 2026 as the repository ruleset **Protect main** (ID 27809390, active, empty bypass list, so it applies to administrators). It targets the default branch, blocks deletion and force pushes, requires a pull request with 0 approvals and resolved conversations, and requires the `site-quality` check. Self-approval is deliberately not required in this single-owner repository. Direct uploads and automated pushes to `main` are now rejected: use a branch and pull request.
 2. Registrar DNS access is needed for www, domain verification/renewal and certificate-monitoring ownership. No DNS changes have been made.
 3. GitHub Free only enforces branch protections on public repositories. V2/vault privacy must not be weakened to obtain enforcement; paid-plan/private-repository enforcement remains a separate account decision.
 4. Strict response CSP, framing/HSTS and other edge headers need a supported host/edge decision. Meta CSP allows existing inline code and is not equivalent to those headers.
