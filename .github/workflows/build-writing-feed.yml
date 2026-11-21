@@ -6,7 +6,7 @@ on:
       - 'static/data/articles.json'
       - 'scripts/build_article_feeds.py'
 permissions:
-  contents: write
+  contents: read
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -17,12 +17,10 @@ jobs:
           python-version: '3.12'
       - run: python scripts/validate_articles.py
       - run: python scripts/build_article_feeds.py
-      - name: Commit generated feed and sitemap
+      # main is protected (ruleset "Protect main"), so this job no longer pushes.
+      # The deploy build regenerates the feed and sitemap on every publish.
+      - name: Report feed and sitemap drift
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add writing/feed.xml writing/sitemap.xml
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: refresh approved article RSS and sitemap"
-            git push
+          if ! git diff --quiet -- writing/feed.xml writing/sitemap.xml; then
+            echo "::notice::writing/feed.xml or writing/sitemap.xml is out of date. Run scripts/build_article_feeds.py in a pull request to refresh the committed copies; the published site is regenerated on deploy."
           fi
