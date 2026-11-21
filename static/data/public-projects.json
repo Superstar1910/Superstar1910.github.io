@@ -27,6 +27,9 @@
       "name": "cyanase-collective",
       "url": "https://github.com/Superstar1910/cyanase-collective",
       "category": "Data & experiments",
+      "focusAreas": [
+        "Technology"
+      ],
       "description": "Prototype personal-finance dashboard bringing together wallets, goals, investments and community activity using illustrative data.",
       "viewUrl": "https://legesi.xyz/work/cyanase-collective/",
       "viewLabel": "Project overview ↗",
@@ -43,6 +46,9 @@
       "name": "investment-access-mvp",
       "url": "https://github.com/Superstar1910/investment-access-mvp",
       "category": "Investment technology",
+      "focusAreas": [
+        "Technology"
+      ],
       "description": "Early-stage investment planning tool that guides users from financial goals to an investment policy and portfolio simulation.",
       "viewUrl": "https://legesi.xyz/work/investment-access-mvp/",
       "viewLabel": "Project overview ↗",
@@ -59,6 +65,9 @@
       "name": "nsagu-industrial-park",
       "url": "https://github.com/Superstar1910/nsagu-industrial-park",
       "category": "Infrastructure",
+      "focusAreas": [
+        "Infrastructure"
+      ],
       "description": "Industrial park development project exploring infrastructure and investment planning.",
       "viewUrl": "https://legesi.xyz/work/nsagu-industrial-park/",
       "viewLabel": "Project overview ↗",
@@ -75,6 +84,9 @@
       "name": "robo_advisor_project",
       "url": "https://github.com/Superstar1910/robo_advisor_project",
       "category": "Investment technology",
+      "focusAreas": [
+        "Technology"
+      ],
       "description": "Experimental digital investment-advice and portfolio-planning project.",
       "viewUrl": "https://legesi.xyz/work/robo-advisor-project/",
       "viewLabel": "Project overview ↗",
@@ -91,6 +103,9 @@
       "name": "client_onboarding",
       "url": "https://github.com/Superstar1910/client_onboarding",
       "category": "Investment technology",
+      "focusAreas": [
+        "Technology"
+      ],
       "description": "Prototype workflow for onboarding clients to financial or investment services.",
       "viewUrl": "https://legesi.xyz/work/client-onboarding/",
       "viewLabel": "Project overview ↗",
@@ -107,6 +122,9 @@
       "name": "Ran_Inference",
       "url": "https://github.com/Superstar1910/Ran_Inference",
       "category": "Data & experiments",
+      "focusAreas": [
+        "Technology"
+      ],
       "description": "Technical experimentation with inference and analytical workflows.",
       "viewUrl": "https://legesi.xyz/work/ran-inference/",
       "viewLabel": "Project overview ↗",
@@ -123,6 +141,10 @@
       "name": "impala_market",
       "url": "https://github.com/Superstar1910/impala_market",
       "category": "Data & experiments",
+      "focusAreas": [
+        "Capital markets",
+        "Technology"
+      ],
       "description": "Uganda and East Africa markets research: bond-market intelligence, currency pressure and open stock coverage in one repository.",
       "viewUrl": "https://legesi.xyz/work/impala-market/",
       "viewLabel": "Project overview ↗",
@@ -139,6 +161,9 @@
       "name": "HS_Code",
       "url": "https://github.com/Superstar1910/HS_Code",
       "category": "Data & experiments",
+      "focusAreas": [
+        "Technology"
+      ],
       "description": "Customs classification and shipment pre-check tool with product coding, risk flags, bulk review and audit trail.",
       "viewUrl": "https://legesi.xyz/work/hs-code/",
       "viewLabel": "Project overview ↗",
@@ -155,6 +180,9 @@
       "name": "HS_Codes_Checker",
       "url": "https://github.com/Superstar1910/HS_Codes_Checker",
       "category": "Data & experiments",
+      "focusAreas": [
+        "Technology"
+      ],
       "description": "Lightweight export-readiness checker for shipment descriptions, commodity codes and missing customs information.",
       "viewUrl": "https://legesi.xyz/work/hs-codes-checker/",
       "viewLabel": "Project overview ↗",
@@ -171,6 +199,9 @@
       "name": "quickmart-ipo-investment-analysis",
       "url": "https://github.com/Superstar1910/quickmart-ipo-investment-analysis",
       "category": "Investment research",
+      "focusAreas": [
+        "Investment research & knowledge"
+      ],
       "description": "Independent Quickmart IPO research with valuation scenarios, an enterprise DCF and documented assumptions.",
       "viewUrl": "https://legesi.xyz/work/quickmart-ipo-investment-analysis/",
       "viewLabel": "Explore research website ↗",
@@ -187,6 +218,9 @@
       "name": "dangote-refinery-ipo-investment-analysis",
       "url": "https://github.com/Superstar1910/dangote-refinery-ipo-investment-analysis",
       "category": "Investment research",
+      "focusAreas": [
+        "Investment research & knowledge"
+      ],
       "description": "Independent Dangote Refinery IPO research. Published 17 September 2026; updated 18 October 2026 for the unaudited 9M results and revised ₦413 probability-weighted valuation.",
       "viewUrl": "https://legesi.xyz/work/dangote-refinery-ipo-investment-analysis/",
       "viewLabel": "Explore research website ↗",
@@ -205,6 +239,10 @@
       "name": "uganda-capital-formation",
       "url": "https://github.com/Superstar1910/uganda-capital-formation",
       "category": "Capital markets",
+      "focusAreas": [
+        "Capital markets",
+        "Collaboration"
+      ],
       "description": "Open framework for mobilising long-term capital in Uganda, including a scenario laboratory and implementation programme.",
       "viewUrl": "https://legesi.xyz/work/uganda-capital-formation/",
       "viewLabel": "Explore research website ↗",
@@ -221,6 +259,9 @@
       "name": "umeme-stock-coverage",
       "url": "https://github.com/Superstar1910/umeme-stock-coverage",
       "category": "Investment research",
+      "focusAreas": [
+        "Investment research & knowledge"
+      ],
       "description": "Research on Umeme’s concession exit, potential recoveries and uncertainty around shareholder distributions.",
       "viewUrl": "https://legesi.xyz/work/umeme-stock-coverage/",
       "viewLabel": "Explore research website ↗",
@@ -237,6 +278,9 @@
       "name": "mtn-uganda-stock-coverage",
       "url": "https://github.com/Superstar1910/mtn-uganda-stock-coverage",
       "category": "Investment research",
+      "focusAreas": [
+        "Investment research & knowledge"
+      ],
       "description": "Investor research on MTN Uganda, its mobile-money restructuring, shareholder rights and valuation methodology.",
       "viewUrl": "https://legesi.xyz/work/mtn-uganda-stock-coverage/",
       "viewLabel": "Read research website ↗",
@@ -253,6 +297,9 @@
       "name": "africa-fx-pressure-watch",
       "url": "https://github.com/Superstar1910/africa-fx-pressure-watch",
       "category": "Capital markets",
+      "focusAreas": [
+        "Capital markets"
+      ],
       "description": "Open research dashboard for tracking currency pressures across African markets, beginning with Uganda.",
       "viewUrl": "https://legesi.xyz/work/africa-fx-pressure-watch/",
       "viewLabel": "Explore research website ↗",
@@ -269,6 +316,9 @@
       "name": "africa-affordable-housing-lab",
       "url": "https://github.com/Superstar1910/africa-affordable-housing-lab",
       "category": "Infrastructure",
+      "focusAreas": [
+        "Infrastructure"
+      ],
       "description": "Open research and interactive rent-to-own housing affordability simulator for African households, developers and financiers.",
       "viewUrl": "https://legesi.xyz/work/africa-affordable-housing-lab/",
       "viewLabel": "Explore housing lab ↗",
@@ -285,6 +335,10 @@
       "name": "paygo-trojan-rail-africa",
       "url": "https://github.com/Superstar1910/paygo-trojan-rail-africa",
       "category": "Capital markets",
+      "focusAreas": [
+        "Capital markets",
+        "Infrastructure"
+      ],
       "description": "Source-backed research on how PayGo solar built a distributed origination, servicing and receivables-finance rail for Africa's informal economy.",
       "viewUrl": "https://legesi.xyz/work/paygo-trojan-rail-africa/",
       "viewLabel": "Read the illustrated research ↗",
@@ -302,6 +356,9 @@
       "title": "Professional Services Firm of the Future",
       "url": null,
       "category": "Research programmes",
+      "focusAreas": [
+        "Technology"
+      ],
       "description": "Research and working tools on AI operating models, firm readiness and economics.",
       "viewUrl": "/work/professional-services-future/",
       "viewLabel": "Explore research programme →",
@@ -318,6 +375,9 @@
       "title": "Africa’s Enduring Enterprises",
       "url": "https://github.com/Superstar1910/africa-enduring-enterprises",
       "category": "Research programmes",
+      "focusAreas": [
+        "Investment research & knowledge"
+      ],
       "description": "Research into enterprise longevity, succession, governance and institutional continuity.",
       "viewUrl": "/work/africa-enduring-enterprises/",
       "viewLabel": "Explore research programme →",
@@ -334,6 +394,10 @@
       "title": "Africa Investability Index",
       "url": null,
       "category": "Research programmes",
+      "focusAreas": [
+        "Investment research & knowledge",
+        "Capital markets"
+      ],
       "description": "Developing research on the institutions, capital formation and market mechanisms that shape investability; no validated country scores.",
       "viewUrl": "/work/africa-investability-index/",
       "viewLabel": "Explore research programme →",
@@ -349,6 +413,9 @@
       "name": "financial-literacy",
       "title": "Financial Literacy & Investing",
       "category": "Financial education",
+      "focusAreas": [
+        "Investment research & knowledge"
+      ],
       "description": "An education project combining published personal-finance and investment articles with a practical emergency-fund planner.",
       "url": null,
       "viewUrl": "https://legesi.xyz/work/financial-literacy/",
@@ -363,6 +430,10 @@
       "name": "coffee-pricing-engine",
       "url": "https://coffee-pricing-engine.onrender.com/",
       "category": "Research programmes",
+      "focusAreas": [
+        "Investment research & knowledge",
+        "Collaboration"
+      ],
       "description": "Farm-to-market coffee costing and financial intelligence: five role-led journeys linking farm economics, physical grade recovery, trade finance, buyer netbacks and governed market reference data.",
       "viewUrl": "https://legesi.xyz/work/coffee-pricing-engine/",
       "viewLabel": "Research, architecture and working prototype",
@@ -375,5 +446,12 @@
       "dataCutoff": "2026-10-30",
       "role": "Independent research programme; prototype calculations illustrative"
     }
+  ],
+  "focusAreas": [
+    "Investment research & knowledge",
+    "Capital markets",
+    "Infrastructure",
+    "Technology",
+    "Collaboration"
   ]
 }

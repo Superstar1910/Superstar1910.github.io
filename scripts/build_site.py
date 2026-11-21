@@ -34,10 +34,15 @@ def project_markup(p):
  links=f'<a href="{esc(p["viewUrl"])}">{esc(p.get("viewLabel") or "Explore work →")}</a>'
 
  cutoff=f' · Data cutoff: {esc(p["dataCutoff"])}' if p.get('dataCutoff') else ''
- return f'<article class="project-item" data-category="{esc(p["category"])}" data-search="{esc((title+' '+p.get('description','')+' '+p['category']).lower())}"><span class="project-category">{esc(p["category"])}</span><h2><a href="{esc(p["viewUrl"])}">{esc(title)}</a></h2><p>{esc(p.get("description"))}</p><p class="work-status">{esc(p["lifecycleStatus"])} · {esc(p["reviewStatus"])}{cutoff}</p><div class="project-actions">{links}</div></article>'
+ focus=p.get('focusAreas',[])
+ tags=''.join(f'<span class="project-focus">{esc(x)}</span>' for x in focus)
+ tags=f'<p class="project-focus-list" aria-label="Focus areas">{tags}</p>' if tags else ''
+ return f'<article class="project-item" data-category="{esc(p["category"])}" data-focus="{esc(json.dumps(focus))}" data-search="{esc((title+' '+p.get('description','')+' '+p['category']+' '+' '.join(focus)).lower())}"><span class="project-category">{esc(p["category"])}</span><h2><a href="{esc(p["viewUrl"])}">{esc(title)}</a></h2><p>{esc(p.get("description"))}</p><p class="work-status">{esc(p["lifecycleStatus"])} · {esc(p["reviewStatus"])}{cutoff}</p>{tags}<div class="project-actions">{links}</div></article>'
 f=ROOT/'work/index.html';t=f.read_text();t=re.sub(r'<section class="panel".*?</section>','',t,count=1,flags=re.S)
 t=t.replace('Projects &amp; experiments.','Work, research &amp; tools.').replace('Projects &amp; Experiments — Legesi.xyz','Work — Legesi.xyz');t=directory(t,'project-directory',''.join(project_markup(p) for p in projects))
 if '<option>Research programmes</option>' not in t:t=t.replace('<option value="all">All projects</option>','<option value="all">All work</option><option>Research programmes</option>')
+focus_areas=json.loads((ROOT/'static/data/public-projects.json').read_text()).get('focusAreas',[])
+if focus_areas and 'id="project-focus"' not in t:t=t.replace('<a href="https://github.com/Superstar1910?tab=repositories">GitHub profile ↗</a></div>','<label for="project-focus">Focus area</label><select id="project-focus"><option value="all">All focus areas</option>'+''.join(f'<option>{esc(x)}</option>' for x in focus_areas)+'</select><a href="https://github.com/Superstar1910?tab=repositories">GitHub profile ↗</a></div>',1)
 t=t.replace('PUBLIC PROJECT LIBRARY','PUBLIC WORK LIBRARY').replace('Explore by theme','Filter work by theme')
 if 'id="project-count"' not in t:t=t.replace('<div id="project-directory"',f'<p id="project-count" role="status">{len(projects)} public work entries</p><noscript><p>All work is listed below. Enable JavaScript to filter by theme.</p></noscript><div id="project-directory"')
 f.write_text(t)
