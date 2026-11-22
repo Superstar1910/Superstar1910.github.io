@@ -25,4 +25,12 @@ html{scroll-padding-top:150px} [id]{scroll-margin-top:150px}#site-header{box-sha
 /* Work focus areas, matching the homepage focus cards. */
 .project-focus-list{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}
 .project-focus{border:1px solid #d5e1ec;background:#f3f7fb;color:#29496d;border-radius:99px;padding:4px 10px;font:12px/1.4 Arial,sans-serif}
-.focus-grid h3 a{color:inherit;text-decoration:none}.focus-grid h3 a:hover,.focus-grid h3 a:focus-visible{text-decoration:underline;text-underline-offset:4px}
+/* Linked focus cards: the whole card is the link (stretched title link) and lifts on hover. */
+.focus-grid article:has(h3 a){position:relative;padding:16px;margin:-16px;border-radius:6px;transition:transform .18s ease,box-shadow .18s ease,background-color .18s ease}
+.focus-grid h3 a{color:inherit;text-decoration:none}
+.focus-grid h3 a::after{content:"";position:absolute;inset:0;border-radius:inherit}
+.focus-grid h3 a:focus-visible{outline:none}
+.focus-grid article:has(h3 a):hover,.focus-grid article:has(h3 a:focus-visible){transform:translateY(-4px);background:#fff;box-shadow:0 10px 24px rgba(21,37,58,.10)}
+.focus-grid article:has(h3 a:focus-visible){outline:2px solid var(--brand-blue,#29496d);outline-offset:2px}
+.focus-grid article:has(h3 a):hover h3 a{text-decoration:underline;text-underline-offset:4px}
+@media (prefers-reduced-motion:reduce){.focus-grid article:has(h3 a){transition:none}.focus-grid article:has(h3 a):hover,.focus-grid article:has(h3 a:focus-visible){transform:none}}
