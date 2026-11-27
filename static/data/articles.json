@@ -2,6 +2,32 @@
   "schemaVersion": 1,
   "articles": [
     {
+      "slug": "when-a-higher-coffee-price-is-not-higher-profit",
+      "title": "When a Higher Coffee Price Does Not Mean Higher Profit",
+      "datePublished": "2026-11-27",
+      "dateAdded": "2026-11-27",
+      "dateModified": null,
+      "type": "Original research / editorial",
+      "platform": "Legesi.xyz",
+      "originalUrl": "https://legesi.xyz/writing/when-a-higher-coffee-price-is-not-higher-profit/",
+      "url": "/writing/when-a-higher-coffee-price-is-not-higher-profit/",
+      "summary": "Recovery, grade mix, cash timing and claims can overwhelm the selling price.",
+      "native": true,
+      "research": {
+        "repository": "https://github.com/Superstar1910/coffee-pricing-engine",
+        "reviewStatus": "Conceptual analysis; hypothetical settlement period, no empirical numerical claims"
+      },
+      "workUrls": [
+        "/work/coffee-pricing-engine/"
+      ],
+      "tags": [
+        "Coffee",
+        "Agriculture",
+        "Research",
+        "Coffee Pricing Engine"
+      ]
+    },
+    {
       "slug": "the-missing-coffee-cost-curve",
       "title": "The Missing Coffee Cost Curve",
       "datePublished": "2026-11-20",
